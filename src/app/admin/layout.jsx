@@ -1,9 +1,9 @@
-"use client";
+﻿"use client";
 import { useEffect, useState } from "react";
 import { useRouter, usePathname } from "next/navigation";
 import Link from "next/link";
 import { useAuth } from "@/context/AuthContext";
-import { FiGrid, FiPackage, FiShoppingCart, FiUsers, FiBox, FiTag, FiLogOut, FiMenu, FiX } from "react-icons/fi";
+import { FiGrid, FiPackage, FiShoppingCart, FiUsers, FiBox, FiTag, FiSpeaker, FiLogOut, FiMenu, FiX } from "react-icons/fi";
 
 const NAV_ITEMS = [
   { icon: FiGrid, label: "Dashboard", href: "/admin" },
@@ -12,6 +12,7 @@ const NAV_ITEMS = [
   { icon: FiUsers, label: "Users", href: "/admin/users" },
   { icon: FiBox, label: "Inventory", href: "/admin/inventory" },
   { icon: FiTag, label: "Promotions", href: "/admin/promotions" },
+  { icon: FiSpeaker, label: "Site Offers", href: "/admin/offers" },
 ];
 
 export default function AdminLayout({ children }) {
@@ -59,7 +60,7 @@ export default function AdminLayout({ children }) {
       {/* Sidebar */}
       <aside className={`fixed lg:sticky top-0 left-0 h-screen w-[240px] bg-black text-white flex flex-col z-50 transition-transform lg:translate-x-0 ${sidebarOpen ? "translate-x-0" : "-translate-x-full"}`}>
         <div className="p-5 border-b border-gray-800">
-          <Link href="/admin" className="text-lg font-bold tracking-[0.15em]">CK ADMIN</Link>
+          <Link href="/admin" className="text-lg font-bold tracking-[0.15em]">AV ADMIN</Link>
           <p className="text-[10px] text-gray-400 mt-0.5">Management Panel</p>
         </div>
 

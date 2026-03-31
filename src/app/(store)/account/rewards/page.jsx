@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
@@ -50,7 +50,7 @@ export default function RewardsPage() {
 
   return (
     <div className="max-w-[1440px] mx-auto px-4 md:px-6 py-8">
-      <h1 className="text-2xl md:text-3xl font-medium mb-8">My Calvin Rewards</h1>
+      <h1 className="text-2xl md:text-3xl font-medium mb-8">My AV Rewards</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-[220px_1fr] gap-8">
         {/* Side Nav */}

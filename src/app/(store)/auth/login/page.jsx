@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
@@ -46,7 +46,7 @@ export default function LoginPage() {
   return (
     <div className="max-w-md mx-auto px-4 py-16">
       <h1 className="text-3xl font-medium text-center mb-2">Sign In</h1>
-      <p className="text-sm text-gray-500 text-center mb-8">Welcome back to Calvin Klein</p>
+      <p className="text-sm text-gray-500 text-center mb-8">Welcome back to AV APPAREL</p>
 
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>

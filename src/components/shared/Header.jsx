@@ -1,10 +1,11 @@
-"use client";
+﻿"use client";
 import Link from "next/link";
 import { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { useCart } from "@/context/CartContext";
 import { useWishlist } from "@/context/WishlistContext";
 import { useAuth } from "@/context/AuthContext";
+import { fetchSiteOffers } from "@/lib/firestore";
 import { FiSearch, FiUser, FiHeart, FiShoppingBag, FiMenu, FiX, FiChevronDown } from "react-icons/fi";
 
 const NAV_LINKS = [
@@ -47,6 +48,8 @@ export default function Header() {
   const [searchQuery, setSearchQuery] = useState("");
   const [accOpen, setAccOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
+  const [offers, setOffers] = useState([]);
+  const [offerDismissed, setOfferDismissed] = useState(false);
   const router = useRouter();
   const searchRef = useRef(null);
   const accRef = useRef(null);
@@ -58,6 +61,21 @@ export default function Header() {
     document.addEventListener("mousedown", handleClick);
     return () => document.removeEventListener("mousedown", handleClick);
   }, []);
+
+  useEffect(() => {
+    const dismissed = sessionStorage.getItem("ck_offer_dismissed");
+    if (dismissed) { setOfferDismissed(true); return; }
+    fetchSiteOffers()
+      .then((data) => setOffers(data.filter((o) => o.active)))
+      .catch(() => {});
+  }, []);
+
+  const dismissOffer = () => {
+    setOfferDismissed(true);
+    sessionStorage.setItem("ck_offer_dismissed", "1");
+  };
+
+  const activeOffer = offers.length > 0 ? offers[0] : null;
 
   const handleSearch = (e) => {
     e.preventDefault();
@@ -71,13 +89,28 @@ export default function Header() {
   return (
     <>
       {/* Announcement Bar */}
-      <div className="bg-black text-white text-center py-2.5 text-[10px] sm:text-xs tracking-wide relative z-50 px-2">
-        <span className="font-bold">Friends + Family</span>&nbsp;&nbsp;40% off Sitewide* | 30% off Underwear*
-        <span className="hidden nav:inline-flex items-center gap-4 absolute right-6 top-1/2 -translate-y-1/2">
-          <Link href="/products?gender=Women&sale=true" className="underline text-xs">Women</Link>
-          <Link href="/products?gender=Men&sale=true" className="underline text-xs">Men</Link>
-        </span>
-      </div>
+      {activeOffer && !offerDismissed && (
+        <div className="bg-black text-white text-center py-2.5 text-[10px] sm:text-xs tracking-wide relative z-50 px-8">
+          <span dangerouslySetInnerHTML={{ __html: activeOffer.text }} />
+          {activeOffer.linkWomen || activeOffer.linkMen ? (
+            <span className="hidden nav:inline-flex items-center gap-4 absolute right-12 top-1/2 -translate-y-1/2">
+              {activeOffer.linkWomen && (
+                <Link href={activeOffer.linkWomen} className="underline text-xs">Women</Link>
+              )}
+              {activeOffer.linkMen && (
+                <Link href={activeOffer.linkMen} className="underline text-xs">Men</Link>
+              )}
+            </span>
+          ) : null}
+          <button
+            onClick={dismissOffer}
+            className="absolute right-3 top-1/2 -translate-y-1/2 text-white/70 hover:text-white transition-colors"
+            aria-label="Close offer"
+          >
+            <FiX size={14} />
+          </button>
+        </div>
+      )}
 
       {/* Main Header */}
       <header className="sticky top-0 z-40 bg-white border-b border-gray-200">
@@ -89,7 +122,7 @@ export default function Header() {
 
           {/* Logo */}
           <Link href="/" className="flex-shrink-0 mr-4 nav:mr-8 min-w-0">
-            <span className="text-base sm:text-lg nav:text-2xl font-bold tracking-[0.15em] nav:tracking-[0.2em] text-black whitespace-nowrap">CALVIN KLEIN</span>
+            <span className="text-base sm:text-lg nav:text-2xl font-bold tracking-[0.15em] nav:tracking-[0.2em] text-black whitespace-nowrap">AV APPAREL</span>
           </Link>
 
           {/* Desktop Nav */}
@@ -202,7 +235,7 @@ export default function Header() {
                       {lastAddedItem.image ? (
                         <img src={lastAddedItem.image} alt={lastAddedItem.name} className="w-full h-full object-cover" onError={(e) => { e.target.style.display = 'none'; e.target.nextSibling.style.display = 'flex'; }} />
                       ) : null}
-                      <div className={`w-full h-full items-center justify-center bg-gray-100 text-gray-400 text-[10px] font-bold ${lastAddedItem.image ? 'hidden' : 'flex'}`}>CK</div>
+                      <div className={`w-full h-full items-center justify-center bg-gray-100 text-gray-400 text-[10px] font-bold ${lastAddedItem.image ? 'hidden' : 'flex'}`}>AV</div>
                     </div>
                     <div className="flex-1 min-w-0">
                       <p className="text-xs font-medium truncate">{lastAddedItem.name}</p>
@@ -263,7 +296,7 @@ export default function Header() {
           <div className="absolute inset-0 bg-black/40" onClick={() => setMobileOpen(false)} />
           <div className="absolute left-0 top-0 bottom-0 w-72 bg-white overflow-y-auto">
             <div className="flex items-center justify-between p-4 border-b">
-              <span className="font-bold tracking-[0.15em]">CALVIN KLEIN</span>
+              <span className="font-bold tracking-[0.15em]">AV APPAREL</span>
               <button onClick={() => setMobileOpen(false)}><FiX size={22} /></button>
             </div>
             <nav className="py-2">

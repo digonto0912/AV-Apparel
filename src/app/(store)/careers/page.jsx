@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import Link from "next/link";
@@ -16,7 +16,7 @@ const DEPARTMENTS = [
   },
   {
     name: "Retail & Sales",
-    description: "Be the face of Calvin Klein. Deliver exceptional customer experiences in our stores worldwide.",
+    description: "Be the face of AV APPAREL. Deliver exceptional customer experiences in our stores worldwide.",
     roles: ["Store Manager — New York", "Sales Associate — London", "Visual Merchandiser", "Regional Sales Director"],
   },
   {
@@ -52,7 +52,7 @@ export default function CareersPage() {
       <div className="relative h-[50vh] min-h-[400px] bg-black flex items-center justify-center">
         <img
           src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=1600&q=80"
-          alt="Calvin Klein Office"
+          alt="AV APPAREL Office"
           className="absolute inset-0 w-full h-full object-cover opacity-40"
         />
         <div className="relative text-center text-white z-10 px-4">
@@ -67,9 +67,9 @@ export default function CareersPage() {
       <div className="max-w-4xl mx-auto px-4 py-16">
         {/* Intro */}
         <section className="mb-16 text-center">
-          <h2 className="text-2xl font-light tracking-wider mb-6">WHY CALVIN KLEIN</h2>
+          <h2 className="text-2xl font-light tracking-wider mb-6">WHY AV APPAREL</h2>
           <p className="text-gray-600 leading-relaxed max-w-3xl mx-auto">
-            Calvin Klein is more than a fashion brand — it&apos;s a cultural icon. For over 50 years, 
+            AV APPAREL is more than a fashion brand — it&apos;s a cultural icon. For over 50 years, 
             we&apos;ve defined modern American style with bold, minimalist design. As part of our team, 
             you&apos;ll work alongside creative thinkers, innovators, and passionate individuals who 
             are shaping the future of fashion.
@@ -95,7 +95,7 @@ export default function CareersPage() {
           <div className="grid sm:grid-cols-2 gap-4">
             {[
               "Competitive salary & performance bonuses",
-              "Generous employee discount on CK products",
+              "Generous employee discount on AV products",
               "Flexible & hybrid work arrangements",
               "Health, dental & vision insurance",
               "401(k) with company match",

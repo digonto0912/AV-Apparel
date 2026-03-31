@@ -200,3 +200,22 @@ export async function addRewardsPoints(userId, points, description) {
 export async function redeemRewardsPoints(userId, points, description) {
   return addRewardsPoints(userId, -points, description || "Points redeemed");
 }
+
+// ─── SITE OFFERS (announcement bar) ───────────────
+export async function fetchSiteOffers() {
+  const snap = await getDocs(collection(db, "siteOffers"));
+  return snap.docs.map((d) => ({ id: d.id, ...d.data() }));
+}
+
+export async function addSiteOffer(offer) {
+  const ref = await addDoc(collection(db, "siteOffers"), offer);
+  return { id: ref.id, ...offer };
+}
+
+export async function updateSiteOffer(id, updates) {
+  await updateDoc(doc(db, "siteOffers", id), updates);
+}
+
+export async function deleteSiteOffer(id) {
+  await deleteDoc(doc(db, "siteOffers", id));
+}

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { FiMinus, FiPlus, FiX, FiHeart, FiArrowRight } from "react-icons/fi";
@@ -7,6 +7,7 @@ import { useCart } from "@/context/CartContext";
 import { useWishlist } from "@/context/WishlistContext";
 import { useRecentlyViewed } from "@/context/RecentlyViewedContext";
 import { useProducts } from "@/context/ProductsContext";
+import { fetchSiteOffers } from "@/lib/firestore";
 import ProductCard from "@/components/shared/ProductCard";
 
 export default function CheckoutBagPage() {
@@ -18,11 +19,16 @@ export default function CheckoutBagPage() {
   const [appliedPromo, setAppliedPromo] = useState(null);
   const [promoOpen, setPromoOpen] = useState(false);
   const [promoCodes, setPromoCodes] = useState([]);
+  const [siteOffer, setSiteOffer] = useState(null);
 
   useEffect(() => {
     import("@/lib/firestore").then(({ fetchPromoCodes }) => {
       fetchPromoCodes().then(setPromoCodes).catch(() => setPromoCodes([]));
     });
+    fetchSiteOffers().then((data) => {
+      const active = data.find((o) => o.active && o.discountValue > 0);
+      if (active) setSiteOffer(active);
+    }).catch(() => {});
   }, []);
 
   const handleApplyPromo = () => {
@@ -46,7 +52,25 @@ export default function CheckoutBagPage() {
       : appliedPromo.value
     : 0;
 
-  const estimatedTotal = subtotal - discount;
+  // Site offer auto-discount
+  const siteOfferDiscount = (() => {
+    if (!siteOffer || siteOffer.discountValue <= 0) return 0;
+    let eligible = 0;
+    for (const item of items) {
+      const excluded = (siteOffer.excludeCategories || []).some(
+        (cat) => cat.toLowerCase() === (item.category || "").toLowerCase()
+      );
+      if (siteOffer.discountScope === "sitewide" && !excluded) {
+        eligible += (item.salePrice || item.price) * item.quantity;
+      } else if (siteOffer.discountScope !== "sitewide" && (item.category || "").toLowerCase() === siteOffer.discountScope.toLowerCase() && !excluded) {
+        eligible += (item.salePrice || item.price) * item.quantity;
+      }
+    }
+    if (eligible === 0) return 0;
+    return siteOffer.discountType === "percentage" ? eligible * (siteOffer.discountValue / 100) : Math.min(siteOffer.discountValue, eligible);
+  })();
+
+  const estimatedTotal = subtotal - discount - siteOfferDiscount;
 
   const handleSaveForLater = (item) => {
     const product = products.find((p) => p.id === item.productId);
@@ -103,7 +127,7 @@ export default function CheckoutBagPage() {
                 ) : null}
                 <div className={`w-full h-full items-center justify-center ${item.image ? 'hidden' : 'flex'}`}>
                   <div className="text-center">
-                    <div className="w-12 h-12 mx-auto bg-gray-200 rounded flex items-center justify-center text-lg font-bold text-gray-300">CK</div>
+                    <div className="w-12 h-12 mx-auto bg-gray-200 rounded flex items-center justify-center text-lg font-bold text-gray-300">AV</div>
                     <p className="text-[10px] text-gray-400 mt-1 line-clamp-1">{item.name}</p>
                   </div>
                 </div>
@@ -155,10 +179,10 @@ export default function CheckoutBagPage() {
         <div className="w-full lg:w-[420px] flex-shrink-0 px-4 md:px-8">
           {/* Loyalty Banner */}
           <div className="bg-gradient-to-br from-gray-900 to-black text-white p-6 mt-0 lg:mt-0">
-            <p className="text-sm font-medium mb-1">My Calvin Rewards</p>
+            <p className="text-sm font-medium mb-1">My AV Rewards</p>
             <p className="text-xs text-gray-300">You could earn {Math.round(subtotal * 10)} points on this order.</p>
             <p className="text-xs mt-2">
-              <Link href="/auth/login" className="underline">Sign in</Link> or <Link href="/auth/register" className="underline">Join</Link> My Calvin Rewards now.
+              <Link href="/auth/login" className="underline">Sign in</Link> or <Link href="/auth/register" className="underline">Join</Link> My AV Rewards now.
             </p>
           </div>
 
@@ -211,6 +235,26 @@ export default function CheckoutBagPage() {
               )}
             </div>
 
+            {/* Discount breakdown */}
+            <div className="space-y-1.5 mb-3">
+              <div className="flex justify-between text-sm">
+                <span className="text-gray-500">Subtotal</span>
+                <span>${subtotal.toFixed(2)}</span>
+              </div>
+              {siteOfferDiscount > 0 && (
+                <div className="flex justify-between text-sm">
+                  <span className="text-green-700">Site Offer ({siteOffer.discountType === "percentage" ? `${siteOffer.discountValue}%` : `$${siteOffer.discountValue}`})</span>
+                  <span className="text-green-700">-${siteOfferDiscount.toFixed(2)}</span>
+                </div>
+              )}
+              {discount > 0 && (
+                <div className="flex justify-between text-sm">
+                  <span className="text-green-700">Promo ({appliedPromo.code})</span>
+                  <span className="text-green-700">-${discount.toFixed(2)}</span>
+                </div>
+              )}
+            </div>
+
             <div className="flex justify-between items-center mb-3">
               <span className="text-base font-medium">Estimated Total</span>
               <span className="text-base font-medium">${estimatedTotal.toFixed(2)}</span>
@@ -227,8 +271,8 @@ export default function CheckoutBagPage() {
               Start Checkout
             </Link>
 
-            <p className="text-xs text-gray-500 text-center mb-2">My Calvin Rewards members enjoy free returns.</p>
-            <p className="text-xs text-gray-500 text-center">100% Authentic Calvin Klein</p>
+            <p className="text-xs text-gray-500 text-center mb-2">My AV Rewards members enjoy free returns.</p>
+            <p className="text-xs text-gray-500 text-center">100% Authentic AV APPAREL</p>
             <div className="flex items-center justify-center gap-2 mt-2">
               <Link href="/shipping-returns" className="text-xs text-gray-500 underline">Shipping Info</Link>
               <span className="text-gray-300">|</span>

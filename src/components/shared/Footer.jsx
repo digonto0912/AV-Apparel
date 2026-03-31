@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import Link from "next/link";
 import { useState } from "react";
 import { FiInstagram, FiTwitter, FiFacebook } from "react-icons/fi";
@@ -63,7 +63,7 @@ export default function Footer() {
           <div>
             <h3 className="text-sm font-semibold tracking-wide mb-4">About</h3>
             <ul className="space-y-2">
-              <li><Link href="/about" className="text-sm text-gray-400 hover:text-white">About Calvin Klein</Link></li>
+              <li><Link href="/about" className="text-sm text-gray-400 hover:text-white">About AV APPAREL</Link></li>
               <li><Link href="/sustainability" className="text-sm text-gray-400 hover:text-white">Sustainability</Link></li>
               <li><Link href="/careers" className="text-sm text-gray-400 hover:text-white">Careers</Link></li>
             </ul>
@@ -98,13 +98,13 @@ export default function Footer() {
         {/* Bottom */}
         <div className="pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-gray-500">
           <div className="flex flex-wrap items-center gap-2">
-            <Link href="/shipping-returns" className="hover:text-gray-300">Privacy Policy</Link>
+            <Link href="/privacy-policy" className="hover:text-gray-300">Privacy Policy</Link>
             <span>|</span>
-            <Link href="/shipping-returns" className="hover:text-gray-300">Terms & Conditions</Link>
+            <Link href="/terms-conditions" className="hover:text-gray-300">Terms & Conditions</Link>
             <span>|</span>
-            <span>Cookie Settings</span>
+            <Link href="/cookie-settings" className="hover:text-gray-300">Cookie Settings</Link>
           </div>
-          <p>© 2026 Calvin Klein. All Rights Reserved.</p>
+          <p>© 2026 AV APPAREL. All Rights Reserved.</p>
         </div>
       </div>
     </footer>

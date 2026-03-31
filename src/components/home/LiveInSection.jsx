@@ -1,4 +1,4 @@
-const CAMPAIGN_MODELS = [
+﻿const CAMPAIGN_MODELS = [
   {
     groupClass: "n-4-83",
     imgClass: "n-4-84",
@@ -24,7 +24,7 @@ export default function LiveInSection() {
     <>
       {/* Half-width heading */}
       <div className="figma-node n-4-79">
-        <div className="figma-node n-4-80">Live in Calvin Klein</div>
+        <div className="figma-node n-4-80">Live in AV APPAREL</div>
         <div className="figma-node n-4-81">
           Live like an icon. Shop our latest campaigns.
         </div>

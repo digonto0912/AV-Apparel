@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { FiHeart } from "react-icons/fi";
 
 export default function ProductCard({ product, onWishlistToggle, isWishlisted }) {
@@ -19,7 +19,7 @@ export default function ProductCard({ product, onWishlistToggle, isWishlisted })
         ) : null}
         <div className={`w-full h-full items-center justify-center text-gray-400 text-xs bg-gray-50 ${product.images && product.images.length > 0 ? 'hidden' : 'flex'}`}>
           <div className="text-center p-4">
-            <div className="w-16 h-16 mx-auto mb-2 bg-gray-200 rounded-lg flex items-center justify-center text-2xl font-bold text-gray-300">CK</div>
+            <div className="w-16 h-16 mx-auto mb-2 bg-gray-200 rounded-lg flex items-center justify-center text-2xl font-bold text-gray-300">AV</div>
             <p className="text-[11px] text-gray-400 line-clamp-2">{product.name}</p>
           </div>
         </div>

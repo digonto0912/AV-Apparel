@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import { useState, useEffect, useRef } from "react";
 import { useParams, notFound } from "next/navigation";
 import Link from "next/link";
@@ -38,6 +38,11 @@ export default function ProductDetailPage() {
       if (colors.length > 0 && !selectedColor) setSelectedColor(colors[0]);
     }
   }, [product]);
+
+  // Clear nudge when a size is selected
+  useEffect(() => {
+    if (selectedSize) setSizeNudge(false);
+  }, [selectedSize]);
 
   if (productsLoading) {
     return (
@@ -97,11 +102,6 @@ export default function ProductDetailPage() {
     addedTimerRef.current = setTimeout(() => setJustAdded(false), 3000);
   };
 
-  // Clear nudge when a size is selected
-  useEffect(() => {
-    if (selectedSize) setSizeNudge(false);
-  }, [selectedSize]);
-
   const relatedProducts = products
     .filter((p) => p.id !== product.id && (p.category === product.category || p.gender === product.gender))
     .slice(0, 4);
@@ -132,7 +132,7 @@ export default function ProductDetailPage() {
             ) : null}
             <div className={`w-full h-full items-center justify-center absolute inset-0 ${product.images && product.images.length > 0 ? 'hidden' : 'flex'}`}>
               <div className="text-center p-8">
-                <div className="w-32 h-32 mx-auto mb-4 bg-gray-200 rounded-lg flex items-center justify-center text-4xl font-bold text-gray-300">CK</div>
+                <div className="w-32 h-32 mx-auto mb-4 bg-gray-200 rounded-lg flex items-center justify-center text-4xl font-bold text-gray-300">AV</div>
                 <p className="text-sm text-gray-400">{product.name}</p>
                 <p className="text-xs text-gray-300 mt-1">{selectedColor}</p>
               </div>
@@ -296,14 +296,6 @@ export default function ProductDetailPage() {
               </button>
             </div>
 
-            {justAdded && (
-              <Link
-                href="/checkout-bag"
-                className="mt-3 w-full h-10 border border-black text-black text-xs font-medium tracking-wider uppercase hover:bg-black hover:text-white transition-colors flex items-center justify-center"
-              >
-                View Bag
-              </Link>
-            )}
           </div>
 
           {/* Delivery info */}
@@ -324,7 +316,7 @@ export default function ProductDetailPage() {
             </div>
             <div className="flex items-start gap-3">
               <FiShield size={16} className="mt-0.5 flex-shrink-0" />
-              <p className="text-xs font-medium">100% Authentic Calvin Klein</p>
+              <p className="text-xs font-medium">100% Authentic AV APPAREL</p>
             </div>
           </div>
 

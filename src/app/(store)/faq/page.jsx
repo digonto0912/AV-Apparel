@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import { useState } from "react";
 import Link from "next/link";
 import { FiChevronDown } from "react-icons/fi";
@@ -59,10 +59,10 @@ const FAQ_SECTIONS = [
       },
       {
         q: "Are your products authentic?",
-        a: "Yes, every product sold on our website is 100% authentic Calvin Klein merchandise.",
+        a: "Yes, every product sold on our website is 100% authentic AV APPAREL merchandise.",
       },
       {
-        q: "How do I care for my Calvin Klein items?",
+        q: "How do I care for my AV APPAREL items?",
         a: "Care instructions are provided on each product's page under 'Materials & Care.' Generally, we recommend cold machine wash and tumble dry low for most items.",
       },
     ],
@@ -96,8 +96,8 @@ const FAQ_SECTIONS = [
         a: "Enter your promo code in the checkout bag or during checkout. Discounts are applied to eligible items. Only one promo code can be used per order.",
       },
       {
-        q: "What is My Calvin Rewards?",
-        a: "My Calvin Rewards is our loyalty program. Earn points on every purchase, get exclusive access to sales, birthday rewards, and more. Sign up for free on our website.",
+        q: "What is My AV Rewards?",
+        a: "My AV Rewards is our loyalty program. Earn points on every purchase, get exclusive access to sales, birthday rewards, and more. Sign up for free on our website.",
       },
       {
         q: "Do sale items qualify for additional discounts?",

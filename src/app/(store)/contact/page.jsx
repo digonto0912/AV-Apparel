@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import { useState } from "react";
 import toast from "react-hot-toast";
 import { FiMail, FiPhone, FiMapPin, FiClock } from "react-icons/fi";
@@ -145,7 +145,7 @@ export default function ContactPage() {
                 <FiMail size={16} className="mt-0.5 text-gray-500" />
                 <div>
                   <p className="text-sm font-medium">Email</p>
-                  <p className="text-xs text-gray-500">support@calvinklein.com</p>
+                  <p className="text-xs text-gray-500">support@avapparel.com</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">

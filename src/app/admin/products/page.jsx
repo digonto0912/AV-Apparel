@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import { useState, useMemo, useEffect } from "react";
 import { FiSearch, FiPlus, FiEdit2, FiTrash2, FiX } from "react-icons/fi";
 import toast from "react-hot-toast";
@@ -221,7 +221,7 @@ export default function AdminProductsPage() {
                   <td className="p-3">
                     <div className="flex items-center gap-3">
                       <div className="w-10 h-10 bg-gray-100 rounded-sm flex items-center justify-center flex-shrink-0">
-                        <span className="text-[10px] text-gray-400 font-bold">CK</span>
+                        <span className="text-[10px] text-gray-400 font-bold">AV</span>
                       </div>
                       <div className="min-w-0">
                         <p className="font-medium truncate max-w-[200px]">{product.name}</p>

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Link from "next/link";
 
@@ -26,7 +26,7 @@ export default function SustainabilityPage() {
         <section className="mb-16">
           <h2 className="text-2xl font-light tracking-wider mb-6 text-center">OUR VISION</h2>
           <p className="text-gray-600 leading-relaxed text-center max-w-3xl mx-auto">
-            At Calvin Klein, we believe that fashion and sustainability must go hand in hand. 
+            At AV APPAREL, we believe that fashion and sustainability must go hand in hand. 
             Our goal is to minimize our environmental impact while continuing to deliver the modern, 
             minimalist designs our customers love. By 2030, we aim to achieve net-zero carbon emissions 
             across our entire supply chain.
@@ -105,16 +105,16 @@ export default function SustainabilityPage() {
           </p>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="border border-gray-200 p-6">
-              <h3 className="font-medium mb-2">CK Resale</h3>
+              <h3 className="font-medium mb-2">AV Resale</h3>
               <p className="text-sm text-gray-600">
-                Give your pre-loved Calvin Klein a second life. Our resale platform connects sellers 
+                Give your pre-loved AV APPAREL a second life. Our resale platform connects sellers 
                 with new owners, extending the life of every garment.
               </p>
             </div>
             <div className="border border-gray-200 p-6">
-              <h3 className="font-medium mb-2">CK Take-Back</h3>
+              <h3 className="font-medium mb-2">AV Take-Back</h3>
               <p className="text-sm text-gray-600">
-                Bring any worn-out CK garment to our stores. We&apos;ll recycle the materials 
+                Bring any worn-out AV garment to our stores. We&apos;ll recycle the materials 
                 and reward you with loyalty points toward your next purchase.
               </p>
             </div>

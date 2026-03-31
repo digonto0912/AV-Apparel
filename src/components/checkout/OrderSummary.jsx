@@ -1,16 +1,16 @@
-export default function OrderSummary() {
+﻿export default function OrderSummary() {
   return (
     <div className="col-right">
       <div className="loyalty-banner">
         <div className="loyalty-logo">
-          <img src="https://www.figma.com/api/mcp/asset/476d85af-266f-45cc-9b6c-48cf39c38065" alt="My Calvin Rewards" />
+          <img src="https://www.figma.com/api/mcp/asset/476d85af-266f-45cc-9b6c-48cf39c38065" alt="My AV Rewards" />
         </div>
         <div className="loyalty-earn">You could earn 950 points on this order.</div>
         <div className="loyalty-cta">
           <a href="#">Sign in</a>
           <span>&nbsp;or&nbsp;</span>
           <a href="#">Join</a>
-          <span>&nbsp;My Calvin Rewards now.</span>
+          <span>&nbsp;My AV Rewards now.</span>
         </div>
       </div>
 
@@ -63,9 +63,9 @@ export default function OrderSummary() {
             </div>
           </div>
 
-          <div className="free-returns">My Calvin Rewards members enjoy free returns.</div>
+          <div className="free-returns">My AV Rewards members enjoy free returns.</div>
           <div className="help-block">
-            100% Authentic Calvin Klein<br />
+            100% Authentic AV APPAREL<br />
             Need Help? Customer Support 866.513.0513
           </div>
           <div className="help-links">

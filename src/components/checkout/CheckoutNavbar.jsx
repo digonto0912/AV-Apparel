@@ -1,8 +1,8 @@
-export default function CheckoutNavbar() {
+﻿export default function CheckoutNavbar() {
   return (
     <header className="site-header">
       <div className="header-logo">
-        <img src="https://www.figma.com/api/mcp/asset/116dbb54-1fba-477a-a485-2ec608c753aa" alt="Calvin Klein" />
+        <img src="https://www.figma.com/api/mcp/asset/116dbb54-1fba-477a-a485-2ec608c753aa" alt="AV APPAREL" />
       </div>
       <nav className="header-nav">
         <a href="#">New</a>

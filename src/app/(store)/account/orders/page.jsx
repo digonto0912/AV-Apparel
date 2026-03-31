@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
@@ -76,7 +76,7 @@ export default function OrdersPage() {
                       <img src={item.image} alt={item.name} className="w-12 h-12 object-cover bg-gray-100 flex-shrink-0" onError={(e) => { e.target.style.display = "none"; }} />
                     ) : (
                       <div className="w-12 h-12 bg-gray-100 flex items-center justify-center flex-shrink-0">
-                        <span className="text-[8px] text-gray-400 font-bold">CK</span>
+                        <span className="text-[8px] text-gray-400 font-bold">AV</span>
                       </div>
                     )}
                     <div className="flex-1 flex items-center justify-between">

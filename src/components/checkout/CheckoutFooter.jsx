@@ -1,4 +1,4 @@
-export default function CheckoutFooter() {
+﻿export default function CheckoutFooter() {
   return (
     <footer>
       <div className="footer-top">
@@ -8,7 +8,7 @@ export default function CheckoutFooter() {
             <li><a href="#">Gift Cards</a></li>
             <li><a href="#">Stores</a></li>
             <li><a href="#">Store Directory</a></li>
-            <li><a href="#">My Calvin Rewards</a></li>
+            <li><a href="#">My AV Rewards</a></li>
             <li><a href="#">Klarna</a></li>
             <li><a href="#">Cash App Afterpay</a></li>
             <li><a href="#">Student and Service Discount</a></li>
@@ -35,7 +35,7 @@ export default function CheckoutFooter() {
         <div className="footer-col">
           <div className="footer-head">About</div>
           <ul className="footer-links">
-            <li><a href="#">About Calvin Klein</a></li>
+            <li><a href="#">About AV APPAREL</a></li>
             <li><a href="#">Careers</a></li>
             <li><a href="#">Privacy Commitment</a></li>
             <li><a href="#">Sustainability + Inclusivity</a></li>
@@ -76,7 +76,7 @@ export default function CheckoutFooter() {
         <div className="footer-meta">
           <span className="footer-webid">Web ID: 353163256</span>
           <span className="footer-pipe">|</span>
-          <span className="footer-copy">Copyright © 2026 Calvin Klein. All rights reserved.</span>
+          <span className="footer-copy">Copyright © 2026 AV APPAREL. All rights reserved.</span>
         </div>
         <div className="footer-country">
           <img src="https://www.figma.com/api/mcp/asset/c81b912d-874a-4549-bc4e-03acada69939" alt="" />

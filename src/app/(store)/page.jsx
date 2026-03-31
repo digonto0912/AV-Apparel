@@ -1,7 +1,8 @@
-"use client";
-import { useState, useEffect } from "react";
+﻿"use client";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import { useWishlist } from "@/context/WishlistContext";
 import { useProducts } from "@/context/ProductsContext";
 import { useAuth } from "@/context/AuthContext";
@@ -80,6 +81,13 @@ export default function HomePage() {
   const [rewards, setRewards] = useState(null);
   const newArrivals = products.filter((p) => p.isNew).slice(0, 8);
   const bestSellers = products.filter((p) => p.isBestSeller).slice(0, 4);
+  const denimRef = useRef(null);
+
+  const scrollDenim = (dir) => {
+    if (!denimRef.current) return;
+    const amount = denimRef.current.offsetWidth * 0.6;
+    denimRef.current.scrollBy({ left: dir === "left" ? -amount : amount, behavior: "smooth" });
+  };
 
   useEffect(() => {
     if (user) {
@@ -93,13 +101,13 @@ export default function HomePage() {
       <section className="relative text-white min-h-[60vh] md:min-h-[85vh] flex items-center justify-center overflow-hidden">
         <img
           src="https://images.unsplash.com/photo-1558171813-4c088753af8f?w=1800&h=1100&fit=crop&q=80"
-          alt="Calvin Klein Campaign"
+          alt="AV APPAREL Campaign"
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-black/10" />
         <div className="relative z-10 text-center px-4">
           <h1 className="text-4xl sm:text-5xl md:text-8xl font-medium tracking-[0.08em] mb-4 md:mb-6 drop-shadow-xl">
-            LIVE IN<br />CALVIN KLEIN
+            LIVE IN<br />AV APPAREL
           </h1>
           <p className="text-sm md:text-base text-gray-200 mb-6">Find the perfect fit</p>
           <div className="flex items-center justify-center gap-3 md:gap-4">
@@ -115,8 +123,26 @@ export default function HomePage() {
 
       {/* Denim Carousel */}
       <section className="py-10 overflow-hidden">
-        <h2 className="text-2xl md:text-3xl font-medium text-center mb-6">Shop by Denim Fit</h2>
-        <div className="flex gap-4 px-4 md:px-6 overflow-x-auto no-scrollbar">
+        <div className="flex items-center justify-between px-4 md:px-6 mb-6">
+          <h2 className="text-2xl md:text-3xl font-medium">Shop by Denim Fit</h2>
+          <div className="flex items-center gap-2">
+            <button
+              onClick={() => scrollDenim("left")}
+              className="w-9 h-9 border border-gray-300 flex items-center justify-center hover:border-black transition-colors"
+              aria-label="Scroll left"
+            >
+              <FiChevronLeft size={18} />
+            </button>
+            <button
+              onClick={() => scrollDenim("right")}
+              className="w-9 h-9 border border-gray-300 flex items-center justify-center hover:border-black transition-colors"
+              aria-label="Scroll right"
+            >
+              <FiChevronRight size={18} />
+            </button>
+          </div>
+        </div>
+        <div ref={denimRef} className="flex gap-4 px-4 md:px-6 overflow-x-auto no-scrollbar scroll-smooth">
           {DENIM_IMAGES.map((style) => (
             <Link
               key={style.name}
@@ -221,10 +247,10 @@ export default function HomePage() {
             </>
           ) : (
             <>
-              <h2 className="text-3xl md:text-4xl font-medium tracking-wide mb-3">My Calvin Rewards</h2>
+              <h2 className="text-3xl md:text-4xl font-medium tracking-wide mb-3">My AV Rewards</h2>
               <p className="text-lg font-light mb-2">Earn. Redeem. Enjoy.</p>
               <p className="text-sm text-gray-300 max-w-md mx-auto mb-8">
-                A new way to experience Calvin Klein. Unlock exclusive benefits designed for you, every time you shop.
+                A new way to experience AV APPAREL. Unlock exclusive benefits designed for you, every time you shop.
               </p>
               <div className="flex items-center justify-center gap-3">
                 <Link href="/auth/register" className="inline-block border border-white px-8 py-3 text-sm font-medium tracking-wide hover:bg-white hover:text-black transition-colors">
@@ -282,7 +308,7 @@ export default function HomePage() {
       {/* Live in CK Campaign */}
       <section className="py-16 px-4 md:px-6">
         <div className="max-w-[1440px] mx-auto">
-          <h2 className="text-3xl md:text-4xl font-medium text-center mb-3">Live in Calvin Klein</h2>
+          <h2 className="text-3xl md:text-4xl font-medium text-center mb-3">Live in AV APPAREL</h2>
           <p className="text-sm text-gray-600 text-center mb-10">Live like an icon. Shop our latest campaigns.</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {CELEBRITY_SECTIONS.map((celeb) => (

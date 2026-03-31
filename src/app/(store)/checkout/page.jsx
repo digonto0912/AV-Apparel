@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
@@ -6,7 +6,7 @@ import { FiCheck, FiChevronLeft, FiTruck } from "react-icons/fi";
 import toast from "react-hot-toast";
 import { useCart } from "@/context/CartContext";
 import { useAuth } from "@/context/AuthContext";
-import { createOrder, fetchPromoCodes, addRewardsPoints } from "@/lib/firestore";
+import { createOrder, fetchPromoCodes, fetchSiteOffers, addRewardsPoints } from "@/lib/firestore";
 
 const STEPS = ["Bag", "Information", "Shipping", "Review & Confirm"];
 
@@ -33,11 +33,16 @@ export default function CheckoutPage() {
   const [promoCode, setPromoCode] = useState("");
   const [appliedPromo, setAppliedPromo] = useState(null);
   const [promoCodes, setPromoCodes] = useState([]);
+  const [siteOffer, setSiteOffer] = useState(null);
   const [errors, setErrors] = useState({});
   const [processing, setProcessing] = useState(false);
 
   useEffect(() => {
     fetchPromoCodes().then(setPromoCodes).catch(() => setPromoCodes([]));
+    fetchSiteOffers().then((data) => {
+      const active = data.find((o) => o.active && o.discountValue > 0);
+      if (active) setSiteOffer(active);
+    }).catch(() => {});
   }, []);
 
   if (items.length === 0 && step < 4) {
@@ -50,11 +55,37 @@ export default function CheckoutPage() {
   }
 
   const shippingCost = shippingMethod === "express" ? 15 : 0;
-  const discount = appliedPromo
+
+  // Calculate site offer discount (auto-applied from announcement bar)
+  const calcSiteOfferDiscount = () => {
+    if (!siteOffer || siteOffer.discountValue <= 0) return 0;
+    let eligibleSubtotal = 0;
+    for (const item of items) {
+      const excluded = (siteOffer.excludeCategories || []).some(
+        (cat) => cat.toLowerCase() === (item.category || "").toLowerCase()
+      );
+      if (siteOffer.discountScope === "sitewide" && !excluded) {
+        eligibleSubtotal += (item.salePrice || item.price) * item.quantity;
+      } else if (siteOffer.discountScope !== "sitewide" && (item.category || "").toLowerCase() === siteOffer.discountScope.toLowerCase() && !excluded) {
+        eligibleSubtotal += (item.salePrice || item.price) * item.quantity;
+      }
+    }
+    if (eligibleSubtotal === 0) return 0;
+    return siteOffer.discountType === "percentage"
+      ? eligibleSubtotal * (siteOffer.discountValue / 100)
+      : Math.min(siteOffer.discountValue, eligibleSubtotal);
+  };
+
+  const siteOfferDiscount = calcSiteOfferDiscount();
+
+  // Promo code discount (manual entry)
+  const promoDiscount = appliedPromo
     ? appliedPromo.type === "percentage" ? subtotal * (appliedPromo.value / 100) : appliedPromo.value
     : 0;
-  const tax = (subtotal - discount) * 0.08;
-  const total = subtotal - discount + tax + shippingCost;
+
+  const totalDiscount = siteOfferDiscount + promoDiscount;
+  const tax = (subtotal - totalDiscount) * 0.08;
+  const total = subtotal - totalDiscount + tax + shippingCost;
 
   const handleApplyPromo = () => {
     const code = promoCodes.find((c) => c.code.toLowerCase() === promoCode.trim().toLowerCase() && c.active !== false);
@@ -116,10 +147,13 @@ export default function CheckoutPage() {
         shippingMethod,
         paymentMethod: "cod",
         subtotal,
-        discount,
+        siteOfferDiscount,
+        promoDiscount,
+        discount: totalDiscount,
         tax,
         shippingCost,
         total,
+        siteOffer: siteOffer ? { text: siteOffer.text, discountType: siteOffer.discountType, discountValue: siteOffer.discountValue, discountScope: siteOffer.discountScope } : null,
         promoCode: appliedPromo?.code || "",
         status: "processing",
         createdAt: new Date().toISOString(),
@@ -313,7 +347,7 @@ export default function CheckoutPage() {
                   {item.image ? (
                     <img src={item.image} alt={item.name} className="w-full h-full object-cover" onError={(e) => { e.target.style.display = 'none'; }} />
                   ) : (
-                    <div className="w-full h-full flex items-center justify-center text-[10px] text-gray-400">CK</div>
+                    <div className="w-full h-full flex items-center justify-center text-[10px] text-gray-400">AV</div>
                   )}
                 </div>
                 <div className="flex-1 min-w-0">
@@ -340,7 +374,18 @@ export default function CheckoutPage() {
 
           <div className="space-y-2 pt-4 border-t border-gray-200">
             <div className="flex justify-between text-xs"><span className="text-gray-500">Subtotal</span><span>${subtotal.toFixed(2)}</span></div>
-            {appliedPromo && <div className="flex justify-between text-xs"><span className="text-green-700">Discount</span><span className="text-green-700">-${discount.toFixed(2)}</span></div>}
+            {siteOfferDiscount > 0 && (
+              <div className="flex justify-between text-xs">
+                <span className="text-green-700">Site Offer ({siteOffer.discountType === "percentage" ? `${siteOffer.discountValue}%` : `$${siteOffer.discountValue}`} {siteOffer.discountScope === "sitewide" ? "sitewide" : siteOffer.discountScope})</span>
+                <span className="text-green-700">-${siteOfferDiscount.toFixed(2)}</span>
+              </div>
+            )}
+            {promoDiscount > 0 && (
+              <div className="flex justify-between text-xs">
+                <span className="text-green-700">Promo ({appliedPromo.code})</span>
+                <span className="text-green-700">-${promoDiscount.toFixed(2)}</span>
+              </div>
+            )}
             <div className="flex justify-between text-xs"><span className="text-gray-500">Shipping</span><span>{shippingCost ? `$${shippingCost.toFixed(2)}` : "FREE"}</span></div>
             <div className="flex justify-between text-xs"><span className="text-gray-500">Tax</span><span>${tax.toFixed(2)}</span></div>
             <div className="flex justify-between text-xs"><span className="text-gray-500">Payment</span><span className="text-green-700 font-medium">Cash on Delivery</span></div>

@@ -1,4 +1,4 @@
-export default function Footer() {
+﻿export default function Footer() {
   return (
     <div className="figma-node n-4-128">
       {/* Help section */}
@@ -24,7 +24,7 @@ export default function Footer() {
       <div className="figma-node n-4-144">Gift Cards</div>
       <div className="figma-node n-4-145">Stores</div>
       <div className="figma-node n-4-146">Store Directory</div>
-      <div className="figma-node n-4-147">My Calvin Rewards</div>
+      <div className="figma-node n-4-147">My AV Rewards</div>
       <div className="figma-node n-4-148">Klarna</div>
       <div className="figma-node n-4-149">Cash App Afterpay</div>
       <div className="figma-node n-4-150">Student and Service Discount</div>
@@ -32,7 +32,7 @@ export default function Footer() {
       {/* About section */}
       <div className="figma-node n-4-151">About</div>
       <div className="figma-node n-4-152">
-        <div className="figma-node n-4-153">About Calvin Klein</div>
+        <div className="figma-node n-4-153">About AV APPAREL</div>
         <div className="figma-node n-4-154">Careers</div>
         <div className="figma-node n-4-155">Privacy Commitment</div>
         <div className="figma-node n-4-156">Sustainability + Inclusivity</div>
@@ -81,7 +81,7 @@ export default function Footer() {
           <div className="figma-node n-4-196">Cookie Settings</div>
         </div>
         <div className="figma-node n-4-197">
-          © 2026 Calvin Klein. All Rights Reserved.
+          © 2026 AV APPAREL. All Rights Reserved.
         </div>
       </div>
 

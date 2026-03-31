@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import Link from "next/link";
 
 export default function AboutPage() {
@@ -8,7 +8,7 @@ export default function AboutPage() {
       <section className="relative bg-black text-white min-h-[50vh] flex items-center justify-center">
         <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-black to-gray-800" />
         <div className="relative z-10 text-center px-4 max-w-2xl">
-          <h1 className="text-4xl md:text-6xl font-medium tracking-[0.08em] mb-4">CALVIN KLEIN</h1>
+          <h1 className="text-4xl md:text-6xl font-medium tracking-[0.08em] mb-4">AV APPAREL</h1>
           <p className="text-sm md:text-base text-gray-300 leading-relaxed">
             Bold. Progressive. Provocative. Since 1968.
           </p>
@@ -21,18 +21,18 @@ export default function AboutPage() {
           <h2 className="text-2xl md:text-3xl font-medium mb-6">Our Story</h2>
           <div className="space-y-5 text-sm md:text-base text-gray-700 leading-relaxed">
             <p>
-              Founded in 1968 in New York City, Calvin Klein has defined modern American style for over five decades.
+              Founded in 1968 in New York City, AV APPAREL has defined modern American style for over five decades.
               What began as a coat shop in the York Hotel has grown into one of the most recognized fashion brands in
               the world — rooted in minimalism, sensuality, and cultural relevance.
             </p>
             <p>
-              From iconic denim and underwear to refined ready-to-wear, Calvin Klein stands for bold simplicity.
+              From iconic denim and underwear to refined ready-to-wear, AV APPAREL stands for bold simplicity.
               Our designs strip away the unnecessary, focusing on clean lines, premium materials, and a modern
               aesthetic that speaks to how people live today.
             </p>
             <p>
               With groundbreaking campaigns featuring cultural icons — from Brooke Shields and Kate Moss to
-              Justin Bieber and Jennie Kim — Calvin Klein has always been more than fashion. It is a cultural force
+              Justin Bieber and Jennie Kim — AV APPAREL has always been more than fashion. It is a cultural force
               that reflects and shapes the zeitgeist.
             </p>
           </div>
@@ -51,7 +51,7 @@ export default function AboutPage() {
               },
               {
                 title: "Inclusivity",
-                desc: "Calvin Klein is for everyone. We celebrate all bodies, all identities, and all expressions of self. Fashion should empower, never exclude.",
+                desc: "AV APPAREL is for everyone. We celebrate all bodies, all identities, and all expressions of self. Fashion should empower, never exclude.",
               },
               {
                 title: "Sustainability",
@@ -73,12 +73,12 @@ export default function AboutPage() {
           <h2 className="text-2xl md:text-3xl font-medium mb-10 text-center">Milestones</h2>
           <div className="space-y-8">
             {[
-              { year: "1968", text: "Calvin Klein founded in New York City. First collection: a line of coats." },
-              { year: "1978", text: "Launch of Calvin Klein Jeans — denim becomes a fashion statement." },
-              { year: "1982", text: "Introduction of Calvin Klein Underwear with the iconic waistband." },
-              { year: "1994", text: "CK One fragrance launches — the first unisex scent for a generation." },
+              { year: "1968", text: "AV APPAREL founded in New York City. First collection: a line of coats." },
+              { year: "1978", text: "Launch of AV APPAREL Jeans — denim becomes a fashion statement." },
+              { year: "1982", text: "Introduction of AV APPAREL Underwear with the iconic waistband." },
+              { year: "1994", text: "AV One fragrance launches — the first unisex scent for a generation." },
               { year: "2003", text: "Acquired by PVH Corp.; global expansion accelerates." },
-              { year: "2017", text: "Raf Simons named Chief Creative Officer, ushering in the CALVIN KLEIN 205W39NYC era." },
+              { year: "2017", text: "Raf Simons named Chief Creative Officer, ushering in the AV APPAREL 205W39NYC era." },
               { year: "2020", text: "Sustainability pledge: 100% sustainable cotton and zero waste by 2030." },
               { year: "2026", text: "Continued innovation in digital retail, inclusivity, and modern American style." },
             ].map((item) => (
@@ -93,7 +93,7 @@ export default function AboutPage() {
 
       {/* CTA */}
       <section className="bg-black text-white py-16 px-4 md:px-6 text-center">
-        <h2 className="text-2xl md:text-3xl font-medium mb-4">Experience Calvin Klein</h2>
+        <h2 className="text-2xl md:text-3xl font-medium mb-4">Experience AV APPAREL</h2>
         <p className="text-sm text-gray-300 mb-8 max-w-lg mx-auto">
           Discover the latest collections and find your perfect fit.
         </p>
