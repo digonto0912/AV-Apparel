@@ -1,11 +1,13 @@
 "use client";
-import { createContext, useContext, useState, useEffect, useCallback } from "react";
+import { createContext, useContext, useState, useEffect, useCallback, useRef } from "react";
+import { useAuth } from "@/context/AuthContext";
+import { fetchUserCart, saveUserCart } from "@/lib/firestore";
 
 const CartContext = createContext(null);
 
 const CART_KEY = "ck_cart";
 
-function loadCart() {
+function loadLocalCart() {
   if (typeof window === "undefined") return [];
   try {
     const raw = localStorage.getItem(CART_KEY);
@@ -13,23 +15,59 @@ function loadCart() {
   } catch { return []; }
 }
 
-function saveCart(items) {
+function saveLocalCart(items) {
   if (typeof window === "undefined") return;
   localStorage.setItem(CART_KEY, JSON.stringify(items));
 }
 
 export function CartProvider({ children }) {
+  const { user } = useAuth();
   const [items, setItems] = useState([]);
   const [loaded, setLoaded] = useState(false);
+  const savingRef = useRef(false);
+  const prevUserRef = useRef(null);
 
+  // Load cart: on mount from localStorage, then merge from Firestore when user logs in
   useEffect(() => {
-    setItems(loadCart());
-    setLoaded(true);
-  }, []);
+    async function initCart() {
+      const localItems = loadLocalCart();
 
+      if (user) {
+        try {
+          const dbItems = await fetchUserCart(user.uid);
+          // Merge: DB items + any local items not already in DB
+          const merged = [...dbItems];
+          for (const localItem of localItems) {
+            if (!merged.find((m) => m.key === localItem.key)) {
+              merged.push(localItem);
+            }
+          }
+          setItems(merged);
+          // Save merged back to both
+          saveLocalCart(merged);
+          await saveUserCart(user.uid, merged);
+        } catch {
+          setItems(localItems);
+        }
+      } else {
+        setItems(localItems);
+      }
+      setLoaded(true);
+    }
+
+    initCart();
+    prevUserRef.current = user?.uid || null;
+  }, [user]);
+
+  // Save to localStorage and Firestore on every change (after initial load)
   useEffect(() => {
-    if (loaded) saveCart(items);
-  }, [items, loaded]);
+    if (!loaded || savingRef.current) return;
+    saveLocalCart(items);
+    if (user) {
+      savingRef.current = true;
+      saveUserCart(user.uid, items).catch(() => {}).finally(() => { savingRef.current = false; });
+    }
+  }, [items, loaded, user]);
 
   const addItem = useCallback((product, size, color, quantity = 1) => {
     setItems((prev) => {
@@ -50,7 +88,7 @@ export function CartProvider({ children }) {
         size,
         color,
         quantity,
-        image: product.images[0],
+        image: product.images?.[0] || "",
       }];
     });
   }, []);

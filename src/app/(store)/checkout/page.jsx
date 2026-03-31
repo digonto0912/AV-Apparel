@@ -6,7 +6,7 @@ import { FiCheck, FiChevronLeft, FiTruck } from "react-icons/fi";
 import toast from "react-hot-toast";
 import { useCart } from "@/context/CartContext";
 import { useAuth } from "@/context/AuthContext";
-import { createOrder, fetchPromoCodes } from "@/lib/firestore";
+import { createOrder, fetchPromoCodes, addRewardsPoints } from "@/lib/firestore";
 
 const STEPS = ["Bag", "Information", "Shipping", "Review & Confirm"];
 
@@ -101,6 +101,7 @@ export default function CheckoutPage() {
           color: i.color,
           quantity: i.quantity,
           price: i.salePrice || i.price,
+          image: i.image || "",
         })),
         shippingAddress: {
           firstName: info.firstName,
@@ -125,38 +126,24 @@ export default function CheckoutPage() {
       };
 
       const result = await createOrder(order);
+
+      // Award rewards points (1 point per $1 spent)
+      if (user) {
+        const pointsEarned = Math.floor(total);
+        if (pointsEarned > 0) {
+          try {
+            await addRewardsPoints(user.uid, pointsEarned, `Order #${result.id.slice(-8).toUpperCase()}`);
+          } catch (e) {
+            console.error("Failed to add rewards:", e);
+          }
+        }
+      }
+
       clearCart();
       router.push(`/checkout/confirmation?orderId=${result.id}`);
-    } catch {
-      const orderId = `ORD-${Date.now()}`;
-      const orders = JSON.parse(localStorage.getItem("ck_orders") || "[]");
-      orders.push({
-        id: orderId,
-        userId: user?.uid || "guest",
-        email: info.email,
-        items: items.map((i) => ({
-          productId: i.productId,
-          name: i.name,
-          size: i.size,
-          color: i.color,
-          quantity: i.quantity,
-          price: i.salePrice || i.price,
-        })),
-        shippingAddress: info,
-        shippingMethod,
-        paymentMethod: "cod",
-        subtotal,
-        discount,
-        tax,
-        shippingCost,
-        total,
-        promoCode: appliedPromo?.code || "",
-        status: "processing",
-        createdAt: new Date().toISOString(),
-      });
-      localStorage.setItem("ck_orders", JSON.stringify(orders));
-      clearCart();
-      router.push(`/checkout/confirmation?orderId=${orderId}`);
+    } catch (err) {
+      console.error("Order creation failed:", err);
+      toast.error("Failed to place order. Please try again.");
     } finally {
       setProcessing(false);
     }

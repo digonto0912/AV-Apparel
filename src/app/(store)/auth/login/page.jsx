@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import toast from "react-hot-toast";
@@ -7,10 +7,17 @@ import { useAuth } from "@/context/AuthContext";
 
 export default function LoginPage() {
   const router = useRouter();
-  const { signIn } = useAuth();
+  const { signIn, user, loading: authLoading } = useAuth();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    if (!authLoading && user) router.push("/");
+  }, [user, authLoading, router]);
+
+  if (authLoading) return <div className="min-h-screen flex items-center justify-center text-sm text-gray-400">Loading...</div>;
+  if (user) return null;
 
   const handleSubmit = async (e) => {
     e.preventDefault();

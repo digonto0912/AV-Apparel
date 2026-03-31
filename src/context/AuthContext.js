@@ -10,6 +10,7 @@ import {
 } from "firebase/auth";
 import { doc, setDoc, getDoc } from "firebase/firestore";
 import { auth, db } from "@/lib/firebase";
+import { addRewardsPoints } from "@/lib/firestore";
 
 const AuthContext = createContext(null);
 
@@ -49,6 +50,12 @@ export function AuthProvider({ children }) {
     };
     await setDoc(doc(db, "users", cred.user.uid), profile);
     setUserProfile(profile);
+    // Welcome bonus: 50 points for signing up
+    try {
+      await addRewardsPoints(cred.user.uid, 50, "Welcome bonus — thanks for joining!");
+    } catch (e) {
+      console.error("Failed to add welcome bonus:", e);
+    }
     return cred.user;
   };
 

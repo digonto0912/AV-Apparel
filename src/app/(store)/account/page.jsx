@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import toast from "react-hot-toast";
-import { FiUser, FiPackage, FiMapPin, FiHeart, FiSettings, FiLogOut } from "react-icons/fi";
+import { FiUser, FiPackage, FiMapPin, FiHeart, FiSettings, FiLogOut, FiGift } from "react-icons/fi";
 import { useAuth } from "@/context/AuthContext";
 
 export default function AccountPage() {
@@ -42,6 +42,7 @@ export default function AccountPage() {
     { icon: FiUser, label: "Profile", href: "/account", active: true },
     { icon: FiPackage, label: "Order History", href: "/account/orders" },
     { icon: FiMapPin, label: "Addresses", href: "/account/addresses" },
+    { icon: FiGift, label: "Rewards", href: "/account/rewards" },
     { icon: FiHeart, label: "Wishlist", href: "/wishlist" },
   ];
 
@@ -115,7 +116,7 @@ export default function AccountPage() {
           </div>
 
           {/* Quick Links */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
             <Link href="/account/orders" className="border border-gray-200 p-5 hover:border-black transition-colors text-center">
               <FiPackage size={24} className="mx-auto mb-2" />
               <p className="text-sm font-medium">Order History</p>
@@ -125,6 +126,11 @@ export default function AccountPage() {
               <FiMapPin size={24} className="mx-auto mb-2" />
               <p className="text-sm font-medium">Addresses</p>
               <p className="text-xs text-gray-500 mt-1">Manage shipping addresses</p>
+            </Link>
+            <Link href="/account/rewards" className="border border-gray-200 p-5 hover:border-black transition-colors text-center">
+              <FiGift size={24} className="mx-auto mb-2" />
+              <p className="text-sm font-medium">Rewards</p>
+              <p className="text-xs text-gray-500 mt-1">Earn & redeem points</p>
             </Link>
             <Link href="/wishlist" className="border border-gray-200 p-5 hover:border-black transition-colors text-center">
               <FiHeart size={24} className="mx-auto mb-2" />

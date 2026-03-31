@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import toast from "react-hot-toast";
@@ -7,9 +7,16 @@ import { useAuth } from "@/context/AuthContext";
 
 export default function RegisterPage() {
   const router = useRouter();
-  const { signUp } = useAuth();
+  const { signUp, user, loading: authLoading } = useAuth();
   const [form, setForm] = useState({ firstName: "", lastName: "", email: "", password: "", confirm: "" });
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    if (!authLoading && user) router.push("/");
+  }, [user, authLoading, router]);
+
+  if (authLoading) return <div className="min-h-screen flex items-center justify-center text-sm text-gray-400">Loading...</div>;
+  if (user) return null;
 
   const handleChange = (e) => setForm({ ...form, [e.target.name]: e.target.value });
 

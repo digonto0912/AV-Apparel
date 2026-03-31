@@ -3,18 +3,31 @@ import Link from "next/link";
 import { useState } from "react";
 import { FiInstagram, FiTwitter, FiFacebook } from "react-icons/fi";
 import toast from "react-hot-toast";
+import { saveNewsletterSubscription } from "@/lib/firestore";
 
 export default function Footer() {
   const [email, setEmail] = useState("");
+  const [subscribing, setSubscribing] = useState(false);
 
-  const handleNewsletter = (e) => {
+  const handleNewsletter = async (e) => {
     e.preventDefault();
     if (!email.trim() || !/\S+@\S+\.\S+/.test(email)) {
       toast.error("Please enter a valid email");
       return;
     }
-    toast.success("Subscribed to newsletter!");
-    setEmail("");
+    setSubscribing(true);
+    try {
+      const result = await saveNewsletterSubscription(email.trim());
+      if (result.exists) {
+        toast.success("You're already subscribed!");
+      } else {
+        toast.success("Subscribed to newsletter!");
+      }
+      setEmail("");
+    } catch {
+      toast.error("Failed to subscribe. Please try again.");
+    }
+    setSubscribing(false);
   };
 
   return (
@@ -51,8 +64,8 @@ export default function Footer() {
             <h3 className="text-sm font-semibold tracking-wide mb-4">About</h3>
             <ul className="space-y-2">
               <li><Link href="/about" className="text-sm text-gray-400 hover:text-white">About Calvin Klein</Link></li>
-              <li><Link href="/about" className="text-sm text-gray-400 hover:text-white">Sustainability</Link></li>
-              <li><Link href="/about" className="text-sm text-gray-400 hover:text-white">Careers</Link></li>
+              <li><Link href="/sustainability" className="text-sm text-gray-400 hover:text-white">Sustainability</Link></li>
+              <li><Link href="/careers" className="text-sm text-gray-400 hover:text-white">Careers</Link></li>
             </ul>
           </div>
 
@@ -70,8 +83,8 @@ export default function Footer() {
                 placeholder="Your email"
                 className="flex-1 bg-transparent border-b border-gray-600 text-sm py-2 outline-none focus:border-white transition-colors text-white placeholder:text-gray-500"
               />
-              <button type="submit" className="ml-3 text-sm font-medium underline underline-offset-2 hover:text-gray-300">
-                Join
+              <button type="submit" disabled={subscribing} className="ml-3 text-sm font-medium underline underline-offset-2 hover:text-gray-300 disabled:opacity-50">
+                {subscribing ? "..." : "Join"}
               </button>
             </form>
             <div className="flex items-center gap-5 mt-6">

@@ -4,8 +4,7 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { FiPackage, FiChevronLeft } from "react-icons/fi";
 import { useAuth } from "@/context/AuthContext";
-import { collection, query, where, getDocs, orderBy } from "firebase/firestore";
-import { db } from "@/lib/firebase";
+import { fetchUserOrders } from "@/lib/firestore";
 
 export default function OrdersPage() {
   const router = useRouter();
@@ -18,20 +17,18 @@ export default function OrdersPage() {
   }, [user, loading, router]);
 
   useEffect(() => {
-    async function fetchOrders() {
+    async function loadOrders() {
       if (!user) return;
       try {
-        const q = query(collection(db, "orders"), where("userId", "==", user.uid), orderBy("createdAt", "desc"));
-        const snap = await getDocs(q);
-        setOrders(snap.docs.map((d) => ({ id: d.id, ...d.data() })));
-      } catch {
-        // Fallback to localStorage
-        const local = JSON.parse(localStorage.getItem("ck_orders") || "[]");
-        setOrders(local.filter((o) => o.userId === user?.uid || o.email === user?.email).reverse());
+        const dbOrders = await fetchUserOrders(user.uid);
+        setOrders(dbOrders);
+      } catch (err) {
+        console.error("Failed to fetch orders:", err);
+        setOrders([]);
       }
       setFetching(false);
     }
-    if (user) fetchOrders();
+    if (user) loadOrders();
   }, [user]);
 
   if (loading || !user) return <div className="min-h-screen flex items-center justify-center text-sm text-gray-400">Loading...</div>;
@@ -74,15 +71,33 @@ export default function OrdersPage() {
               </div>
               <div className="space-y-2 mb-3">
                 {order.items?.map((item, i) => (
-                  <div key={i} className="flex items-center justify-between text-sm">
-                    <span className="text-gray-600">{item.name} — {item.color} / {item.size} × {item.quantity}</span>
-                    <span>${(item.price * item.quantity).toFixed(2)}</span>
+                  <div key={i} className="flex items-center gap-3 text-sm">
+                    {item.image ? (
+                      <img src={item.image} alt={item.name} className="w-12 h-12 object-cover bg-gray-100 flex-shrink-0" onError={(e) => { e.target.style.display = "none"; }} />
+                    ) : (
+                      <div className="w-12 h-12 bg-gray-100 flex items-center justify-center flex-shrink-0">
+                        <span className="text-[8px] text-gray-400 font-bold">CK</span>
+                      </div>
+                    )}
+                    <div className="flex-1 flex items-center justify-between">
+                      <span className="text-gray-600">{item.name} — {item.color} / {item.size} × {item.quantity}</span>
+                      <span>${(item.price * item.quantity).toFixed(2)}</span>
+                    </div>
                   </div>
                 ))}
               </div>
-              <div className="flex items-center justify-between pt-3 border-t border-gray-100">
+              <div className="flex flex-wrap items-center justify-between pt-3 border-t border-gray-100 gap-2">
                 <span className="text-sm font-medium">Total: ${order.total?.toFixed(2)}</span>
+                <div className="flex items-center gap-3 text-xs text-gray-500">
+                  <span>Payment: {order.paymentMethod === "cod" ? "Cash on Delivery" : order.paymentMethod}</span>
+                  <span>Shipping: {order.shippingMethod === "express" ? "Express" : "Standard"}</span>
+                </div>
               </div>
+              {order.shippingAddress && (
+                <div className="mt-2 pt-2 border-t border-gray-50 text-xs text-gray-400">
+                  Ship to: {order.shippingAddress.firstName} {order.shippingAddress.lastName}, {order.shippingAddress.address}, {order.shippingAddress.city}, {order.shippingAddress.state} {order.shippingAddress.zip}
+                </div>
+              )}
             </div>
           ))}
         </div>

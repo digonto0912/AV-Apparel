@@ -1,10 +1,12 @@
 "use client";
-import { createContext, useContext, useState, useEffect, useCallback } from "react";
+import { createContext, useContext, useState, useEffect, useCallback, useRef } from "react";
+import { useAuth } from "@/context/AuthContext";
+import { fetchUserWishlist, saveUserWishlist } from "@/lib/firestore";
 
 const WishlistContext = createContext(null);
 const WL_KEY = "ck_wishlist";
 
-function loadWishlist() {
+function loadLocalWishlist() {
   if (typeof window === "undefined") return [];
   try {
     const raw = localStorage.getItem(WL_KEY);
@@ -12,23 +14,56 @@ function loadWishlist() {
   } catch { return []; }
 }
 
-function saveWishlist(items) {
+function saveLocalWishlist(items) {
   if (typeof window === "undefined") return;
   localStorage.setItem(WL_KEY, JSON.stringify(items));
 }
 
 export function WishlistProvider({ children }) {
+  const { user } = useAuth();
   const [items, setItems] = useState([]);
   const [loaded, setLoaded] = useState(false);
+  const savingRef = useRef(false);
 
+  // Load wishlist: localStorage first, then merge from Firestore when user is logged in
   useEffect(() => {
-    setItems(loadWishlist());
-    setLoaded(true);
-  }, []);
+    async function initWishlist() {
+      const localItems = loadLocalWishlist();
 
+      if (user) {
+        try {
+          const dbItems = await fetchUserWishlist(user.uid);
+          // Merge: DB items + local items not in DB
+          const merged = [...dbItems];
+          for (const localItem of localItems) {
+            if (!merged.find((m) => m.productId === localItem.productId)) {
+              merged.push(localItem);
+            }
+          }
+          setItems(merged);
+          saveLocalWishlist(merged);
+          await saveUserWishlist(user.uid, merged);
+        } catch {
+          setItems(localItems);
+        }
+      } else {
+        setItems(localItems);
+      }
+      setLoaded(true);
+    }
+
+    initWishlist();
+  }, [user]);
+
+  // Save to localStorage and Firestore on every change
   useEffect(() => {
-    if (loaded) saveWishlist(items);
-  }, [items, loaded]);
+    if (!loaded || savingRef.current) return;
+    saveLocalWishlist(items);
+    if (user) {
+      savingRef.current = true;
+      saveUserWishlist(user.uid, items).catch(() => {}).finally(() => { savingRef.current = false; });
+    }
+  }, [items, loaded, user]);
 
   const addItem = useCallback((product) => {
     setItems((prev) => {
@@ -39,7 +74,7 @@ export function WishlistProvider({ children }) {
         name: product.name,
         price: product.price,
         salePrice: product.salePrice,
-        image: product.images[0],
+        image: product.images?.[0] || "",
         category: product.category,
       }];
     });

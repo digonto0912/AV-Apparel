@@ -1,14 +1,23 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
 import toast from "react-hot-toast";
 import { useAuth } from "@/context/AuthContext";
 
 export default function ResetPasswordPage() {
-  const { resetPassword } = useAuth();
+  const router = useRouter();
+  const { resetPassword, user, loading: authLoading } = useAuth();
   const [email, setEmail] = useState("");
   const [sent, setSent] = useState(false);
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    if (!authLoading && user) router.push("/");
+  }, [user, authLoading, router]);
+
+  if (authLoading) return <div className="min-h-screen flex items-center justify-center text-sm text-gray-400">Loading...</div>;
+  if (user) return null;
 
   const handleSubmit = async (e) => {
     e.preventDefault();

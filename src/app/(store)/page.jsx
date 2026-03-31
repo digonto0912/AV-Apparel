@@ -1,8 +1,11 @@
 "use client";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useWishlist } from "@/context/WishlistContext";
 import { useProducts } from "@/context/ProductsContext";
+import { useAuth } from "@/context/AuthContext";
+import { fetchUserRewards } from "@/lib/firestore";
 import ProductCard from "@/components/shared/ProductCard";
 
 const CAMPAIGN_SECTIONS = [
@@ -58,9 +61,9 @@ const DENIM_IMAGES = [
 ];
 
 const CELEBRITY_SECTIONS = [
-  { name: "Dakota Johnson", image: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=600&h=800&fit=crop&q=80" },
-  { name: "Raphinha", image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=600&h=800&fit=crop&q=80" },
-  { name: "Jung Kook", image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=800&fit=crop&q=80" },
+  { name: "Dakota Johnson", image: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=600&h=800&fit=crop&q=80", gender: "Women" },
+  { name: "Raphinha", image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=600&h=800&fit=crop&q=80", gender: "Men" },
+  { name: "Jung Kook", image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=800&fit=crop&q=80", gender: "Men" },
 ];
 
 const CATEGORY_LINKS = [
@@ -73,8 +76,16 @@ const CATEGORY_LINKS = [
 export default function HomePage() {
   const { toggleItem, isInWishlist } = useWishlist();
   const { products, loading } = useProducts();
+  const { user } = useAuth();
+  const [rewards, setRewards] = useState(null);
   const newArrivals = products.filter((p) => p.isNew).slice(0, 8);
   const bestSellers = products.filter((p) => p.isBestSeller).slice(0, 4);
+
+  useEffect(() => {
+    if (user) {
+      fetchUserRewards(user.uid).then(setRewards).catch(() => {});
+    }
+  }, [user]);
 
   return (
     <div>
@@ -189,14 +200,42 @@ export default function HomePage() {
         />
         <div className="absolute inset-0 bg-black/70" />
         <div className="max-w-[1440px] mx-auto text-center relative z-10 text-white">
-          <h2 className="text-3xl md:text-4xl font-medium tracking-wide mb-3">My Calvin Rewards</h2>
-          <p className="text-lg font-light mb-2">Earn. Redeem. Enjoy.</p>
-          <p className="text-sm text-gray-300 max-w-md mx-auto mb-8">
-            A new way to experience Calvin Klein. Unlock exclusive benefits designed for you, every time you shop.
-          </p>
-          <Link href="/auth/register" className="inline-block border border-white px-8 py-3 text-sm font-medium tracking-wide hover:bg-white hover:text-black transition-colors">
-            Learn More
-          </Link>
+          {user ? (
+            <>
+              <p className="text-xs tracking-[0.2em] text-gray-400 mb-2">CALVIN REWARDS — {rewards?.tier || "Member"}</p>
+              <h2 className="text-3xl md:text-4xl font-medium tracking-wide mb-3">
+                You have <span className="text-white">{rewards?.points || 0}</span> points
+              </h2>
+              <p className="text-sm text-gray-300 max-w-md mx-auto mb-2">
+                That's <span className="font-medium text-white">${((rewards?.points || 0) * 0.01).toFixed(2)}</span> in rewards ready to redeem.
+              </p>
+              <p className="text-xs text-gray-400 mb-8">Earn 1 point for every $1 you spend. Shop to unlock higher tiers.</p>
+              <div className="flex items-center justify-center gap-3">
+                <Link href="/account/rewards" className="inline-block border border-white px-8 py-3 text-sm font-medium tracking-wide hover:bg-white hover:text-black transition-colors">
+                  View My Rewards
+                </Link>
+                <Link href="/products" className="inline-block border border-white/40 px-8 py-3 text-sm font-medium tracking-wide hover:bg-white hover:text-black transition-colors text-gray-300">
+                  Shop & Earn
+                </Link>
+              </div>
+            </>
+          ) : (
+            <>
+              <h2 className="text-3xl md:text-4xl font-medium tracking-wide mb-3">My Calvin Rewards</h2>
+              <p className="text-lg font-light mb-2">Earn. Redeem. Enjoy.</p>
+              <p className="text-sm text-gray-300 max-w-md mx-auto mb-8">
+                A new way to experience Calvin Klein. Unlock exclusive benefits designed for you, every time you shop.
+              </p>
+              <div className="flex items-center justify-center gap-3">
+                <Link href="/auth/register" className="inline-block border border-white px-8 py-3 text-sm font-medium tracking-wide hover:bg-white hover:text-black transition-colors">
+                  Join Now — It's Free
+                </Link>
+                <Link href="/auth/login" className="inline-block border border-white/40 px-8 py-3 text-sm font-medium tracking-wide hover:bg-white hover:text-black transition-colors text-gray-300">
+                  Sign In
+                </Link>
+              </div>
+            </>
+          )}
         </div>
       </section>
 
@@ -249,7 +288,7 @@ export default function HomePage() {
             {CELEBRITY_SECTIONS.map((celeb) => (
               <Link
                 key={celeb.name}
-                href="/products"
+                href={`/products?gender=${celeb.gender}`}
                 className="aspect-[3/4] relative group overflow-hidden rounded-sm"
               >
                 <img src={celeb.image} alt={celeb.name} className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
