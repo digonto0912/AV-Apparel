@@ -11,8 +11,9 @@ import ProductCard from "@/components/shared/ProductCard";
 
 const CAMPAIGN_SECTIONS = [
   {
-    title: "Spring Getaway Essentials",
-    description: "Polished shirts and lightweight fabrics for long trips and warm days.",
+    label: "THE GETAWAY EDIT",
+    title: "Somewhere\nWarm",
+    description: "Linen. Cotton. Nothing else. Pack light, live slow.",
     links: [
       { label: "Shop Women", href: "/products?gender=Women" },
       { label: "Shop Men", href: "/products?gender=Men" },
@@ -21,8 +22,9 @@ const CAMPAIGN_SECTIONS = [
     overlay: "from-black/60 via-black/30 to-transparent",
   },
   {
-    title: "The 90s Edit",
-    description: "Iconic then. Iconic now. Minimalism that defined an era, styled for today.",
+    label: "ICONS REBORN",
+    title: "The 90s\nEdit",
+    description: "Iconic then. Iconic now. The era that defined minimalism — reimagined.",
     links: [
       { label: "Shop Women", href: "/products?gender=Women" },
       { label: "Shop Men", href: "/products?gender=Men" },
@@ -31,8 +33,9 @@ const CAMPAIGN_SECTIONS = [
     overlay: "from-black/70 via-black/40 to-transparent",
   },
   {
-    title: "Spring Jackets",
-    description: "Sporty silhouettes with modern detail. Lightweight jackets designed for life outdoors.",
+    label: "LAYER UP",
+    title: "Between\nSeasons",
+    description: "Not too heavy. Not too light. Just right for right now.",
     links: [
       { label: "Shop Women", href: "/products?gender=Women&category=Outerwear" },
       { label: "Shop Men", href: "/products?gender=Men&category=Outerwear" },
@@ -41,8 +44,9 @@ const CAMPAIGN_SECTIONS = [
     overlay: "from-black/60 via-black/30 to-transparent",
   },
   {
-    title: "New 90s Washes",
-    description: "Signature denim fits in new shades for spring. Easy living in the classic straight leg.",
+    label: "RAW DENIM",
+    title: "New\nWashes",
+    description: "Worn-in from day one. Faded to perfection.",
     links: [
       { label: "Shop Women", href: "/products?gender=Women&subcategory=Jeans" },
       { label: "Shop Men", href: "/products?gender=Men&subcategory=Jeans" },
@@ -52,26 +56,26 @@ const CAMPAIGN_SECTIONS = [
   },
 ];
 
-const DENIM_IMAGES = [
-  { name: "Baggy", href: "/products?subcategory=Jeans", image: "https://images.unsplash.com/photo-1604176354204-9268737828e4?w=400&h=540&fit=crop&q=80" },
-  { name: "90s Straight", href: "/products?subcategory=Jeans", image: "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=400&h=540&fit=crop&q=80" },
-  { name: "Tapered", href: "/products?subcategory=Jeans", image: "https://images.unsplash.com/photo-1582552938357-32b906df40cb?w=400&h=540&fit=crop&q=80" },
-  { name: "Slim", href: "/products?subcategory=Jeans", image: "https://images.unsplash.com/photo-1475178626620-a4d074967571?w=400&h=540&fit=crop&q=80" },
-  { name: "Straight", href: "/products?subcategory=Jeans", image: "https://images.unsplash.com/photo-1565084888279-aca5ecc59969?w=400&h=540&fit=crop&q=80" },
-  { name: "Skinny", href: "/products?subcategory=Jeans", image: "https://images.unsplash.com/photo-1598554793905-075461621b1b?w=400&h=540&fit=crop&q=80" },
+const DENIM_FITS = [
+  { name: "Baggy", subtitle: "Relaxed. Effortless.", href: "/products?subcategory=Jeans", image: "https://images.unsplash.com/photo-1604176354204-9268737828e4?w=400&h=540&fit=crop&q=80" },
+  { name: "90s Straight", subtitle: "The one that started it all.", href: "/products?subcategory=Jeans", image: "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=400&h=540&fit=crop&q=80" },
+  { name: "Tapered", subtitle: "Sharp from hip to hem.", href: "/products?subcategory=Jeans", image: "https://images.unsplash.com/photo-1582552938357-32b906df40cb?w=400&h=540&fit=crop&q=80" },
+  { name: "Slim", subtitle: "Close. Clean. Classic.", href: "/products?subcategory=Jeans", image: "https://images.unsplash.com/photo-1475178626620-a4d074967571?w=400&h=540&fit=crop&q=80" },
+  { name: "Straight", subtitle: "Timeless for a reason.", href: "/products?subcategory=Jeans", image: "https://images.unsplash.com/photo-1565084888279-aca5ecc59969?w=400&h=540&fit=crop&q=80" },
+  { name: "Skinny", subtitle: "Body-conscious. Bold.", href: "/products?subcategory=Jeans", image: "https://images.unsplash.com/photo-1598554793905-075461621b1b?w=400&h=540&fit=crop&q=80" },
 ];
 
-const CELEBRITY_SECTIONS = [
-  { name: "Dakota Johnson", image: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=600&h=800&fit=crop&q=80", gender: "Women" },
-  { name: "Raphinha", image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=600&h=800&fit=crop&q=80", gender: "Men" },
-  { name: "Jung Kook", image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=800&fit=crop&q=80", gender: "Men" },
+const CAMPAIGN_FACES = [
+  { name: "Her World", tagline: "Bold. Refined. Unapologetic.", image: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=600&h=800&fit=crop&q=80", gender: "Women" },
+  { name: "His Edge", tagline: "Quiet confidence. Loud presence.", image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=600&h=800&fit=crop&q=80", gender: "Men" },
+  { name: "The Icon", tagline: "No rules. Just style.", image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=800&fit=crop&q=80", gender: "Men" },
 ];
 
 const CATEGORY_LINKS = [
-  { title: "New Arrivals", links: [{ label: "Women", href: "/products?gender=Women&tag=new" }, { label: "Men", href: "/products?gender=Men&tag=new" }] },
-  { title: "Underwear", links: [{ label: "Women", href: "/products?gender=Women&category=Underwear" }, { label: "Men", href: "/products?gender=Men&category=Underwear" }] },
-  { title: "Tops", links: [{ label: "Women", href: "/products?gender=Women&category=Tops" }, { label: "Men", href: "/products?gender=Men&category=Tops" }] },
-  { title: "Bottoms", links: [{ label: "Women", href: "/products?gender=Women&category=Bottoms" }, { label: "Men", href: "/products?gender=Men&category=Bottoms" }] },
+  { title: "Just In", description: "Be first.", links: [{ label: "Women", href: "/products?gender=Women&tag=new" }, { label: "Men", href: "/products?gender=Men&tag=new" }] },
+  { title: "Underwear", description: "The essentials.", links: [{ label: "Women", href: "/products?gender=Women&category=Underwear" }, { label: "Men", href: "/products?gender=Men&category=Underwear" }] },
+  { title: "Tops", description: "From AM to PM.", links: [{ label: "Women", href: "/products?gender=Women&category=Tops" }, { label: "Men", href: "/products?gender=Men&category=Tops" }] },
+  { title: "Bottoms", description: "Every fit. Every day.", links: [{ label: "Women", href: "/products?gender=Women&category=Bottoms" }, { label: "Men", href: "/products?gender=Men&category=Bottoms" }] },
 ];
 
 export default function HomePage() {
@@ -106,11 +110,11 @@ export default function HomePage() {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-black/10" />
         <div className="relative z-10 text-center px-4">
-          <p className="text-[10px] md:text-xs tracking-[0.25em] text-gray-300 mb-3">SPRING / SUMMER 2026</p>
-          <h1 className="text-4xl sm:text-5xl md:text-7xl font-semibold tracking-[0.04em] mb-4 md:mb-6 drop-shadow-xl" style={{fontFamily:"'Montserrat',sans-serif"}}>
-            LIVE IN<br />AV APPAREL
+          <p className="text-[10px] md:text-xs tracking-[0.3em] text-gray-300/80 mb-4 uppercase">Spring / Summer 2026</p>
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-semibold tracking-[0.04em] mb-5 md:mb-7 drop-shadow-xl" style={{fontFamily:"'Montserrat',sans-serif"}}>
+            Between You<br />and What You Wear
           </h1>
-          <p className="text-sm md:text-base text-gray-200 mb-6 tracking-wide">The new essentials. Nothing more. Nothing less.</p>
+          <p className="text-sm md:text-base text-gray-200/90 mb-8 tracking-wide max-w-md mx-auto leading-relaxed">Stripped back. Pared down. Designed to move with you.</p>
           <div className="flex items-center justify-center gap-3 md:gap-4">
             <Link href="/products?gender=Women" className="border border-white px-6 md:px-8 py-2.5 md:py-3 text-xs md:text-sm font-medium tracking-wide hover:bg-white hover:text-black transition-colors backdrop-blur-sm bg-white/10">
               Shop Women
@@ -125,7 +129,10 @@ export default function HomePage() {
       {/* Denim Carousel */}
       <section className="py-10 overflow-hidden">
         <div className="flex items-center justify-between px-4 md:px-6 mb-6">
-          <h2 className="text-2xl md:text-3xl font-medium">Shop by Denim Fit</h2>
+          <div>
+            <h2 className="text-2xl md:text-3xl font-medium">Find Your Fit</h2>
+            <p className="text-xs text-gray-500 tracking-wide mt-1">One denim. Six ways to wear it.</p>
+          </div>
           <div className="flex items-center gap-2">
             <button
               onClick={() => scrollDenim("left")}
@@ -144,22 +151,26 @@ export default function HomePage() {
           </div>
         </div>
         <div ref={denimRef} className="flex gap-4 px-4 md:px-6 overflow-x-auto no-scrollbar scroll-smooth">
-          {DENIM_IMAGES.map((style) => (
+          {DENIM_FITS.map((style) => (
             <Link
               key={style.name}
               href={style.href}
               className="flex-shrink-0 w-44 md:w-56 aspect-[3/4] relative overflow-hidden rounded-sm group"
             >
               <img src={style.image} alt={style.name} className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-              <span className="absolute bottom-4 left-4 text-white text-sm md:text-base font-medium">{style.name}</span>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+              <div className="absolute bottom-4 left-4">
+                <span className="text-white text-sm md:text-base font-medium block">{style.name}</span>
+                <span className="text-white/60 text-[10px] tracking-wide">{style.subtitle}</span>
+              </div>
             </Link>
           ))}
           <Link
             href="/products?subcategory=Jeans"
-            className="flex-shrink-0 w-44 md:w-56 aspect-[3/4] bg-black text-white flex items-center justify-center text-sm font-medium tracking-wide hover:bg-gray-900 transition-colors rounded-sm"
+            className="flex-shrink-0 w-44 md:w-56 aspect-[3/4] bg-black text-white flex flex-col items-center justify-center text-sm font-medium tracking-wide hover:bg-gray-900 transition-colors rounded-sm gap-2"
           >
-            Shop all Denim →
+            <span className="text-xs tracking-[0.2em] text-gray-400">EXPLORE</span>
+            All Denim →
           </Link>
         </div>
       </section>
@@ -177,8 +188,9 @@ export default function HomePage() {
           />
           <div className={`absolute inset-0 bg-gradient-to-t ${section.overlay}`} />
           <div className="relative z-10 text-center text-white px-4">
-            <h2 className="text-3xl md:text-5xl font-semibold tracking-[0.03em] mb-4 drop-shadow-lg" style={{fontFamily:"'Montserrat',sans-serif"}}>{section.title}</h2>
-            <p className="text-sm md:text-base max-w-lg mx-auto mb-8 text-gray-100 drop-shadow">
+            <p className="text-[10px] md:text-xs tracking-[0.3em] text-gray-300/70 mb-4">{section.label}</p>
+            <h2 className="text-3xl md:text-5xl font-semibold tracking-[0.03em] mb-4 drop-shadow-lg whitespace-pre-line leading-tight" style={{fontFamily:"'Montserrat',sans-serif"}}>{section.title}</h2>
+            <p className="text-sm md:text-base max-w-md mx-auto mb-8 text-gray-200/80 drop-shadow leading-relaxed">
               {section.description}
             </p>
             <div className="flex items-center justify-center gap-3 md:gap-4">
@@ -200,8 +212,11 @@ export default function HomePage() {
       <section className="py-16 px-4 md:px-6">
         <div className="max-w-[1440px] mx-auto">
           <div className="flex items-center justify-between mb-8">
-            <h2 className="text-2xl md:text-3xl font-medium">Best Sellers</h2>
-            <Link href="/products?sort=best-selling" className="text-sm underline underline-offset-2 hover:text-gray-600">
+            <div>
+              <p className="text-[10px] tracking-[0.2em] text-gray-400 mb-1">MOST WANTED</p>
+              <h2 className="text-2xl md:text-3xl font-medium">Best Sellers</h2>
+            </div>
+            <Link href="/products?sort=best-selling" className="text-xs tracking-widest uppercase text-gray-500 hover:text-black transition-colors">
               View All
             </Link>
           </div>
@@ -229,14 +244,14 @@ export default function HomePage() {
         <div className="max-w-[1440px] mx-auto text-center relative z-10 text-white">
           {user ? (
             <>
-              <p className="text-xs tracking-[0.2em] text-gray-400 mb-2">CALVIN REWARDS — {rewards?.tier || "Member"}</p>
-              <h2 className="text-3xl md:text-4xl font-semibold tracking-[0.03em] mb-3" style={{fontFamily:"'Montserrat',sans-serif"}}>
-                You have <span className="text-white">{rewards?.points || 0}</span> points
+              <p className="text-[10px] tracking-[0.3em] text-gray-400/80 mb-3">AV REWARDS — {rewards?.tier?.toUpperCase() || "MEMBER"}</p>
+              <h2 className="text-3xl md:text-4xl font-semibold tracking-[0.03em] mb-4" style={{fontFamily:"'Montserrat',sans-serif"}}>
+                {rewards?.points || 0} Points
               </h2>
-              <p className="text-sm text-gray-300 max-w-md mx-auto mb-2">
-                That's <span className="font-medium text-white">${((rewards?.points || 0) * 0.01).toFixed(2)}</span> in rewards ready to redeem.
+              <p className="text-sm text-gray-300/80 max-w-sm mx-auto mb-1 leading-relaxed">
+                ${((rewards?.points || 0) * 0.01).toFixed(2)} in rewards. Yours to use.
               </p>
-              <p className="text-xs text-gray-400 mb-8">Earn 1 point for every $1 you spend. Shop to unlock higher tiers.</p>
+              <p className="text-[11px] text-gray-500 mb-8">Every dollar spent is a point earned.</p>
               <div className="flex items-center justify-center gap-3">
                 <Link href="/account/rewards" className="inline-block border border-white px-8 py-3 text-sm font-medium tracking-wide hover:bg-white hover:text-black transition-colors">
                   View My Rewards
@@ -248,10 +263,10 @@ export default function HomePage() {
             </>
           ) : (
             <>
-              <h2 className="text-3xl md:text-4xl font-semibold tracking-[0.03em] mb-3" style={{fontFamily:"'Montserrat',sans-serif"}}>My AV Rewards</h2>
-              <p className="text-lg font-light mb-2">Earn. Redeem. Enjoy.</p>
-              <p className="text-sm text-gray-300 max-w-md mx-auto mb-8">
-                A new way to experience AV APPAREL. Unlock exclusive benefits designed for you, every time you shop.
+              <p className="text-[10px] tracking-[0.3em] text-gray-400/80 mb-3">EXCLUSIVE ACCESS</p>
+              <h2 className="text-3xl md:text-4xl font-semibold tracking-[0.03em] mb-4" style={{fontFamily:"'Montserrat',sans-serif"}}>AV Rewards</h2>
+              <p className="text-sm text-gray-300/80 max-w-sm mx-auto mb-8 leading-relaxed">
+                Shop. Earn points. Unlock early access, birthday perks, and member-only drops.
               </p>
               <div className="flex items-center justify-center gap-3">
                 <Link href="/auth/register" className="inline-block border border-white px-8 py-3 text-sm font-medium tracking-wide hover:bg-white hover:text-black transition-colors">
@@ -270,8 +285,11 @@ export default function HomePage() {
       <section className="py-16 px-4 md:px-6">
         <div className="max-w-[1440px] mx-auto">
           <div className="flex items-center justify-between mb-8">
-            <h2 className="text-2xl md:text-3xl font-medium">New Arrivals</h2>
-            <Link href="/products?tag=new" className="text-sm underline underline-offset-2 hover:text-gray-600">
+            <div>
+              <p className="text-[10px] tracking-[0.2em] text-gray-400 mb-1">JUST DROPPED</p>
+              <h2 className="text-2xl md:text-3xl font-medium">New Arrivals</h2>
+            </div>
+            <Link href="/products?tag=new" className="text-xs tracking-widest uppercase text-gray-500 hover:text-black transition-colors">
               View All
             </Link>
           </div>
@@ -289,14 +307,15 @@ export default function HomePage() {
       </section>
 
       {/* Category Quick Links */}
-      <section className="py-12 px-4 md:px-6 bg-gray-50">
-        <div className="max-w-[1440px] mx-auto grid grid-cols-2 md:grid-cols-4 gap-6">
+      <section className="py-14 px-4 md:px-6 border-t border-b border-gray-100">
+        <div className="max-w-[1440px] mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
           {CATEGORY_LINKS.map((cat) => (
             <div key={cat.title} className="text-center">
-              <h3 className="text-lg font-medium mb-3">{cat.title}</h3>
-              <div className="flex items-center justify-center gap-3">
+              <h3 className="text-base font-medium tracking-wide mb-1">{cat.title}</h3>
+              <p className="text-[11px] text-gray-400 mb-3">{cat.description}</p>
+              <div className="flex items-center justify-center gap-4">
                 {cat.links.map((link) => (
-                  <Link key={link.label} href={link.href} className="text-sm text-gray-600 underline underline-offset-2 hover:text-black">
+                  <Link key={link.label} href={link.href} className="text-xs text-gray-500 tracking-widest uppercase hover:text-black transition-colors">
                     {link.label}
                   </Link>
                 ))}
@@ -309,18 +328,22 @@ export default function HomePage() {
       {/* Live in CK Campaign */}
       <section className="py-16 px-4 md:px-6">
         <div className="max-w-[1440px] mx-auto">
-          <h2 className="text-3xl md:text-4xl font-semibold tracking-[0.03em] text-center mb-3" style={{fontFamily:"'Montserrat',sans-serif"}}>Live in AV APPAREL</h2>
-          <p className="text-sm text-gray-600 text-center mb-10">Live like an icon. Shop our latest campaigns.</p>
+          <p className="text-[10px] tracking-[0.3em] text-gray-400 text-center mb-3">THE CAMPAIGN</p>
+          <h2 className="text-3xl md:text-4xl font-semibold tracking-[0.03em] text-center mb-3" style={{fontFamily:"'Montserrat',sans-serif"}}>Live in AV</h2>
+          <p className="text-sm text-gray-500 text-center mb-10">Real people. Real style. Nothing posed.</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {CELEBRITY_SECTIONS.map((celeb) => (
+            {CAMPAIGN_FACES.map((face) => (
               <Link
-                key={celeb.name}
-                href={`/products?gender=${celeb.gender}`}
+                key={face.name}
+                href={`/products?gender=${face.gender}`}
                 className="aspect-[3/4] relative group overflow-hidden rounded-sm"
               >
-                <img src={celeb.image} alt={celeb.name} className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                <span className="absolute bottom-6 left-6 text-white text-lg font-medium drop-shadow-lg">{celeb.name}</span>
+                <img src={face.image} alt={face.name} className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
+                <div className="absolute bottom-6 left-6">
+                  <span className="text-white text-lg font-medium drop-shadow-lg block">{face.name}</span>
+                  <span className="text-white/60 text-xs tracking-wide">{face.tagline}</span>
+                </div>
               </Link>
             ))}
           </div>
