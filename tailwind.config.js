@@ -6,7 +6,11 @@ const config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        'nav': '830px',
+      },
+    },
   },
   plugins: [],
 };
