@@ -39,7 +39,7 @@ const NAV_LINKS = [
 ];
 
 export default function Header() {
-  const { itemCount } = useCart();
+  const { itemCount, lastAddedItem, showMiniCart, closeMiniCart, subtotal } = useCart();
   const { count: wishCount } = useWishlist();
   const { user, signOut, isAdmin } = useAuth();
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -177,14 +177,61 @@ export default function Header() {
             </Link>
 
             {/* Cart */}
-            <Link href="/checkout-bag" className="p-1.5 sm:p-1 relative" aria-label="Shopping Bag">
-              <FiShoppingBag size={18} className="nav:w-5 nav:h-5" />
-              {itemCount > 0 && (
-                <span className="absolute -top-1 -right-1 bg-black text-white text-[10px] w-4 h-4 rounded-full flex items-center justify-center">
-                  {itemCount > 9 ? "9+" : itemCount}
-                </span>
+            <div className="relative">
+              <Link href="/checkout-bag" className="p-1.5 sm:p-1 relative block" aria-label="Shopping Bag">
+                <FiShoppingBag size={18} className="nav:w-5 nav:h-5" />
+                {itemCount > 0 && (
+                  <span className="absolute -top-1 -right-1 bg-black text-white text-[10px] w-4 h-4 rounded-full flex items-center justify-center">
+                    {itemCount > 9 ? "9+" : itemCount}
+                  </span>
+                )}
+              </Link>
+
+              {/* Mini Cart Dropdown */}
+              {showMiniCart && lastAddedItem && (
+                <div className="absolute right-0 top-full mt-2 w-[300px] sm:w-[340px] bg-white shadow-lg border border-gray-200 z-50 animate-fade-in">
+                  <div className="flex items-center justify-between px-4 py-3 border-b border-gray-100">
+                    <span className="text-xs font-medium uppercase tracking-wider">Added to bag</span>
+                    <button onClick={closeMiniCart} className="text-gray-400 hover:text-black">
+                      <FiX size={14} />
+                    </button>
+                  </div>
+
+                  <div className="flex gap-3 p-4">
+                    <div className="w-16 h-20 bg-gray-100 flex-shrink-0 overflow-hidden">
+                      {lastAddedItem.image ? (
+                        <img src={lastAddedItem.image} alt={lastAddedItem.name} className="w-full h-full object-cover" onError={(e) => { e.target.style.display = 'none'; e.target.nextSibling.style.display = 'flex'; }} />
+                      ) : null}
+                      <div className={`w-full h-full items-center justify-center bg-gray-100 text-gray-400 text-[10px] font-bold ${lastAddedItem.image ? 'hidden' : 'flex'}`}>CK</div>
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <p className="text-xs font-medium truncate">{lastAddedItem.name}</p>
+                      <p className="text-[11px] text-gray-500 mt-1">{lastAddedItem.size} / {lastAddedItem.color}</p>
+                      <p className="text-xs font-medium mt-1.5">
+                        ${(lastAddedItem.salePrice || lastAddedItem.price).toFixed(2)}
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="px-4 pb-4 space-y-2">
+                    <Link
+                      href="/checkout-bag"
+                      onClick={closeMiniCart}
+                      className="w-full h-10 bg-black text-white text-xs font-medium tracking-wider uppercase hover:bg-gray-900 transition-colors flex items-center justify-center"
+                    >
+                      View Bag ({itemCount})
+                    </Link>
+                    <Link
+                      href="/checkout"
+                      onClick={closeMiniCart}
+                      className="w-full h-9 border border-gray-300 text-black text-xs font-medium tracking-wider uppercase hover:border-black transition-colors flex items-center justify-center"
+                    >
+                      Checkout
+                    </Link>
+                  </div>
+                </div>
               )}
-            </Link>
+            </div>
           </div>
         </div>
 

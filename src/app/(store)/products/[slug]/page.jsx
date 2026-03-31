@@ -1,8 +1,8 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useParams, notFound } from "next/navigation";
 import Link from "next/link";
-import { FiHeart, FiChevronDown, FiTruck, FiRotateCw, FiShield } from "react-icons/fi";
+import { FiHeart, FiChevronDown, FiTruck, FiRotateCw, FiShield, FiCheck } from "react-icons/fi";
 import toast from "react-hot-toast";
 import { useProducts } from "@/context/ProductsContext";
 import { useCart } from "@/context/CartContext";
@@ -26,6 +26,10 @@ export default function ProductDetailPage() {
   const [sizeGuideOpen, setSizeGuideOpen] = useState(false);
   const [openAccordion, setOpenAccordion] = useState("");
   const [quantity, setQuantity] = useState(1);
+  const [sizeNudge, setSizeNudge] = useState(false);
+  const [justAdded, setJustAdded] = useState(false);
+  const sizeRef = useRef(null);
+  const addedTimerRef = useRef(null);
 
   useEffect(() => {
     if (product) {
@@ -72,16 +76,31 @@ export default function ProductDetailPage() {
 
   const handleAddToBag = () => {
     if (!selectedSize) {
-      toast.error("Please select a size");
+      // Gentle nudge — scroll to size section and highlight it
+      setSizeNudge(true);
+      sizeRef.current?.scrollIntoView({ behavior: "smooth", block: "center" });
+      // Auto-dismiss nudge after 4 seconds
+      setTimeout(() => setSizeNudge(false), 4000);
       return;
     }
     if (!selectedVariant || selectedVariant.stock === 0) {
-      toast.error("This size is out of stock");
+      toast.error("Sorry, this size is currently out of stock");
       return;
     }
+    // Clear any nudge
+    setSizeNudge(false);
     addItem(product, selectedSize, selectedColor, quantity);
-    toast.success(`${product.name} added to bag`);
+
+    // Show inline "Added!" confirmation
+    setJustAdded(true);
+    if (addedTimerRef.current) clearTimeout(addedTimerRef.current);
+    addedTimerRef.current = setTimeout(() => setJustAdded(false), 3000);
   };
+
+  // Clear nudge when a size is selected
+  useEffect(() => {
+    if (selectedSize) setSizeNudge(false);
+  }, [selectedSize]);
 
   const relatedProducts = products
     .filter((p) => p.id !== product.id && (p.category === product.category || p.gender === product.gender))
@@ -198,9 +217,19 @@ export default function ProductDetailPage() {
           </div>
 
           {/* Size Selector */}
-          <div className="mb-6">
+          <div
+            ref={sizeRef}
+            className={`mb-6 transition-all duration-300 ${
+              sizeNudge ? "pt-0" : ""
+            }`}
+          >
             <div className="flex items-center justify-between mb-3">
-              <span className="text-xs font-medium">Size:</span>
+              <div className="flex items-center gap-2">
+                <span className="text-xs font-medium uppercase tracking-wider">Size{selectedSize ? `: ${selectedSize}` : ''}</span>
+                {sizeNudge && (
+                  <span className="text-xs text-black font-medium">— Please select</span>
+                )}
+              </div>
               <button onClick={() => setSizeGuideOpen(true)} className="text-xs underline text-gray-500 hover:text-black">
                 Size Guide
               </button>
@@ -211,12 +240,14 @@ export default function ProductDetailPage() {
                   key={size}
                   onClick={() => setSelectedSize(size)}
                   disabled={stock === 0}
-                  className={`min-w-[48px] h-10 px-3 border text-sm font-medium transition-colors ${
+                  className={`min-w-[48px] h-10 px-3 border text-sm transition-all duration-200 ${
                     selectedSize === size
                       ? "border-black bg-black text-white"
                       : stock === 0
-                      ? "border-gray-200 text-gray-300 cursor-not-allowed line-through"
-                      : "border-gray-300 hover:border-black"
+                      ? "border-gray-100 text-gray-300 cursor-not-allowed line-through bg-gray-50"
+                      : sizeNudge
+                      ? "border-black text-black hover:bg-black hover:text-white"
+                      : "border-gray-300 text-gray-700 hover:border-black"
                   }`}
                 >
                   {size}
@@ -224,7 +255,7 @@ export default function ProductDetailPage() {
               ))}
             </div>
             {selectedVariant && selectedVariant.stock <= 5 && selectedVariant.stock > 0 && (
-              <p className="text-xs text-red-600 mt-2">Only {selectedVariant.stock} left in stock</p>
+              <p className="text-xs text-gray-500 mt-2">Only {selectedVariant.stock} left</p>
             )}
           </div>
 
@@ -239,22 +270,40 @@ export default function ProductDetailPage() {
           </div>
 
           {/* Add to Bag */}
-          <div className="flex gap-3 mb-6">
-            <button
-              onClick={handleAddToBag}
-              className="flex-1 h-12 bg-black text-white text-sm font-medium tracking-wide hover:bg-gray-900 transition-colors flex items-center justify-center gap-2"
-            >
-              Add to Bag
-            </button>
-            <button
-              onClick={() => toggleItem(product)}
-              className={`w-12 h-12 border flex items-center justify-center transition-colors ${
-                isInWishlist(product.id) ? "border-black bg-black text-white" : "border-gray-300 hover:border-black"
-              }`}
-              aria-label={isInWishlist(product.id) ? "Remove from wishlist" : "Add to wishlist"}
-            >
-              <FiHeart size={18} className={isInWishlist(product.id) ? "fill-white" : ""} />
-            </button>
+          <div className="mb-6">
+            <div className="flex gap-3">
+              <button
+                onClick={handleAddToBag}
+                className="flex-1 h-12 bg-black text-white text-sm font-medium tracking-wider uppercase hover:bg-gray-900 transition-colors flex items-center justify-center gap-2"
+              >
+                {justAdded ? (
+                  <>
+                    <FiCheck size={16} />
+                    <span>Added</span>
+                  </>
+                ) : (
+                  "Add to Bag"
+                )}
+              </button>
+              <button
+                onClick={() => toggleItem(product)}
+                className={`w-12 h-12 border flex items-center justify-center transition-colors ${
+                  isInWishlist(product.id) ? "border-black bg-black text-white" : "border-gray-300 hover:border-black"
+                }`}
+                aria-label={isInWishlist(product.id) ? "Remove from wishlist" : "Add to wishlist"}
+              >
+                <FiHeart size={18} className={isInWishlist(product.id) ? "fill-white" : ""} />
+              </button>
+            </div>
+
+            {justAdded && (
+              <Link
+                href="/checkout-bag"
+                className="mt-3 w-full h-10 border border-black text-black text-xs font-medium tracking-wider uppercase hover:bg-black hover:text-white transition-colors flex items-center justify-center"
+              >
+                View Bag
+              </Link>
+            )}
           </div>
 
           {/* Delivery info */}

@@ -24,6 +24,9 @@ export function CartProvider({ children }) {
   const { user } = useAuth();
   const [items, setItems] = useState([]);
   const [loaded, setLoaded] = useState(false);
+  const [lastAddedItem, setLastAddedItem] = useState(null);
+  const [showMiniCart, setShowMiniCart] = useState(false);
+  const miniCartTimerRef = useRef(null);
   const savingRef = useRef(false);
   const prevUserRef = useRef(null);
 
@@ -70,27 +73,36 @@ export function CartProvider({ children }) {
   }, [items, loaded, user]);
 
   const addItem = useCallback((product, size, color, quantity = 1) => {
+    const addedItem = {
+      key: `${product.id}-${size}-${color}`,
+      productId: product.id,
+      slug: product.slug,
+      name: product.name,
+      price: product.price,
+      salePrice: product.salePrice,
+      size,
+      color,
+      quantity,
+      image: product.images?.[0] || "",
+    };
+
     setItems((prev) => {
-      const key = `${product.id}-${size}-${color}`;
-      const existing = prev.find((i) => i.key === key);
+      const existing = prev.find((i) => i.key === addedItem.key);
       if (existing) {
         return prev.map((i) =>
-          i.key === key ? { ...i, quantity: i.quantity + quantity } : i
+          i.key === addedItem.key ? { ...i, quantity: i.quantity + quantity } : i
         );
       }
-      return [...prev, {
-        key,
-        productId: product.id,
-        slug: product.slug,
-        name: product.name,
-        price: product.price,
-        salePrice: product.salePrice,
-        size,
-        color,
-        quantity,
-        image: product.images?.[0] || "",
-      }];
+      return [...prev, addedItem];
     });
+
+    // Trigger mini cart popup
+    setLastAddedItem(addedItem);
+    setShowMiniCart(true);
+    if (miniCartTimerRef.current) clearTimeout(miniCartTimerRef.current);
+    miniCartTimerRef.current = setTimeout(() => {
+      setShowMiniCart(false);
+    }, 5000);
   }, []);
 
   const removeItem = useCallback((key) => {
@@ -104,6 +116,11 @@ export function CartProvider({ children }) {
 
   const clearCart = useCallback(() => {
     setItems([]);
+  }, []);
+
+  const closeMiniCart = useCallback(() => {
+    setShowMiniCart(false);
+    if (miniCartTimerRef.current) clearTimeout(miniCartTimerRef.current);
   }, []);
 
   const itemCount = items.reduce((sum, i) => sum + i.quantity, 0);
@@ -122,6 +139,9 @@ export function CartProvider({ children }) {
       clearCart,
       itemCount,
       subtotal,
+      lastAddedItem,
+      showMiniCart,
+      closeMiniCart,
     }}>
       {children}
     </CartContext.Provider>
