@@ -110,7 +110,6 @@ export default function HomePage() {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-black/10" />
         <div className="relative z-10 text-center px-4">
-          <p className="text-[10px] md:text-xs tracking-[0.3em] text-gray-300/80 mb-4 uppercase">Spring / Summer 2026</p>
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-semibold tracking-[0.04em] mb-5 md:mb-7 drop-shadow-xl" style={{fontFamily:"'Montserrat',sans-serif"}}>
             Between You<br />and What You Wear
           </h1>

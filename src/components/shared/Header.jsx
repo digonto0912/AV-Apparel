@@ -136,7 +136,7 @@ export default function Header() {
               >
                 <Link
                   href={link.href}
-                  className={`px-3 py-2 text-[13px] font-medium tracking-wide hover:underline underline-offset-4 ${
+                  className={`px-3 py-2 text-[13px] font-normal tracking-wide hover:underline underline-offset-4 ${
                     link.label === "Sale" ? "text-red-600" : "text-black"
                   }`}
                 >
