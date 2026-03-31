@@ -3340,15 +3340,777 @@ body {
   background: transparent;
 }
 
-/* ─── Responsive ─────────────────────────────────────────────────────────── */
-/* FigmaScaler scales the 1920px design proportionally at ALL viewport widths.
-   No layout overrides needed above 991px — the JS transform handles it.
-   Add mobile-only style overrides (e.g. nav, font bumps) below 991px. */
+/* ─── Mobile & Tablet  (≤ 991px) ────────────────────────────────────────── */
+/* JS scaling is disabled here. Every section becomes a native flex layout.  */
 
 @media (max-width: 991px) {
   html,
   body {
     overflow-x: hidden;
     overflow-y: auto;
+    background: #ffffff;
+  }
+
+  /* ── Root container: switch from absolute-positioned canvas to flow layout */
+  .n-4-2 {
+    position: static;
+    width: 100%;
+    height: auto;
+    transform: none !important;
+  }
+  .n-4-3 {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+  .n-4-4 {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+
+  /* ── All figma nodes default to relative flow inside breakpoint */
+  .figma-node {
+    position: relative;
+    left: auto;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+
+  /* ══════════════════════════════════════════════════════════════════════════
+     NAVBAR
+  ══════════════════════════════════════════════════════════════════════════ */
+  .n-4-211 {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #000;
+    padding: 12px 16px;
+    width: 100%;
+    height: 56px;
+  }
+  /* Nav link list — hide all links except the brand name on mobile */
+  .n-4-216 {
+    position: static;
+    display: flex;
+    align-items: center;
+    gap: 0;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+  }
+  /* Brand name */
+  .n-14-46 {
+    position: static;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    white-space: nowrap;
+    line-height: 1;
+    width: auto;
+    height: auto;
+  }
+  /* Hide nav text items on mobile */
+  .n-4-217, .n-4-218, .n-4-219, .n-4-220,
+  .n-4-221, .n-4-222, .n-4-223, .n-4-224 {
+    display: none;
+  }
+  /* Icon buttons */
+  .n-4-225, .n-4-227, .n-4-229 {
+    position: static;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+  }
+
+  /* ══════════════════════════════════════════════════════════════════════════
+     HERO SECTION
+  ══════════════════════════════════════════════════════════════════════════ */
+  .n-8-2 {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  .n-8-3 {
+    position: relative;
+    width: 100%;
+    height: 56vw;
+    min-height: 220px;
+    overflow: hidden;
+  }
+  .n-8-4 {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+  }
+  /* Hero title */
+  .n-8-5 {
+    position: absolute;
+    left: 0; top: 50%;
+    transform: translateY(-60%);
+    width: 100%;
+    height: auto;
+    font-size: clamp(28px, 8vw, 72px);
+    line-height: 1.1;
+    text-align: center;
+    padding: 0 16px;
+  }
+  /* "Find the perfect fit" bar */
+  .n-8-6 {
+    position: static;
+    display: inline;
+    font-size: 13px;
+    width: auto;
+    height: auto;
+    color: #fff;
+  }
+  .n-8-7 {
+    position: static;
+    display: inline;
+    font-size: 13px;
+    width: auto;
+    height: auto;
+    color: #999;
+  }
+  .n-8-8 {
+    position: static;
+    display: inline;
+    font-size: 13px;
+    width: auto;
+    height: auto;
+    color: #fff;
+  }
+  .n-8-9 {
+    display: none;
+  }
+  /* Fit-link row — sits just below the hero image */
+  .n-8-3::after {
+    content: '';
+  }
+
+  /* ══════════════════════════════════════════════════════════════════════════
+     DENIM CAROUSEL
+  ══════════════════════════════════════════════════════════════════════════ */
+  .n-8-15 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 8px;
+    padding: 12px 16px;
+    background: #fff;
+  }
+  /* Each slide card */
+  .n-8-15 > .figma-node {
+    position: relative;
+    flex: 0 0 40vw;
+    max-width: 180px;
+    height: auto;
+    scroll-snap-align: start;
+  }
+  /* Slide images */
+  .n-8-17, .n-8-20, .n-8-23, .n-8-26,
+  .n-8-29, .n-8-32, .n-8-35, .n-8-38 {
+    position: relative;
+    width: 100%;
+    height: 52vw;
+    max-height: 240px;
+    background-size: cover;
+    background-position: center;
+  }
+  /* Slide labels */
+  .n-8-18, .n-8-21, .n-8-24, .n-8-27,
+  .n-8-30, .n-8-33, .n-8-36, .n-8-39 {
+    position: static;
+    font-size: 13px;
+    padding: 6px 4px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    color: #000;
+  }
+  /* Hide prev/next buttons and overlay on mobile */
+  .n-8-40, .n-8-41, .n-8-42 {
+    display: none;
+  }
+
+  /* ══════════════════════════════════════════════════════════════════════════
+     SPRING GETAWAY  (n-4-29)
+  ══════════════════════════════════════════════════════════════════════════ */
+  .n-4-29 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .n-4-30, .n-4-31 {
+    position: relative;
+    width: 100%;
+    height: 56vw;
+    min-height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+  .n-4-31 {
+    display: none;  /* show only one image on mobile */
+  }
+  .n-4-32 {
+    position: static;
+    font-size: clamp(26px, 7vw, 56px);
+    line-height: 1.1;
+    padding: 20px 16px 8px;
+    text-align: center;
+    color: #000;
+    width: 100%;
+    height: auto;
+  }
+  .n-4-33 {
+    position: static;
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 0 16px 12px;
+    text-align: center;
+    color: #000;
+    width: 100%;
+    height: auto;
+  }
+  .n-4-34, .n-4-36 {
+    position: static;
+    display: inline-block;
+    margin: 0 8px 16px;
+    width: auto;
+    height: auto;
+  }
+  .n-4-35, .n-4-37 {
+    position: static;
+    font-size: 14px;
+    width: auto;
+    height: auto;
+  }
+
+  /* ══════════════════════════════════════════════════════════════════════════
+     THE 90s EDIT  (n-4-38)
+  ══════════════════════════════════════════════════════════════════════════ */
+  .n-4-38 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .n-4-39, .n-4-44, .n-4-53, .n-4-55 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .n-4-40, .n-4-42, .n-4-56, .n-4-58, .n-4-60 {
+    position: relative;
+    width: 100%;
+    height: 56vw;
+    min-height: 200px;
+    overflow: hidden;
+  }
+  .n-4-41, .n-4-43, .n-4-45, .n-4-54, .n-4-57, .n-4-59, .n-4-61 {
+    position: relative;
+    width: 100%;
+    height: 56vw;
+    min-height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+  .n-4-46 {
+    position: static;
+    padding: 20px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: auto;
+    background: #fff;
+  }
+  .n-4-47 {
+    position: static;
+    font-size: clamp(26px, 7vw, 56px);
+    line-height: 1.1;
+    text-align: center;
+    color: #000;
+    width: 100%;
+    height: auto;
+  }
+  .n-4-48 {
+    position: static;
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
+    color: #000;
+    width: 100%;
+    height: auto;
+  }
+  .n-4-49, .n-4-51 {
+    position: static;
+    width: auto;
+    height: auto;
+    display: inline-block;
+  }
+  .n-4-50, .n-4-52 {
+    position: static;
+    font-size: 14px;
+    width: auto;
+    height: auto;
+  }
+
+  /* ══════════════════════════════════════════════════════════════════════════
+     SPRING JACKETS  (n-4-62)
+  ══════════════════════════════════════════════════════════════════════════ */
+  .n-4-62 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .n-4-63 {
+    position: relative;
+    width: 100%;
+    height: 56vw;
+    min-height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+  .n-4-64 {
+    position: static;
+    font-size: clamp(26px, 7vw, 56px);
+    line-height: 1.1;
+    padding: 20px 16px 8px;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    text-align: left;
+  }
+  .n-4-65 {
+    position: static;
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 0 16px 12px;
+    color: #fff;
+    width: 100%;
+    height: auto;
+  }
+  .n-4-66, .n-4-68 {
+    position: static;
+    display: inline-block;
+    margin: 0 8px 16px;
+    width: auto;
+    height: auto;
+  }
+  .n-4-67, .n-4-69 {
+    position: static;
+    font-size: 14px;
+    width: auto;
+    height: auto;
+  }
+
+  /* ══════════════════════════════════════════════════════════════════════════
+     NEW 90s WASHES  (n-4-70)
+  ══════════════════════════════════════════════════════════════════════════ */
+  .n-4-70 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .n-4-71 {
+    position: relative;
+    width: 100%;
+    height: 56vw;
+    min-height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+  .n-4-72 {
+    display: none; /* show only one image on mobile */
+  }
+  .n-4-73 {
+    position: static;
+    font-size: clamp(26px, 7vw, 56px);
+    line-height: 1.1;
+    padding: 20px 16px 8px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    height: auto;
+  }
+  .n-4-74 {
+    position: static;
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 0 16px 12px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    height: auto;
+  }
+  .n-4-75, .n-4-77 {
+    position: static;
+    display: inline-block;
+    margin: 0 8px 16px;
+    width: auto;
+    height: auto;
+  }
+  .n-4-76, .n-4-78 {
+    position: static;
+    font-size: 14px;
+    width: auto;
+    height: auto;
+  }
+
+  /* ══════════════════════════════════════════════════════════════════════════
+     LIVE IN  heading + campaign grid  (n-4-79, n-4-82)
+  ══════════════════════════════════════════════════════════════════════════ */
+  .n-4-79 {
+    position: static;
+    padding: 24px 16px 8px;
+    width: 100%;
+    height: auto;
+  }
+  .n-4-80 {
+    position: static;
+    font-size: clamp(28px, 8vw, 64px);
+    line-height: 1.1;
+    text-align: center;
+    color: #000;
+    width: 100%;
+    height: auto;
+  }
+  .n-4-81 {
+    position: static;
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
+    color: #000;
+    width: 100%;
+    height: auto;
+    padding-bottom: 4px;
+  }
+  /* Campaign model grid: horizontal scroll row */
+  .n-4-82 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 8px;
+    padding: 12px 16px;
+  }
+  .n-4-83, .n-4-86, .n-4-89 {
+    position: relative;
+    flex: 0 0 60vw;
+    max-width: 260px;
+    height: auto;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+  }
+  .n-4-84, .n-4-87, .n-4-90 {
+    position: relative;
+    width: 100%;
+    height: 72vw;
+    max-height: 320px;
+    background-size: cover;
+    background-position: center top;
+  }
+  .n-4-85, .n-4-88, .n-4-91 {
+    position: static;
+    font-size: 13px;
+    padding: 6px 4px;
+    color: #fff;
+    background: rgba(0,0,0,0.4);
+    text-align: left;
+    width: 100%;
+    height: auto;
+  }
+
+  /* ══════════════════════════════════════════════════════════════════════════
+     REWARDS  (n-4-92)
+  ══════════════════════════════════════════════════════════════════════════ */
+  .n-4-92 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 16px;
+    background: #000;
+  }
+  .n-4-93 {
+    position: relative;
+    width: 100%;
+    height: 48vw;
+    min-height: 160px;
+    overflow: hidden;
+    background: transparent;
+  }
+  .n-4-97 {
+    position: static;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    padding-top: 16px;
+  }
+  .n-4-98 {
+    position: static;
+    font-size: clamp(32px, 9vw, 72px);
+    line-height: 1.1;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    padding: 8px 0;
+  }
+  .n-4-99 {
+    position: static;
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    padding-bottom: 12px;
+  }
+  .n-4-100 {
+    position: static;
+    width: auto;
+    height: auto;
+  }
+  .n-4-101 {
+    position: static;
+    font-size: 14px;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 24px;
+    width: auto;
+    height: auto;
+    text-align: center;
+  }
+
+  /* ══════════════════════════════════════════════════════════════════════════
+     NEW ARRIVALS TABS  (n-4-102)
+  ══════════════════════════════════════════════════════════════════════════ */
+  .n-4-102 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #fff;
+    padding: 24px 0 16px;
+  }
+  .n-4-103 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px 24px;
+    padding: 0 16px;
+  }
+  .n-4-104, .n-4-110, .n-4-116, .n-4-122 {
+    position: relative;
+    width: auto;
+    height: auto;
+    text-align: center;
+  }
+  .n-4-105, .n-4-111, .n-4-117, .n-4-123 {
+    position: static;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    width: auto;
+    height: auto;
+    display: block;
+    margin-bottom: 4px;
+  }
+  .n-4-106, .n-4-107, .n-4-108, .n-4-109,
+  .n-4-112, .n-4-113, .n-4-114, .n-4-115,
+  .n-4-118, .n-4-119, .n-4-120, .n-4-121,
+  .n-4-124, .n-4-125, .n-4-126, .n-4-127 {
+    position: static;
+    display: inline-block;
+    font-size: 13px;
+    color: #696969;
+    width: auto;
+    height: auto;
+    margin: 0 4px;
+  }
+
+  /* ══════════════════════════════════════════════════════════════════════════
+     FOOTER  (n-4-128)
+  ══════════════════════════════════════════════════════════════════════════ */
+  .n-4-128 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #000;
+    padding: 32px 16px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  /* All footer text nodes */
+  .n-4-129, .n-4-131, .n-4-132, .n-4-133, .n-4-134,
+  .n-4-135, .n-4-136, .n-4-137, .n-4-143, .n-4-144,
+  .n-4-145, .n-4-146, .n-4-147, .n-4-148, .n-4-149,
+  .n-4-150, .n-4-151, .n-4-153, .n-4-154, .n-4-155,
+  .n-4-156, .n-4-157, .n-4-159, .n-4-160, .n-4-161,
+  .n-4-162, .n-4-197 {
+    position: static;
+    width: auto;
+    height: auto;
+    color: #fff;
+    font-size: 13px;
+    line-height: 2;
+    display: block;
+  }
+  /* Section headings in footer */
+  .n-4-129, .n-4-151, .n-4-157 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 4px;
+    color: #fff;
+  }
+  /* Footer list wrappers */
+  .n-4-130, .n-4-152, .n-4-158 {
+    position: static;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+  }
+  /* Chat button */
+  .n-4-138 {
+    position: static;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: auto;
+    height: auto;
+    margin-top: 8px;
+  }
+  .n-4-139 {
+    position: static;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  .n-4-142 {
+    position: static;
+    font-size: 13px;
+    color: #fff;
+    width: auto;
+    height: auto;
+  }
+  /* Social icons row */
+  .n-4-163 {
+    position: static;
+    width: 100%;
+    height: 32px;
+    margin: 20px 0 12px;
+    overflow: hidden;
+  }
+  /* Brand logo */
+  .n-4-180 {
+    position: static;
+    width: 108px;
+    height: 20px;
+    margin-bottom: 16px;
+    overflow: hidden;
+  }
+  /* Legal nav — stack vertically */
+  .n-4-183 {
+    position: static;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 12px;
+  }
+  .n-4-184, .n-4-185, .n-4-188, .n-4-191, .n-4-194 {
+    position: static;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .n-4-186, .n-4-189, .n-4-192, .n-4-195 { display: none; } /* hide separators */
+  .n-4-187, .n-4-190, .n-4-193, .n-4-196, .n-4-184 {
+    position: static;
+    font-size: 11px;
+    color: #808080;
+    width: auto;
+    height: auto;
+  }
+  /* Country selector */
+  .n-4-200 {
+    position: static;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 16px;
+    width: auto;
+    height: auto;
+  }
+  .n-4-201 {
+    position: static;
+    width: 20px;
+    height: 14px;
+    flex-shrink: 0;
+  }
+  .n-4-205 {
+    position: static;
+    font-size: 13px;
+    color: #fff;
+    width: auto;
+    height: auto;
+  }
+
+  /* ── Tablet only (wider than phone, up to 991px) */
+  @media (min-width: 600px) {
+    .n-4-31 { display: block; } /* show both spring images side by side */
+    .n-4-29 { flex-direction: row; flex-wrap: wrap; }
+    .n-4-30, .n-4-31 { width: 50%; }
+    .n-4-32, .n-4-33 { width: 100%; }
+
+    .n-4-72 { display: block; } /* show both 90s washes images */
+    .n-4-70 { flex-direction: row; flex-wrap: wrap; }
+    .n-4-71, .n-4-72 { width: 50%; }
+    .n-4-73, .n-4-74 { width: 100%; }
+
+    .n-8-3 { height: 40vw; }
+    .n-8-5 { font-size: clamp(40px, 6vw, 80px); }
   }
 }
