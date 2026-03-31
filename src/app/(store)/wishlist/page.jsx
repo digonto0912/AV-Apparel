@@ -42,10 +42,20 @@ export default function WishlistPage() {
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
         {items.map((item) => (
           <div key={item.productId} className="group relative">
-            <Link href={`/products/${item.slug}`} className="block aspect-[3/4] bg-gray-100 flex items-center justify-center mb-3">
-              <div className="text-center p-4">
-                <div className="w-16 h-16 mx-auto mb-2 bg-gray-200 rounded-lg flex items-center justify-center text-2xl font-bold text-gray-300">AV</div>
-                <p className="text-[11px] text-gray-400 line-clamp-2">{item.name}</p>
+            <Link href={`/products/${item.slug}`} className="block aspect-[3/4] bg-gray-100 mb-3 overflow-hidden">
+              {item.image ? (
+                <img
+                  src={item.image}
+                  alt={item.name}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  onError={(e) => { e.target.style.display = "none"; e.target.nextSibling.style.display = "flex"; }}
+                />
+              ) : null}
+              <div className={`w-full h-full items-center justify-center text-center p-4 ${item.image ? "hidden" : "flex"}`}>
+                <div>
+                  <div className="w-16 h-16 mx-auto mb-2 bg-gray-200 rounded-lg flex items-center justify-center text-2xl font-bold text-gray-300">AV</div>
+                  <p className="text-[11px] text-gray-400 line-clamp-2">{item.name}</p>
+                </div>
               </div>
             </Link>
             <button
