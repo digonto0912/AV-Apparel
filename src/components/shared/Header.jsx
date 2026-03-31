@@ -122,7 +122,7 @@ export default function Header() {
 
           {/* Logo */}
           <Link href="/" className="flex-shrink-0 mr-4 nav:mr-8 min-w-0">
-            <span className="text-base sm:text-lg nav:text-2xl font-bold tracking-[0.15em] nav:tracking-[0.2em] text-black whitespace-nowrap">AV APPAREL</span>
+            <span className="text-base sm:text-lg nav:text-xl font-medium tracking-[0.08em] nav:tracking-[0.12em] text-black whitespace-nowrap">AV APPAREL</span>
           </Link>
 
           {/* Desktop Nav */}

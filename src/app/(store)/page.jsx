@@ -106,10 +106,11 @@ export default function HomePage() {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-black/10" />
         <div className="relative z-10 text-center px-4">
-          <h1 className="text-4xl sm:text-5xl md:text-8xl font-medium tracking-[0.08em] mb-4 md:mb-6 drop-shadow-xl">
+          <p className="text-[10px] md:text-xs tracking-[0.25em] text-gray-300 mb-3">SPRING / SUMMER 2026</p>
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-semibold tracking-[0.04em] mb-4 md:mb-6 drop-shadow-xl" style={{fontFamily:"'Montserrat',sans-serif"}}>
             LIVE IN<br />AV APPAREL
           </h1>
-          <p className="text-sm md:text-base text-gray-200 mb-6">Find the perfect fit</p>
+          <p className="text-sm md:text-base text-gray-200 mb-6 tracking-wide">The new essentials. Nothing more. Nothing less.</p>
           <div className="flex items-center justify-center gap-3 md:gap-4">
             <Link href="/products?gender=Women" className="border border-white px-6 md:px-8 py-2.5 md:py-3 text-xs md:text-sm font-medium tracking-wide hover:bg-white hover:text-black transition-colors backdrop-blur-sm bg-white/10">
               Shop Women
@@ -176,7 +177,7 @@ export default function HomePage() {
           />
           <div className={`absolute inset-0 bg-gradient-to-t ${section.overlay}`} />
           <div className="relative z-10 text-center text-white px-4">
-            <h2 className="text-3xl md:text-5xl font-medium tracking-wide mb-4 drop-shadow-lg">{section.title}</h2>
+            <h2 className="text-3xl md:text-5xl font-semibold tracking-[0.03em] mb-4 drop-shadow-lg" style={{fontFamily:"'Montserrat',sans-serif"}}>{section.title}</h2>
             <p className="text-sm md:text-base max-w-lg mx-auto mb-8 text-gray-100 drop-shadow">
               {section.description}
             </p>
@@ -229,7 +230,7 @@ export default function HomePage() {
           {user ? (
             <>
               <p className="text-xs tracking-[0.2em] text-gray-400 mb-2">CALVIN REWARDS — {rewards?.tier || "Member"}</p>
-              <h2 className="text-3xl md:text-4xl font-medium tracking-wide mb-3">
+              <h2 className="text-3xl md:text-4xl font-semibold tracking-[0.03em] mb-3" style={{fontFamily:"'Montserrat',sans-serif"}}>
                 You have <span className="text-white">{rewards?.points || 0}</span> points
               </h2>
               <p className="text-sm text-gray-300 max-w-md mx-auto mb-2">
@@ -247,7 +248,7 @@ export default function HomePage() {
             </>
           ) : (
             <>
-              <h2 className="text-3xl md:text-4xl font-medium tracking-wide mb-3">My AV Rewards</h2>
+              <h2 className="text-3xl md:text-4xl font-semibold tracking-[0.03em] mb-3" style={{fontFamily:"'Montserrat',sans-serif"}}>My AV Rewards</h2>
               <p className="text-lg font-light mb-2">Earn. Redeem. Enjoy.</p>
               <p className="text-sm text-gray-300 max-w-md mx-auto mb-8">
                 A new way to experience AV APPAREL. Unlock exclusive benefits designed for you, every time you shop.
@@ -308,7 +309,7 @@ export default function HomePage() {
       {/* Live in CK Campaign */}
       <section className="py-16 px-4 md:px-6">
         <div className="max-w-[1440px] mx-auto">
-          <h2 className="text-3xl md:text-4xl font-medium text-center mb-3">Live in AV APPAREL</h2>
+          <h2 className="text-3xl md:text-4xl font-semibold tracking-[0.03em] text-center mb-3" style={{fontFamily:"'Montserrat',sans-serif"}}>Live in AV APPAREL</h2>
           <p className="text-sm text-gray-600 text-center mb-10">Live like an icon. Shop our latest campaigns.</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {CELEBRITY_SECTIONS.map((celeb) => (
