@@ -35,7 +35,7 @@ export default function PDPInfo() {
         <div className="desc-area">
           <h2 className="desc-title">Product Description</h2>
           <p className="desc-style">Style ‎853971 FAFFP 2547</p>
-          <p className="desc-body">Unveiled during the Cruise 2026 fashion show in Florence, Gucci Giglio is a tribute to the House's Italian roots, and the spirit of continuity and reinvention. Crafted in GG canvas, this capacious tote features the Web trim, and is complete with a detachable pouch.</p>
+          <p className="desc-body">Unveiled during the Cruise 2026 fashion show in Florence, Gucci Giglio is a tribute to the House&apos;s Italian roots, and the spirit of continuity and reinvention. Crafted in GG canvas, this capacious tote features the Web trim, and is complete with a detachable pouch.</p>
         </div>
 
         <div className="acc-wrap">

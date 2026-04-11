@@ -269,7 +269,7 @@ export default function HomePage() {
               </p>
               <div className="flex items-center justify-center gap-3">
                 <Link href="/auth/register" className="inline-block border border-white px-8 py-3 text-sm font-medium tracking-wide hover:bg-white hover:text-black transition-colors">
-                  Join Now — It's Free
+                  Join Now — It&apos;s Free
                 </Link>
                 <Link href="/auth/login" className="inline-block border border-white/40 px-8 py-3 text-sm font-medium tracking-wide hover:bg-white hover:text-black transition-colors text-gray-300">
                   Sign In
