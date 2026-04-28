@@ -1,0 +1,363 @@
+.homev2 {
+  --homev2-artboard-width: 1920px;
+  --homev2-artboard-height: 6182px;
+  width: 100%;
+  overflow-x: hidden;
+  background: #ffffff;
+  color: #000;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+.homev2__scaled {
+  margin: 0 auto;
+  position: relative;
+}
+
+.homev2__artboard {
+  position: absolute;
+  inset: 0 auto auto 0;
+  width: var(--homev2-artboard-width);
+  height: var(--homev2-artboard-height);
+  transform: scale(var(--homev2-scale));
+  transform-origin: top left;
+  overflow: hidden;
+}
+
+.homev2 .srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Offer bar */
+.homev2 .offerbar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1920px;
+  height: 36px;
+  background: #000;
+}
+
+.homev2 .offerbar__text {
+  position: absolute;
+  left: 795.39px;
+  top: 12px;
+  width: 348.65px;
+  height: 12px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.homev2 .offerbar__link {
+  position: absolute;
+  top: 10px;
+  height: 16px;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.3px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.homev2 .offerbar__women {
+  left: 1789.22px;
+  width: 43.64px;
+  text-align: center;
+}
+
+.homev2 .offerbar__men {
+  left: 1847.75px;
+  width: 25.32px;
+  text-align: center;
+}
+
+.homev2 .offerbar__close {
+  position: absolute;
+  left: 1894px;
+  top: 11px;
+  width: 14px;
+  height: 14px;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.homev2 .offerbar__close img {
+  display: block;
+  width: 14px;
+  height: 14px;
+}
+
+/* Hero */
+.homev2 .hero {
+  position: absolute;
+  left: 0;
+  top: 36px;
+  width: 1920px;
+  height: 1020px;
+  overflow: hidden;
+}
+
+.homev2 .hero__campaign {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1920px;
+  height: 1020px;
+  object-fit: cover;
+}
+
+.homev2 .hero__gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+  pointer-events: none;
+}
+
+.homev2 .hero__header {
+  position: absolute;
+  left: 265px;
+  top: 30px;
+  width: 1391px;
+  height: 73px;
+}
+
+.homev2 .hero__headerGlass {
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+}
+
+.homev2 .hero__headerInner {
+  position: absolute;
+  left: 38px;
+  top: 16px;
+  width: 1315px;
+  height: 43px;
+}
+
+.homev2 .hero__logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 72px;
+  height: 43px;
+  object-fit: contain;
+}
+
+.homev2 .hero__nav {
+  position: absolute;
+  left: 103.63px;
+  top: 8px;
+  width: 1055.38px;
+  height: 24px;
+}
+
+.homev2 .hero__navLink {
+  position: absolute;
+  top: 7px;
+  font-size: 13px;
+  line-height: 19.5px;
+  letter-spacing: 0.325px;
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.homev2 .hero__actions {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 43px;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.homev2 .hero__iconBtn {
+  display: inline-flex;
+  width: 24px;
+  height: 24px;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.homev2 .hero__iconBtn img {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+.homev2 .hero__man {
+  position: absolute;
+  left: 45px;
+  top: 0;
+  width: 1831px;
+  height: 1020px;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+/* Signature pieces */
+.homev2 .signature {
+  position: absolute;
+  left: 38px;
+  top: 36px;
+  transform: translateY(3606px);
+  width: 1882px;
+  height: 1142px;
+}
+
+.homev2 .signature__title {
+  position: absolute;
+  left: 0;
+  top: 28px;
+  width: 426px;
+  height: 20px;
+  font-family: Jost, Inter, system-ui, sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 19.5px;
+  letter-spacing: 0.325px;
+  color: #000;
+}
+
+.homev2 .signature__circle {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 74px;
+  height: 74px;
+  border-radius: 999px;
+  border: 3px solid #451f21;
+  background: #fff;
+}
+
+.homev2 .signature__arrow {
+  position: absolute;
+  left: 17px;
+  top: 17px;
+  width: 40px;
+  height: 40px;
+}
+
+.homev2 .signature__grid {
+  position: absolute;
+  left: 0;
+  top: 125px;
+  width: 1882px;
+  height: 1017px;
+  display: grid;
+  grid-template-columns: 610px 610px 544px;
+  gap: 59px;
+}
+
+.homev2 .signature__card {
+  position: relative;
+  width: 100%;
+  height: 1017px;
+}
+
+.homev2 .signature__card img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 932px;
+  object-fit: cover;
+}
+
+.homev2 .signature__caption {
+  position: absolute;
+  left: 0;
+  top: 961px;
+  height: 56px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0.325px;
+  color: #000;
+  white-space: nowrap;
+}
+
+/* New chapters */
+.homev2 .chapters {
+  position: absolute;
+  left: 38px;
+  top: 1196px;
+  width: 1846px;
+  height: 2306px;
+}
+
+.homev2 .chapters__title {
+  position: absolute;
+  left: 740px;
+  top: 0;
+  font-family: Jost, Inter, system-ui, sans-serif;
+  font-size: 60px;
+  line-height: 70px;
+  color: #000;
+}
+
+.homev2 .chapters__media {
+  position: absolute;
+  left: 0;
+  top: 98px;
+  width: 1846px;
+  height: 2208px;
+}
+
+.homev2 .chapters__img {
+  object-fit: cover;
+  display: block;
+  position: absolute;
+}
+
+.homev2 .chapters__img1 {
+  left: 922px;
+  top: 0;
+  width: 924px;
+  height: 1104px;
+}
+
+.homev2 .chapters__img2 {
+  left: 0;
+  top: 1104px;
+  width: 922px;
+  height: 1104px;
+}
+
+.homev2 .chapters__img3 {
+  left: 922px;
+  top: 1104px;
+  width: 924px;
+  height: 1104px;
+}
+
+.homev2 .chapters__img4 {
+  left: 0;
+  top: 0;
+  width: 922px;
+  height: 1104px;
+}
