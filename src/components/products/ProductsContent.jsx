@@ -1,0 +1,6734 @@
+﻿export default function ProductsContent() {
+  return (
+    <>
+      <div className="figma-node n-21-9">
+        <div className="figma-node n-21-10">
+          <div className="figma-node n-21-11">
+            <div className="figma-node n-21-12">
+              <div className="figma-node n-21-13">
+                New Markdowns AddedÃ‚Â Ã‚Â Ã‚Â Up to 70% off Sale
+                StylesÃ‚Â Ã‚Â {" "}
+              </div>
+              <div className="figma-node n-21-14">
+                <div className="figma-node n-21-15">Women&#39;s Sale</div>
+              </div>
+              <div className="figma-node n-21-16">
+                <div className="figma-node n-21-17">Men&#39;s Sale</div>
+              </div>
+              <div className="figma-node n-21-18">
+                <div className="figma-node n-21-19">Details</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="figma-node n-21-20">
+          <div className="figma-node n-21-21">
+            Men&#39;s Clothing + Accessories
+          </div>
+          <div className="figma-node n-21-22">
+            <div className="figma-node n-21-23">
+              <div className="figma-node n-21-24">Tops</div>
+            </div>
+            <div className="figma-node n-21-25">
+              <div className="figma-node n-21-26">Bottoms</div>
+            </div>
+            <div className="figma-node n-21-27">
+              <div className="figma-node n-21-28">Underwear</div>
+            </div>
+            <div className="figma-node n-21-29">
+              <div className="figma-node n-21-30">Outerwear</div>
+            </div>
+            <div className="figma-node n-21-31">
+              <div className="figma-node n-21-32">Denim</div>
+            </div>
+          </div>
+          <div className="figma-node n-21-33">
+            <div className="figma-node n-21-34">
+              <div className="figma-node n-21-35">
+                <div className="figma-node n-21-36">
+                  <div className="figma-node n-21-37">Category</div>
+                  <div className="figma-node n-21-38">
+                    <img
+                      className="figma-img"
+                      alt=""
+                      src="/assets/page2/svg_21-38.svg"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="figma-node n-21-40">
+                <div className="figma-node n-21-41">
+                  <div className="figma-node n-21-42">Price</div>
+                  <div className="figma-node n-21-43">
+                    <img
+                      className="figma-img"
+                      alt=""
+                      src="/assets/page2/svg_21-43.svg"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="figma-node n-21-45">
+                <div className="figma-node n-21-46">
+                  <div className="figma-node n-21-47">Color</div>
+                  <div className="figma-node n-21-48">
+                    <img
+                      className="figma-img"
+                      alt=""
+                      src="/assets/page2/svg_21-48.svg"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="figma-node n-21-50">
+                <div className="figma-node n-21-51">
+                  <div className="figma-node n-21-52">Size</div>
+                  <div className="figma-node n-21-53">
+                    <img
+                      className="figma-img"
+                      alt=""
+                      src="/assets/page2/svg_21-53.svg"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="figma-node n-21-55">
+                <div className="figma-node n-21-56">
+                  <div className="figma-node n-21-57">Collection</div>
+                  <div className="figma-node n-21-58">
+                    <img
+                      className="figma-img"
+                      alt=""
+                      src="/assets/page2/svg_21-58.svg"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="figma-node n-21-60">
+                <div className="figma-node n-21-61">
+                  <div className="figma-node n-21-62">All Filters</div>
+                  <div className="figma-node n-21-63">
+                    <img
+                      className="figma-img"
+                      alt=""
+                      src="/assets/page2/svg_21-63.svg"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-65">1,722 Items</div>
+            <div className="figma-node n-21-66">|</div>
+            <div className="figma-node n-21-67">Sort By </div>
+            <div className="figma-node n-21-68">
+              <div className="figma-node n-21-69">
+                <div className="figma-node n-21-70">Featured</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-71">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-71.svg"
+              />
+            </div>
+          </div>
+          <div className="figma-node n-21-73">
+            <div className="figma-node n-21-74">
+              <div className="figma-node n-21-75">
+                <div className="figma-node n-21-76">
+                  <div className="figma-node n-21-77"></div>
+                  <div className="figma-node n-21-78"></div>
+                  <div className="figma-node n-21-79"></div>
+                  <div className="figma-node n-21-80"></div>
+                  <div className="figma-node n-21-81"></div>
+                  <div className="figma-node n-21-82"></div>
+                </div>
+                <div className="figma-node n-21-83">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-83.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-86">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-86.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-93">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-93.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-96">
+              <div className="figma-node n-21-97">
+                <div className="figma-node n-21-98">Trouser Barrel Jeans</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-99">$149.00 $89.40 40% off</div>
+            <div className="figma-node n-21-100">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-101">
+              <div className="figma-node n-21-102">
+                <div className="figma-node n-21-103">+ 1 color</div>
+              </div>
+              <div className="figma-node n-21-104">
+                <div className="figma-node n-21-105"></div>
+              </div>
+              <div className="figma-node n-21-106">
+                <div className="figma-node n-21-107"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-108">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-108.svg"
+              />
+            </div>
+            <div className="figma-node n-21-110">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-110.svg"
+              />
+            </div>
+            <div className="figma-node n-21-112">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-112.svg"
+              />
+            </div>
+            <div className="figma-node n-21-114">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-114.svg"
+              />
+            </div>
+            <div className="figma-node n-21-116">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-116.svg"
+              />
+            </div>
+            <div className="figma-node n-21-118">(1)</div>
+            <div className="figma-node n-21-119">
+              <div className="figma-node n-21-120">
+                <div className="figma-node n-21-121">
+                  <div className="figma-node n-21-122"></div>
+                  <div className="figma-node n-21-123"></div>
+                  <div className="figma-node n-21-124"></div>
+                  <div className="figma-node n-21-125"></div>
+                  <div className="figma-node n-21-126"></div>
+                </div>
+                <div className="figma-node n-21-127">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-127.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-130">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-130.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-136">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-136.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-139">
+              <div className="figma-node n-21-140">
+                <div className="figma-node n-21-141">Tech Pique T-Shirt</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-142">$59.00 $35.40 40% off</div>
+            <div className="figma-node n-21-143">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-144">
+              <div className="figma-node n-21-145">
+                <div className="figma-node n-21-146">+ 7 colors</div>
+              </div>
+              <div className="figma-node n-21-147">
+                <div className="figma-node n-21-148"></div>
+              </div>
+              <div className="figma-node n-21-149">
+                <div className="figma-node n-21-150"></div>
+              </div>
+              <div className="figma-node n-21-151">
+                <div className="figma-node n-21-152"></div>
+              </div>
+              <div className="figma-node n-21-153">
+                <img
+                  className="figma-img"
+                  alt=""
+                  src="/assets/page2/svg_21-153.svg"
+                />
+              </div>
+              <div className="figma-node n-21-155">
+                <div className="figma-node n-21-156"></div>
+              </div>
+              <div className="figma-node n-21-157">
+                <div className="figma-node n-21-158"></div>
+              </div>
+              <div className="figma-node n-21-159">
+                <div className="figma-node n-21-160">+ More Colors</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-161">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-161.svg"
+              />
+            </div>
+            <div className="figma-node n-21-163">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-163.svg"
+              />
+            </div>
+            <div className="figma-node n-21-165">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-165.svg"
+              />
+            </div>
+            <div className="figma-node n-21-167">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-167.svg"
+              />
+            </div>
+            <div className="figma-node n-21-169">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-169.svg"
+              />
+            </div>
+            <div className="figma-node n-21-171">(5)</div>
+            <div className="figma-node n-21-172">
+              <div className="figma-node n-21-173">
+                <div className="figma-node n-21-174">
+                  <div className="figma-node n-21-175"></div>
+                  <div className="figma-node n-21-176"></div>
+                  <div className="figma-node n-21-177"></div>
+                  <div className="figma-node n-21-178"></div>
+                  <div className="figma-node n-21-179"></div>
+                  <div className="figma-node n-21-180"></div>
+                </div>
+                <div className="figma-node n-21-181">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-181.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-184">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-184.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-191">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-191.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-194">
+                <div className="figma-node n-21-195">Best Seller</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-196">
+              <div className="figma-node n-21-197">
+                <div className="figma-node n-21-198">Slim Tapered Jeans</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-199">$119.00 $71.40 40% off</div>
+            <div className="figma-node n-21-200">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-201">
+              <div className="figma-node n-21-202">
+                <div className="figma-node n-21-203">+ 5 colors</div>
+              </div>
+              <div className="figma-node n-21-204">
+                <div className="figma-node n-21-205"></div>
+              </div>
+              <div className="figma-node n-21-206">
+                <div className="figma-node n-21-207"></div>
+              </div>
+              <div className="figma-node n-21-208">
+                <div className="figma-node n-21-209"></div>
+              </div>
+              <div className="figma-node n-21-210">
+                <div className="figma-node n-21-211"></div>
+              </div>
+              <div className="figma-node n-21-212">
+                <div className="figma-node n-21-213"></div>
+              </div>
+              <div className="figma-node n-21-214">
+                <div className="figma-node n-21-215"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-216">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-216.svg"
+              />
+            </div>
+            <div className="figma-node n-21-218">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-218.svg"
+              />
+            </div>
+            <div className="figma-node n-21-220">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-220.svg"
+              />
+            </div>
+            <div className="figma-node n-21-222">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-222.svg"
+              />
+            </div>
+            <div className="figma-node n-21-224">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-224.svg"
+              />
+            </div>
+            <div className="figma-node n-21-226">(6)</div>
+            <div className="figma-node n-21-227">
+              <div className="figma-node n-21-228">
+                <div className="figma-node n-21-229">
+                  <div className="figma-node n-21-230"></div>
+                  <div className="figma-node n-21-231"></div>
+                  <div className="figma-node n-21-232"></div>
+                  <div className="figma-node n-21-233"></div>
+                  <div className="figma-node n-21-234"></div>
+                </div>
+                <div className="figma-node n-21-235">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-235.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-238">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-238.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-244">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-244.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-247">
+              <div className="figma-node n-21-248">
+                <div className="figma-node n-21-249">
+                  Varsity Logo Graphic Fleece Sweatshirt
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-250">$89.00 $53.40 40% off</div>
+            <div className="figma-node n-21-251">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-252">
+              <div className="figma-node n-21-253">
+                <div className="figma-node n-21-254">+ 1 color</div>
+              </div>
+              <div className="figma-node n-21-255">
+                <div className="figma-node n-21-256"></div>
+              </div>
+              <div className="figma-node n-21-257">
+                <div className="figma-node n-21-258"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-259">
+              <div className="figma-node n-21-260">
+                <div className="figma-node n-21-261">
+                  <div className="figma-node n-21-262"></div>
+                  <div className="figma-node n-21-263"></div>
+                  <div className="figma-node n-21-264"></div>
+                  <div className="figma-node n-21-265"></div>
+                  <div className="figma-node n-21-266"></div>
+                </div>
+                <div className="figma-node n-21-267">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-267.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-270">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-270.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-276">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-276.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-279">
+              <div className="figma-node n-21-280">
+                <div className="figma-node n-21-281">
+                  Classic Trucker Jacket
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-282">$109.00 $65.40 40% off</div>
+            <div className="figma-node n-21-283">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-284">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-284.svg"
+              />
+            </div>
+            <div className="figma-node n-21-286">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-286.svg"
+              />
+            </div>
+            <div className="figma-node n-21-288">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-288.svg"
+              />
+            </div>
+            <div className="figma-node n-21-290">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-290.svg"
+              />
+            </div>
+            <div className="figma-node n-21-292">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-292.svg"
+              />
+            </div>
+            <div className="figma-node n-21-294">(1)</div>
+            <div className="figma-node n-21-295">
+              <div className="figma-node n-21-296">
+                <div className="figma-node n-21-297">
+                  <div className="figma-node n-21-298"></div>
+                  <div className="figma-node n-21-299"></div>
+                  <div className="figma-node n-21-300"></div>
+                  <div className="figma-node n-21-301"></div>
+                  <div className="figma-node n-21-302"></div>
+                  <div className="figma-node n-21-303"></div>
+                </div>
+                <div className="figma-node n-21-304">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-304.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-307">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-307.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-314">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-314.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-317">
+                <div className="figma-node n-21-318">Best Seller</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-319">
+              <div className="figma-node n-21-320">
+                <div className="figma-node n-21-321">
+                  Standard Straight Jeans
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-322">$119.00 $71.40 40% off</div>
+            <div className="figma-node n-21-323">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-324">
+              <div className="figma-node n-21-325">
+                <div className="figma-node n-21-326">
+                  <div className="figma-node n-21-327"></div>
+                  <div className="figma-node n-21-328"></div>
+                  <div className="figma-node n-21-329"></div>
+                  <div className="figma-node n-21-330"></div>
+                  <div className="figma-node n-21-331"></div>
+                </div>
+                <div className="figma-node n-21-332">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-332.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-335">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-335.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-341">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-341.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-344">
+                <div className="figma-node n-21-345">Best Seller</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-346">
+              <div className="figma-node n-21-347">
+                <div className="figma-node n-21-348">Monologo Tee</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-349">$45.00 $27.00 40% off</div>
+            <div className="figma-node n-21-350">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-351">
+              <div className="figma-node n-21-352">
+                <div className="figma-node n-21-353">+ 8 colors</div>
+              </div>
+              <div className="figma-node n-21-354">
+                <div className="figma-node n-21-355"></div>
+              </div>
+              <div className="figma-node n-21-356">
+                <div className="figma-node n-21-357"></div>
+              </div>
+              <div className="figma-node n-21-358">
+                <div className="figma-node n-21-359"></div>
+              </div>
+              <div className="figma-node n-21-360">
+                <div className="figma-node n-21-361"></div>
+              </div>
+              <div className="figma-node n-21-362">
+                <div className="figma-node n-21-363"></div>
+              </div>
+              <div className="figma-node n-21-364">
+                <div className="figma-node n-21-365"></div>
+              </div>
+              <div className="figma-node n-21-366">
+                <div className="figma-node n-21-367">+ More Colors</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-368">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-368.svg"
+              />
+            </div>
+            <div className="figma-node n-21-370">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-370.svg"
+              />
+            </div>
+            <div className="figma-node n-21-372">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-372.svg"
+              />
+            </div>
+            <div className="figma-node n-21-374">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-374.svg"
+              />
+            </div>
+            <div className="figma-node n-21-376">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-376.svg"
+              />
+            </div>
+            <div className="figma-node n-21-378">(7)</div>
+            <div className="figma-node n-21-379">
+              <div className="figma-node n-21-380"></div>
+              <div className="figma-node n-21-381"></div>
+              <div className="figma-node n-21-382">New Arrivals</div>
+              <div className="figma-node n-21-383">
+                Casual staples for polished ease. Light knits and relaxed shapes
+                to style all season.
+              </div>
+              <div className="figma-node n-21-384">
+                <div className="figma-node n-21-385">Shop Now</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-386">
+              <div className="figma-node n-21-387">
+                <div className="figma-node n-21-388">
+                  <div className="figma-node n-21-389"></div>
+                  <div className="figma-node n-21-390"></div>
+                  <div className="figma-node n-21-391"></div>
+                  <div className="figma-node n-21-392"></div>
+                  <div className="figma-node n-21-393"></div>
+                  <div className="figma-node n-21-394"></div>
+                </div>
+                <div className="figma-node n-21-395">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-395.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-398">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-398.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-405">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-405.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-408">
+                <div className="figma-node n-21-409">Best Seller</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-410">
+              <div className="figma-node n-21-411">
+                <div className="figma-node n-21-412">
+                  Standard Straight Jeans
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-413">$99.00 $59.40 40% off</div>
+            <div className="figma-node n-21-414">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-415">
+              <div className="figma-node n-21-416">
+                <div className="figma-node n-21-417">+ 6 colors</div>
+              </div>
+              <div className="figma-node n-21-418">
+                <div className="figma-node n-21-419"></div>
+              </div>
+              <div className="figma-node n-21-420">
+                <div className="figma-node n-21-421"></div>
+              </div>
+              <div className="figma-node n-21-422">
+                <div className="figma-node n-21-423"></div>
+              </div>
+              <div className="figma-node n-21-424">
+                <div className="figma-node n-21-425"></div>
+              </div>
+              <div className="figma-node n-21-426">
+                <div className="figma-node n-21-427"></div>
+              </div>
+              <div className="figma-node n-21-428">
+                <div className="figma-node n-21-429"></div>
+              </div>
+              <div className="figma-node n-21-430">
+                <div className="figma-node n-21-431">+ More Colors</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-432">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-432.svg"
+              />
+            </div>
+            <div className="figma-node n-21-434">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-434.svg"
+              />
+            </div>
+            <div className="figma-node n-21-436">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-436.svg"
+              />
+            </div>
+            <div className="figma-node n-21-438">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-438.svg"
+              />
+            </div>
+            <div className="figma-node n-21-440">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-440.svg"
+              />
+            </div>
+            <div className="figma-node n-21-442">(135)</div>
+            <div className="figma-node n-21-443">
+              <div className="figma-node n-21-444">
+                <div className="figma-node n-21-445">
+                  <div className="figma-node n-21-446"></div>
+                  <div className="figma-node n-21-447"></div>
+                  <div className="figma-node n-21-448"></div>
+                  <div className="figma-node n-21-449"></div>
+                  <div className="figma-node n-21-450"></div>
+                  <div className="figma-node n-21-451"></div>
+                </div>
+                <div className="figma-node n-21-452">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-452.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-455">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-455.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-462">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-462.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-465">
+              <div className="figma-node n-21-466">
+                <div className="figma-node n-21-467">
+                  Cotton Stretch Stripe Classic Button-Down Shirt
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-468">$89.00 $53.40 40% off</div>
+            <div className="figma-node n-21-469">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-470">
+              <div className="figma-node n-21-471">
+                <div className="figma-node n-21-472">+ 1 color</div>
+              </div>
+              <div className="figma-node n-21-473">
+                <div className="figma-node n-21-474"></div>
+              </div>
+              <div className="figma-node n-21-475">
+                <div className="figma-node n-21-476"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-477">
+              <div className="figma-node n-21-478">
+                <div className="figma-node n-21-479">
+                  <div className="figma-node n-21-480"></div>
+                  <div className="figma-node n-21-481"></div>
+                  <div className="figma-node n-21-482"></div>
+                  <div className="figma-node n-21-483"></div>
+                  <div className="figma-node n-21-484"></div>
+                </div>
+                <div className="figma-node n-21-485">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-485.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-488">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-488.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-494">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-494.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-497">
+              <div className="figma-node n-21-498">
+                <div className="figma-node n-21-499">Trouser Barrel Jeans</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-500">$129.00 $77.40 40% off</div>
+            <div className="figma-node n-21-501">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-502">
+              <div className="figma-node n-21-503">
+                <div className="figma-node n-21-504">+ 1 color</div>
+              </div>
+              <div className="figma-node n-21-505">
+                <div className="figma-node n-21-506"></div>
+              </div>
+              <div className="figma-node n-21-507">
+                <div className="figma-node n-21-508"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-509">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-509.svg"
+              />
+            </div>
+            <div className="figma-node n-21-511">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-511.svg"
+              />
+            </div>
+            <div className="figma-node n-21-513">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-513.svg"
+              />
+            </div>
+            <div className="figma-node n-21-515">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-515.svg"
+              />
+            </div>
+            <div className="figma-node n-21-517">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-517.svg"
+              />
+            </div>
+            <div className="figma-node n-21-519">(1)</div>
+            <div className="figma-node n-21-520">
+              <div className="figma-node n-21-521">
+                <div className="figma-node n-21-522">
+                  <div className="figma-node n-21-523"></div>
+                  <div className="figma-node n-21-524"></div>
+                  <div className="figma-node n-21-525"></div>
+                  <div className="figma-node n-21-526"></div>
+                  <div className="figma-node n-21-527"></div>
+                </div>
+                <div className="figma-node n-21-528">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-528.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-531">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-531.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-537">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-537.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-540">
+                <div className="figma-node n-21-541">New Arrival</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-542">
+              <div className="figma-node n-21-543">
+                <div className="figma-node n-21-544">
+                  Heritage Classic Terry Relaxed T-Shirt
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-545">$49.00 $29.40 40% off</div>
+            <div className="figma-node n-21-546">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-547">
+              <div className="figma-node n-21-548">
+                <div className="figma-node n-21-549">+ 1 color</div>
+              </div>
+              <div className="figma-node n-21-550">
+                <div className="figma-node n-21-551"></div>
+              </div>
+              <div className="figma-node n-21-552">
+                <div className="figma-node n-21-553"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-554">
+              <div className="figma-node n-21-555">
+                <div className="figma-node n-21-556">
+                  <div className="figma-node n-21-557"></div>
+                  <div className="figma-node n-21-558"></div>
+                  <div className="figma-node n-21-559"></div>
+                  <div className="figma-node n-21-560"></div>
+                  <div className="figma-node n-21-561"></div>
+                </div>
+                <div className="figma-node n-21-562">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-562.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-565">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-565.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-571">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-571.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-574">
+              <div className="figma-node n-21-575">
+                <div className="figma-node n-21-576">
+                  90s Denim Trucker Jacket
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-577">$129.00 $77.40 40% off</div>
+            <div className="figma-node n-21-578">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-579">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-579.svg"
+              />
+            </div>
+            <div className="figma-node n-21-581">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-581.svg"
+              />
+            </div>
+            <div className="figma-node n-21-583">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-583.svg"
+              />
+            </div>
+            <div className="figma-node n-21-585">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-585.svg"
+              />
+            </div>
+            <div className="figma-node n-21-587">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-587.svg"
+              />
+            </div>
+            <div className="figma-node n-21-589">(1)</div>
+            <div className="figma-node n-21-590">
+              <div className="figma-node n-21-591">
+                <div className="figma-node n-21-592">
+                  <div className="figma-node n-21-593"></div>
+                  <div className="figma-node n-21-594"></div>
+                  <div className="figma-node n-21-595"></div>
+                  <div className="figma-node n-21-596"></div>
+                  <div className="figma-node n-21-597"></div>
+                  <div className="figma-node n-21-598"></div>
+                </div>
+                <div className="figma-node n-21-599">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-599.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-602">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-602.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-609">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-609.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-612">
+              <div className="figma-node n-21-613">
+                <div className="figma-node n-21-614">90s Straight Jeans</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-615">$129.00 $77.40 40% off</div>
+            <div className="figma-node n-21-616">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-617">
+              <div className="figma-node n-21-618">
+                <div className="figma-node n-21-619">+ 10 colors</div>
+              </div>
+              <div className="figma-node n-21-620">
+                <div className="figma-node n-21-621"></div>
+              </div>
+              <div className="figma-node n-21-622">
+                <div className="figma-node n-21-623"></div>
+              </div>
+              <div className="figma-node n-21-624">
+                <div className="figma-node n-21-625"></div>
+              </div>
+              <div className="figma-node n-21-626">
+                <div className="figma-node n-21-627"></div>
+              </div>
+              <div className="figma-node n-21-628">
+                <div className="figma-node n-21-629"></div>
+              </div>
+              <div className="figma-node n-21-630">
+                <div className="figma-node n-21-631"></div>
+              </div>
+              <div className="figma-node n-21-632">
+                <div className="figma-node n-21-633">+ More Colors</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-634">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-634.svg"
+              />
+            </div>
+            <div className="figma-node n-21-636">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-636.svg"
+              />
+            </div>
+            <div className="figma-node n-21-638">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-638.svg"
+              />
+            </div>
+            <div className="figma-node n-21-640">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-640.svg"
+              />
+            </div>
+            <div className="figma-node n-21-642">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-642.svg"
+              />
+            </div>
+            <div className="figma-node n-21-644">(19)</div>
+            <div className="figma-node n-21-645">
+              <div className="figma-node n-21-646">
+                <div className="figma-node n-21-647">
+                  <div className="figma-node n-21-648"></div>
+                  <div className="figma-node n-21-649"></div>
+                  <div className="figma-node n-21-650"></div>
+                  <div className="figma-node n-21-651"></div>
+                  <div className="figma-node n-21-652"></div>
+                </div>
+                <div className="figma-node n-21-653">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-653.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-656">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-656.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-662">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-662.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-665">
+              <div className="figma-node n-21-666">
+                <div className="figma-node n-21-667">Tech Pique T-Shirt</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-668">$55.00 $33.00 40% off</div>
+            <div className="figma-node n-21-669">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-670">
+              <div className="figma-node n-21-671">
+                <div className="figma-node n-21-672">+ 7 colors</div>
+              </div>
+              <div className="figma-node n-21-673">
+                <div className="figma-node n-21-674"></div>
+              </div>
+              <div className="figma-node n-21-675">
+                <div className="figma-node n-21-676"></div>
+              </div>
+              <div className="figma-node n-21-677">
+                <div className="figma-node n-21-678"></div>
+              </div>
+              <div className="figma-node n-21-679">
+                <div className="figma-node n-21-680"></div>
+              </div>
+              <div className="figma-node n-21-681">
+                <div className="figma-node n-21-682"></div>
+              </div>
+              <div className="figma-node n-21-683">
+                <div className="figma-node n-21-684"></div>
+              </div>
+              <div className="figma-node n-21-685">
+                <div className="figma-node n-21-686">+ More Colors</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-687">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-687.svg"
+              />
+            </div>
+            <div className="figma-node n-21-689">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-689.svg"
+              />
+            </div>
+            <div className="figma-node n-21-691">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-691.svg"
+              />
+            </div>
+            <div className="figma-node n-21-693">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-693.svg"
+              />
+            </div>
+            <div className="figma-node n-21-695">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-695.svg"
+              />
+            </div>
+            <div className="figma-node n-21-697">(41)</div>
+            <div className="figma-node n-21-698">
+              <div className="figma-node n-21-699">
+                <div className="figma-node n-21-700">
+                  <div className="figma-node n-21-701"></div>
+                  <div className="figma-node n-21-702"></div>
+                  <div className="figma-node n-21-703"></div>
+                  <div className="figma-node n-21-704"></div>
+                  <div className="figma-node n-21-705"></div>
+                </div>
+                <div className="figma-node n-21-706">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-706.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-709">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-709.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-715">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-715.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-718">
+              <div className="figma-node n-21-719">
+                <div className="figma-node n-21-720">
+                  Classic Harrington Jacket
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-721">$149.00 $89.40 40% off</div>
+            <div className="figma-node n-21-722">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-723">
+              <div className="figma-node n-21-724">
+                <div className="figma-node n-21-725">+ 3 colors</div>
+              </div>
+              <div className="figma-node n-21-726">
+                <div className="figma-node n-21-727"></div>
+              </div>
+              <div className="figma-node n-21-728">
+                <div className="figma-node n-21-729"></div>
+              </div>
+              <div className="figma-node n-21-730">
+                <div className="figma-node n-21-731"></div>
+              </div>
+              <div className="figma-node n-21-732">
+                <div className="figma-node n-21-733"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-734">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-734.svg"
+              />
+            </div>
+            <div className="figma-node n-21-736">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-736.svg"
+              />
+            </div>
+            <div className="figma-node n-21-738">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-738.svg"
+              />
+            </div>
+            <div className="figma-node n-21-740">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-740.svg"
+              />
+            </div>
+            <div className="figma-node n-21-742">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-742.svg"
+              />
+            </div>
+            <div className="figma-node n-21-744">(1)</div>
+            <div className="figma-node n-21-745">
+              <div className="figma-node n-21-746">
+                <div className="figma-node n-21-747">
+                  <div className="figma-node n-21-748"></div>
+                  <div className="figma-node n-21-749"></div>
+                  <div className="figma-node n-21-750"></div>
+                  <div className="figma-node n-21-751"></div>
+                  <div className="figma-node n-21-752"></div>
+                  <div className="figma-node n-21-753"></div>
+                </div>
+                <div className="figma-node n-21-754">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-754.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-757">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-757.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-764">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-764.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-767">
+                <div className="figma-node n-21-768">New Arrival</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-769">
+              <div className="figma-node n-21-770">
+                <div className="figma-node n-21-771">
+                  90s Baggy Chino Shorts
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-772">$99.00 $59.40 40% off</div>
+            <div className="figma-node n-21-773">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-774">
+              <div className="figma-node n-21-775">
+                <div className="figma-node n-21-776">+ 3 colors</div>
+              </div>
+              <div className="figma-node n-21-777">
+                <div className="figma-node n-21-778"></div>
+              </div>
+              <div className="figma-node n-21-779">
+                <div className="figma-node n-21-780"></div>
+              </div>
+              <div className="figma-node n-21-781">
+                <div className="figma-node n-21-782"></div>
+              </div>
+              <div className="figma-node n-21-783">
+                <div className="figma-node n-21-784"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-785">
+              <div className="figma-node n-21-786">
+                <div className="figma-node n-21-787">
+                  <div className="figma-node n-21-788"></div>
+                  <div className="figma-node n-21-789"></div>
+                  <div className="figma-node n-21-790"></div>
+                  <div className="figma-node n-21-791"></div>
+                  <div className="figma-node n-21-792"></div>
+                  <div className="figma-node n-21-793"></div>
+                </div>
+                <div className="figma-node n-21-794">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-794.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-797">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-797.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-804">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-804.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-807">
+                <div className="figma-node n-21-808">New Arrival</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-809">
+              <div className="figma-node n-21-810">
+                <div className="figma-node n-21-811">
+                  Logo Graphic Washed Oxford Button-Down Shirt
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-812">$99.00 $59.40 40% off</div>
+            <div className="figma-node n-21-813">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-814">
+              <div className="figma-node n-21-815">
+                <div className="figma-node n-21-816">+ 1 color</div>
+              </div>
+              <div className="figma-node n-21-817">
+                <div className="figma-node n-21-818"></div>
+              </div>
+              <div className="figma-node n-21-819">
+                <div className="figma-node n-21-820"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-821">
+              <div className="figma-node n-21-822">
+                <div className="figma-node n-21-823">
+                  <div className="figma-node n-21-824"></div>
+                  <div className="figma-node n-21-825"></div>
+                  <div className="figma-node n-21-826"></div>
+                  <div className="figma-node n-21-827"></div>
+                  <div className="figma-node n-21-828"></div>
+                </div>
+                <div className="figma-node n-21-829">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-829.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-832">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-832.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-838">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-838.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-841">
+              <div className="figma-node n-21-842">
+                <div className="figma-node n-21-843">
+                  Cotton Stretch Straight Shorts
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-844">$79.00 $47.40 40% off</div>
+            <div className="figma-node n-21-845">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-846">
+              <div className="figma-node n-21-847">
+                <div className="figma-node n-21-848">+ 2 colors</div>
+              </div>
+              <div className="figma-node n-21-849">
+                <div className="figma-node n-21-850"></div>
+              </div>
+              <div className="figma-node n-21-851">
+                <div className="figma-node n-21-852"></div>
+              </div>
+              <div className="figma-node n-21-853">
+                <div className="figma-node n-21-854"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-855">
+              <div className="figma-node n-21-856">
+                <div className="figma-node n-21-857">
+                  <div className="figma-node n-21-858"></div>
+                  <div className="figma-node n-21-859"></div>
+                  <div className="figma-node n-21-860"></div>
+                  <div className="figma-node n-21-861"></div>
+                  <div className="figma-node n-21-862"></div>
+                  <div className="figma-node n-21-863"></div>
+                </div>
+                <div className="figma-node n-21-864">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-864.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-867">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-867.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-874">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-874.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-877">
+              <div className="figma-node n-21-878">
+                <div className="figma-node n-21-879">
+                  Smooth Cotton Waffle Sweater Polo Shirt
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-880">$99.00 $59.40 40% off</div>
+            <div className="figma-node n-21-881">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-882">
+              <div className="figma-node n-21-883">
+                <div className="figma-node n-21-884">+ 5 colors</div>
+              </div>
+              <div className="figma-node n-21-885">
+                <div className="figma-node n-21-886"></div>
+              </div>
+              <div className="figma-node n-21-887">
+                <div className="figma-node n-21-888"></div>
+              </div>
+              <div className="figma-node n-21-889">
+                <div className="figma-node n-21-890"></div>
+              </div>
+              <div className="figma-node n-21-891">
+                <div className="figma-node n-21-892"></div>
+              </div>
+              <div className="figma-node n-21-893">
+                <div className="figma-node n-21-894"></div>
+              </div>
+              <div className="figma-node n-21-895">
+                <div className="figma-node n-21-896"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-897">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-897.svg"
+              />
+            </div>
+            <div className="figma-node n-21-899">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-899.svg"
+              />
+            </div>
+            <div className="figma-node n-21-901">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-901.svg"
+              />
+            </div>
+            <div className="figma-node n-21-903">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-903.svg"
+              />
+            </div>
+            <div className="figma-node n-21-905">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-905.svg"
+              />
+            </div>
+            <div className="figma-node n-21-907">(6)</div>
+            <div className="figma-node n-21-908">
+              <div className="figma-node n-21-909">
+                <div className="figma-node n-21-910">
+                  <div className="figma-node n-21-911"></div>
+                  <div className="figma-node n-21-912"></div>
+                  <div className="figma-node n-21-913"></div>
+                  <div className="figma-node n-21-914"></div>
+                  <div className="figma-node n-21-915"></div>
+                </div>
+                <div className="figma-node n-21-916">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-916.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-919">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-919.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-925">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-925.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-928">
+              <div className="figma-node n-21-929">
+                <div className="figma-node n-21-930">
+                  Tech Windbreaker Jacket
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-931">$149.00 $89.40 40% off</div>
+            <div className="figma-node n-21-932">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-933">
+              <div className="figma-node n-21-934">
+                <div className="figma-node n-21-935">+ 1 color</div>
+              </div>
+              <div className="figma-node n-21-936">
+                <div className="figma-node n-21-937"></div>
+              </div>
+              <div className="figma-node n-21-938">
+                <div className="figma-node n-21-939"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-940">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-940.svg"
+              />
+            </div>
+            <div className="figma-node n-21-942">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-942.svg"
+              />
+            </div>
+            <div className="figma-node n-21-944">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-944.svg"
+              />
+            </div>
+            <div className="figma-node n-21-946">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-946.svg"
+              />
+            </div>
+            <div className="figma-node n-21-948">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-948.svg"
+              />
+            </div>
+            <div className="figma-node n-21-950">(1)</div>
+            <div className="figma-node n-21-951">
+              <div className="figma-node n-21-952">
+                <div className="figma-node n-21-953">
+                  <div className="figma-node n-21-954"></div>
+                  <div className="figma-node n-21-955"></div>
+                  <div className="figma-node n-21-956"></div>
+                  <div className="figma-node n-21-957"></div>
+                  <div className="figma-node n-21-958"></div>
+                </div>
+                <div className="figma-node n-21-959">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-959.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-962">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-962.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-968">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-968.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-971">
+              <div className="figma-node n-21-972">
+                <div className="figma-node n-21-973">
+                  Cotton Stretch Straight Trousers
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-974">$89.00 $53.40 40% off</div>
+            <div className="figma-node n-21-975">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-976">
+              <div className="figma-node n-21-977">
+                <div className="figma-node n-21-978">+ 3 colors</div>
+              </div>
+              <div className="figma-node n-21-979">
+                <div className="figma-node n-21-980"></div>
+              </div>
+              <div className="figma-node n-21-981">
+                <div className="figma-node n-21-982"></div>
+              </div>
+              <div className="figma-node n-21-983">
+                <div className="figma-node n-21-984"></div>
+              </div>
+              <div className="figma-node n-21-985">
+                <div className="figma-node n-21-986"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-987">
+              <div className="figma-node n-21-988">
+                <div className="figma-node n-21-989">
+                  <div className="figma-node n-21-990"></div>
+                  <div className="figma-node n-21-991"></div>
+                  <div className="figma-node n-21-992"></div>
+                  <div className="figma-node n-21-993"></div>
+                  <div className="figma-node n-21-994"></div>
+                  <div className="figma-node n-21-995"></div>
+                </div>
+                <div className="figma-node n-21-996">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-996.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-999">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-999.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1006">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1006.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-1009">
+                <div className="figma-node n-21-1010">New Arrival</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1011">
+              <div className="figma-node n-21-1012">
+                <div className="figma-node n-21-1013">
+                  Varsity Logo Graphic Relaxed T-Shirt
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1014">$59.00 $35.40 40% off</div>
+            <div className="figma-node n-21-1015">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-1016">
+              <div className="figma-node n-21-1017">
+                <div className="figma-node n-21-1018">+ 2 colors</div>
+              </div>
+              <div className="figma-node n-21-1019">
+                <div className="figma-node n-21-1020"></div>
+              </div>
+              <div className="figma-node n-21-1021">
+                <div className="figma-node n-21-1022"></div>
+              </div>
+              <div className="figma-node n-21-1023">
+                <div className="figma-node n-21-1024"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1025">
+              <div className="figma-node n-21-1026">
+                <div className="figma-node n-21-1027">
+                  <div className="figma-node n-21-1028"></div>
+                  <div className="figma-node n-21-1029"></div>
+                  <div className="figma-node n-21-1030"></div>
+                  <div className="figma-node n-21-1031"></div>
+                  <div className="figma-node n-21-1032"></div>
+                </div>
+                <div className="figma-node n-21-1033">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1033.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1036">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1036.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1042">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1042.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-1045">
+                <div className="figma-node n-21-1046">New Arrival</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1047">
+              <div className="figma-node n-21-1048">
+                <div className="figma-node n-21-1049">
+                  Lightweight Indigo Denim Track Pants
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1050">$149.00 $89.40 40% off</div>
+            <div className="figma-node n-21-1051">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-1052">Explore More</div>
+            <div className="figma-node n-21-1053">
+              <div className="figma-node n-21-1054">
+                <div className="figma-node n-21-1055">
+                  <div className="figma-node n-21-1056">Tops</div>
+                </div>
+              </div>
+              <div className="figma-node n-21-1057">
+                <div className="figma-node n-21-1058">
+                  <div className="figma-node n-21-1059">Bottoms</div>
+                </div>
+              </div>
+              <div className="figma-node n-21-1060">
+                <div className="figma-node n-21-1061">
+                  <div className="figma-node n-21-1062">Underwear</div>
+                </div>
+              </div>
+              <div className="figma-node n-21-1063">
+                <div className="figma-node n-21-1064">
+                  <div className="figma-node n-21-1065">Denim</div>
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1066">
+              <div className="figma-node n-21-1067">
+                <div className="figma-node n-21-1068">
+                  <div className="figma-node n-21-1069"></div>
+                  <div className="figma-node n-21-1070"></div>
+                  <div className="figma-node n-21-1071"></div>
+                  <div className="figma-node n-21-1072"></div>
+                  <div className="figma-node n-21-1073"></div>
+                  <div className="figma-node n-21-1074"></div>
+                </div>
+                <div className="figma-node n-21-1075">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1075.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1078">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1078.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1085">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1085.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1088">
+              <div className="figma-node n-21-1089">
+                <div className="figma-node n-21-1090">
+                  Solid Classic Oxford Button-Down Shirt
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1091">$89.00 $53.40 40% off</div>
+            <div className="figma-node n-21-1092">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-1093">
+              <div className="figma-node n-21-1094">
+                <div className="figma-node n-21-1095">+ 3 colors</div>
+              </div>
+              <div className="figma-node n-21-1096">
+                <div className="figma-node n-21-1097"></div>
+              </div>
+              <div className="figma-node n-21-1098">
+                <div className="figma-node n-21-1099"></div>
+              </div>
+              <div className="figma-node n-21-1100">
+                <div className="figma-node n-21-1101"></div>
+              </div>
+              <div className="figma-node n-21-1102">
+                <div className="figma-node n-21-1103"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1104">
+              <div className="figma-node n-21-1105">
+                <div className="figma-node n-21-1106">
+                  <div className="figma-node n-21-1107"></div>
+                  <div className="figma-node n-21-1108"></div>
+                  <div className="figma-node n-21-1109"></div>
+                  <div className="figma-node n-21-1110"></div>
+                  <div className="figma-node n-21-1111"></div>
+                  <div className="figma-node n-21-1112"></div>
+                </div>
+                <div className="figma-node n-21-1113">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1113.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1116">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1116.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1123">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1123.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-1126">
+                <div className="figma-node n-21-1127">Best Seller</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1128">
+              <div className="figma-node n-21-1129">
+                <div className="figma-node n-21-1130">90s Straight Jeans</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1131">$129.00 $77.40 40% off</div>
+            <div className="figma-node n-21-1132">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-1133">
+              <div className="figma-node n-21-1134">
+                <div className="figma-node n-21-1135">+ 10 colors</div>
+              </div>
+              <div className="figma-node n-21-1136">
+                <div className="figma-node n-21-1137"></div>
+              </div>
+              <div className="figma-node n-21-1138">
+                <div className="figma-node n-21-1139"></div>
+              </div>
+              <div className="figma-node n-21-1140">
+                <div className="figma-node n-21-1141"></div>
+              </div>
+              <div className="figma-node n-21-1142">
+                <div className="figma-node n-21-1143"></div>
+              </div>
+              <div className="figma-node n-21-1144">
+                <div className="figma-node n-21-1145"></div>
+              </div>
+              <div className="figma-node n-21-1146">
+                <div className="figma-node n-21-1147"></div>
+              </div>
+              <div className="figma-node n-21-1148">
+                <div className="figma-node n-21-1149">+ More Colors</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1150">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1150.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1152">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1152.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1154">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1154.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1156">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1156.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1158">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1158.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1160">(19)</div>
+            <div className="figma-node n-21-1161">
+              <div className="figma-node n-21-1162">
+                <div className="figma-node n-21-1163">
+                  <div className="figma-node n-21-1164"></div>
+                  <div className="figma-node n-21-1165"></div>
+                  <div className="figma-node n-21-1166"></div>
+                  <div className="figma-node n-21-1167"></div>
+                  <div className="figma-node n-21-1168"></div>
+                  <div className="figma-node n-21-1169"></div>
+                </div>
+                <div className="figma-node n-21-1170">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1170.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1173">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1173.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1180">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1180.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1183">
+              <div className="figma-node n-21-1184">
+                <div className="figma-node n-21-1185">
+                  Allover Monogram 90s Denim Trucker Jacket
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1186">$169.00 $101.40 40% off</div>
+            <div className="figma-node n-21-1187">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-1188">
+              <div className="figma-node n-21-1189">
+                <div className="figma-node n-21-1190">
+                  <div className="figma-node n-21-1191"></div>
+                  <div className="figma-node n-21-1192"></div>
+                  <div className="figma-node n-21-1193"></div>
+                  <div className="figma-node n-21-1194"></div>
+                  <div className="figma-node n-21-1195"></div>
+                  <div className="figma-node n-21-1196"></div>
+                </div>
+                <div className="figma-node n-21-1197">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1197.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1200">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1200.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1207">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1207.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-1210">
+                <div className="figma-node n-21-1211">New Arrival</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1212">
+              <div className="figma-node n-21-1213">
+                <div className="figma-node n-21-1214">
+                  Stripe Slim Relaxed Button-Down Shirt
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1215">$99.00 $59.40 40% off</div>
+            <div className="figma-node n-21-1216">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-1217">
+              <div className="figma-node n-21-1218">
+                <div className="figma-node n-21-1219">+ 1 color</div>
+              </div>
+              <div className="figma-node n-21-1220">
+                <div className="figma-node n-21-1221"></div>
+              </div>
+              <div className="figma-node n-21-1222">
+                <div className="figma-node n-21-1223"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1224">
+              <div className="figma-node n-21-1225">
+                <div className="figma-node n-21-1226">
+                  <div className="figma-node n-21-1227"></div>
+                  <div className="figma-node n-21-1228"></div>
+                  <div className="figma-node n-21-1229"></div>
+                  <div className="figma-node n-21-1230"></div>
+                  <div className="figma-node n-21-1231"></div>
+                  <div className="figma-node n-21-1232"></div>
+                </div>
+                <div className="figma-node n-21-1233">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1233.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1236">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1236.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1243">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1243.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1246">
+              <div className="figma-node n-21-1247">
+                <div className="figma-node n-21-1248">
+                  90s Straight Chino Pants
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1249">$99.00 $59.40 40% off</div>
+            <div className="figma-node n-21-1250">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-1251">
+              <div className="figma-node n-21-1252">
+                <div className="figma-node n-21-1253">+ 2 colors</div>
+              </div>
+              <div className="figma-node n-21-1254">
+                <div className="figma-node n-21-1255"></div>
+              </div>
+              <div className="figma-node n-21-1256">
+                <div className="figma-node n-21-1257"></div>
+              </div>
+              <div className="figma-node n-21-1258">
+                <div className="figma-node n-21-1259"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1260">
+              <div className="figma-node n-21-1261">
+                <div className="figma-node n-21-1262">
+                  <div className="figma-node n-21-1263"></div>
+                  <div className="figma-node n-21-1264"></div>
+                  <div className="figma-node n-21-1265"></div>
+                  <div className="figma-node n-21-1266"></div>
+                  <div className="figma-node n-21-1267"></div>
+                  <div className="figma-node n-21-1268"></div>
+                </div>
+                <div className="figma-node n-21-1269">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1269.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1272">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1272.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1279">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1279.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1282">
+              <div className="figma-node n-21-1283">
+                <div className="figma-node n-21-1284">
+                  Monologo Outline Graphic Classic T-Shirt
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1285">$59.00</div>
+            <div className="figma-node n-21-1286">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-1287">
+              <div className="figma-node n-21-1288">
+                <div className="figma-node n-21-1289">+ 4 colors</div>
+              </div>
+              <div className="figma-node n-21-1290">
+                <div className="figma-node n-21-1291"></div>
+              </div>
+              <div className="figma-node n-21-1292">
+                <div className="figma-node n-21-1293"></div>
+              </div>
+              <div className="figma-node n-21-1294">
+                <div className="figma-node n-21-1295"></div>
+              </div>
+              <div className="figma-node n-21-1296">
+                <div className="figma-node n-21-1297"></div>
+              </div>
+              <div className="figma-node n-21-1298">
+                <div className="figma-node n-21-1299"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1300">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1300.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1302">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1302.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1304">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1304.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1306">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1306.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1308">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1308.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1310">(2)</div>
+            <div className="figma-node n-21-1311">
+              <div className="figma-node n-21-1312">
+                <div className="figma-node n-21-1313">
+                  <div className="figma-node n-21-1314"></div>
+                  <div className="figma-node n-21-1315"></div>
+                  <div className="figma-node n-21-1316"></div>
+                  <div className="figma-node n-21-1317"></div>
+                  <div className="figma-node n-21-1318"></div>
+                  <div className="figma-node n-21-1319"></div>
+                </div>
+                <div className="figma-node n-21-1320">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1320.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1323">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1323.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1330">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1330.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-1333">
+                <div className="figma-node n-21-1334">Best Seller</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1335">
+              <div className="figma-node n-21-1336">
+                <div className="figma-node n-21-1337">Baggy Jeans</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1338">$149.00 $89.40 40% off</div>
+            <div className="figma-node n-21-1339">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-1340">
+              <div className="figma-node n-21-1341">
+                <div className="figma-node n-21-1342">+ 4 colors</div>
+              </div>
+              <div className="figma-node n-21-1343">
+                <div className="figma-node n-21-1344"></div>
+              </div>
+              <div className="figma-node n-21-1345">
+                <div className="figma-node n-21-1346"></div>
+              </div>
+              <div className="figma-node n-21-1347">
+                <div className="figma-node n-21-1348"></div>
+              </div>
+              <div className="figma-node n-21-1349">
+                <div className="figma-node n-21-1350"></div>
+              </div>
+              <div className="figma-node n-21-1351">
+                <div className="figma-node n-21-1352"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1353">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1353.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1355">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1355.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1357">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1357.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1359">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1359.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1361">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1361.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1363">(1)</div>
+            <div className="figma-node n-21-1364">
+              <div className="figma-node n-21-1365">
+                <div className="figma-node n-21-1366">
+                  <div className="figma-node n-21-1367"></div>
+                  <div className="figma-node n-21-1368"></div>
+                  <div className="figma-node n-21-1369"></div>
+                  <div className="figma-node n-21-1370"></div>
+                  <div className="figma-node n-21-1371"></div>
+                  <div className="figma-node n-21-1372"></div>
+                </div>
+                <div className="figma-node n-21-1373">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1373.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1376">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1376.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1383">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1383.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1386">
+              <div className="figma-node n-21-1387">
+                <div className="figma-node n-21-1388">
+                  Standard Straight Jeans
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1389">$119.00 $71.40 40% off</div>
+            <div className="figma-node n-21-1390">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-1391">
+              <div className="figma-node n-21-1392">
+                <div className="figma-node n-21-1393">
+                  <div className="figma-node n-21-1394"></div>
+                  <div className="figma-node n-21-1395"></div>
+                  <div className="figma-node n-21-1396"></div>
+                  <div className="figma-node n-21-1397"></div>
+                  <div className="figma-node n-21-1398"></div>
+                </div>
+                <div className="figma-node n-21-1399">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1399.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1402">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1402.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1408">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1408.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1411">
+              <div className="figma-node n-21-1412">
+                <div className="figma-node n-21-1413">
+                  Smooth Cotton Waffle Sweater Polo Shirt
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1414">$99.00 $59.40 40% off</div>
+            <div className="figma-node n-21-1415">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-1416">
+              <div className="figma-node n-21-1417">
+                <div className="figma-node n-21-1418">+ 5 colors</div>
+              </div>
+              <div className="figma-node n-21-1419">
+                <div className="figma-node n-21-1420"></div>
+              </div>
+              <div className="figma-node n-21-1421">
+                <div className="figma-node n-21-1422"></div>
+              </div>
+              <div className="figma-node n-21-1423">
+                <div className="figma-node n-21-1424"></div>
+              </div>
+              <div className="figma-node n-21-1425">
+                <div className="figma-node n-21-1426"></div>
+              </div>
+              <div className="figma-node n-21-1427">
+                <div className="figma-node n-21-1428"></div>
+              </div>
+              <div className="figma-node n-21-1429">
+                <div className="figma-node n-21-1430"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1431">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1431.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1433">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1433.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1435">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1435.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1437">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1437.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1439">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1439.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1441">(6)</div>
+            <div className="figma-node n-21-1442">
+              <div className="figma-node n-21-1443">
+                <div className="figma-node n-21-1444">
+                  <div className="figma-node n-21-1445"></div>
+                  <div className="figma-node n-21-1446"></div>
+                  <div className="figma-node n-21-1447"></div>
+                  <div className="figma-node n-21-1448"></div>
+                  <div className="figma-node n-21-1449"></div>
+                </div>
+                <div className="figma-node n-21-1450">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1450.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1453">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1453.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1459">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1459.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-1462">
+                <div className="figma-node n-21-1463">New Arrival</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1464">
+              <div className="figma-node n-21-1465">
+                <div className="figma-node n-21-1466">
+                  Lightweight Indigo Denim Long Shorts
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1467">$129.00 $77.40 40% off</div>
+            <div className="figma-node n-21-1468">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-1469">
+              <div className="figma-node n-21-1470">
+                <div className="figma-node n-21-1471">
+                  <div className="figma-node n-21-1472"></div>
+                  <div className="figma-node n-21-1473"></div>
+                  <div className="figma-node n-21-1474"></div>
+                  <div className="figma-node n-21-1475"></div>
+                  <div className="figma-node n-21-1476"></div>
+                  <div className="figma-node n-21-1477"></div>
+                </div>
+                <div className="figma-node n-21-1478">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1478.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1481">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1481.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1488">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1488.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-1491">
+                <div className="figma-node n-21-1492">New Arrival</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1493">
+              <div className="figma-node n-21-1494">
+                <div className="figma-node n-21-1495">
+                  Lightweight Indigo Denim Track Jacket
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1496">$169.00 $101.40 40% off</div>
+            <div className="figma-node n-21-1497">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-1498">
+              <div className="figma-node n-21-1499">
+                <div className="figma-node n-21-1500">
+                  <div className="figma-node n-21-1501"></div>
+                  <div className="figma-node n-21-1502"></div>
+                  <div className="figma-node n-21-1503"></div>
+                  <div className="figma-node n-21-1504"></div>
+                  <div className="figma-node n-21-1505"></div>
+                </div>
+                <div className="figma-node n-21-1506">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1506.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1509">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1509.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1515">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1515.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-1518">
+                <div className="figma-node n-21-1519">Best Seller</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1520">
+              <div className="figma-node n-21-1521">
+                <div className="figma-node n-21-1522">
+                  Heritage Classic Relaxed T-Shirt
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1523">$49.00 $29.40 40% off</div>
+            <div className="figma-node n-21-1524">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-1525">
+              <div className="figma-node n-21-1526">
+                <div className="figma-node n-21-1527">+ 2 colors</div>
+              </div>
+              <div className="figma-node n-21-1528">
+                <div className="figma-node n-21-1529"></div>
+              </div>
+              <div className="figma-node n-21-1530">
+                <div className="figma-node n-21-1531"></div>
+              </div>
+              <div className="figma-node n-21-1532">
+                <div className="figma-node n-21-1533"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1534">
+              <div className="figma-node n-21-1535">
+                <div className="figma-node n-21-1536">
+                  <div className="figma-node n-21-1537"></div>
+                  <div className="figma-node n-21-1538"></div>
+                  <div className="figma-node n-21-1539"></div>
+                  <div className="figma-node n-21-1540"></div>
+                  <div className="figma-node n-21-1541"></div>
+                  <div className="figma-node n-21-1542"></div>
+                </div>
+                <div className="figma-node n-21-1543">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1543.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1546">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1546.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1553">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1553.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-1556">
+                <div className="figma-node n-21-1557">New Arrival</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1558">
+              <div className="figma-node n-21-1559">
+                <div className="figma-node n-21-1560">Baggy Jeans</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1561">$119.00 $71.40 40% off</div>
+            <div className="figma-node n-21-1562">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-1563">
+              <div className="figma-node n-21-1564">
+                <div className="figma-node n-21-1565">+ 4 colors</div>
+              </div>
+              <div className="figma-node n-21-1566">
+                <div className="figma-node n-21-1567"></div>
+              </div>
+              <div className="figma-node n-21-1568">
+                <div className="figma-node n-21-1569"></div>
+              </div>
+              <div className="figma-node n-21-1570">
+                <div className="figma-node n-21-1571"></div>
+              </div>
+              <div className="figma-node n-21-1572">
+                <div className="figma-node n-21-1573"></div>
+              </div>
+              <div className="figma-node n-21-1574">
+                <div className="figma-node n-21-1575"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1576">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1576.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1578">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1578.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1580">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1580.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1582">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1582.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1584">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1584.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1586">(1)</div>
+            <div className="figma-node n-21-1587">
+              <div className="figma-node n-21-1588">
+                <div className="figma-node n-21-1589">
+                  <div className="figma-node n-21-1590"></div>
+                  <div className="figma-node n-21-1591"></div>
+                  <div className="figma-node n-21-1592"></div>
+                  <div className="figma-node n-21-1593"></div>
+                  <div className="figma-node n-21-1594"></div>
+                  <div className="figma-node n-21-1595"></div>
+                  <div className="figma-node n-21-1596"></div>
+                </div>
+                <div className="figma-node n-21-1597">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1597.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1600">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1600.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1608">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1608.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1611">
+              <div className="figma-node n-21-1612">
+                <div className="figma-node n-21-1613">
+                  90s Denim Trucker Jacket
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1614">$149.00</div>
+            <div className="figma-node n-21-1615">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-1616">
+              <div className="figma-node n-21-1617">
+                <div className="figma-node n-21-1618">
+                  <div className="figma-node n-21-1619"></div>
+                  <div className="figma-node n-21-1620"></div>
+                  <div className="figma-node n-21-1621"></div>
+                  <div className="figma-node n-21-1622"></div>
+                  <div className="figma-node n-21-1623"></div>
+                  <div className="figma-node n-21-1624"></div>
+                </div>
+                <div className="figma-node n-21-1625">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1625.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1628">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1628.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1635">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1635.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-1638">
+                <div className="figma-node n-21-1639">Best Seller</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1640">
+              <div className="figma-node n-21-1641">
+                <div className="figma-node n-21-1642">
+                  Cotton Classics 3-Pack Tank Top
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1643">$52.50 $36.75 30% off</div>
+            <div className="figma-node n-21-1644">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-1645">
+              <div className="figma-node n-21-1646">
+                <div className="figma-node n-21-1647">+ 3 colors</div>
+              </div>
+              <div className="figma-node n-21-1648">
+                <div className="figma-node n-21-1649"></div>
+              </div>
+              <div className="figma-node n-21-1650">
+                <div className="figma-node n-21-1651"></div>
+              </div>
+              <div className="figma-node n-21-1652">
+                <div className="figma-node n-21-1653"></div>
+              </div>
+              <div className="figma-node n-21-1654">
+                <div className="figma-node n-21-1655"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1656">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1656.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1658">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1658.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1660">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1660.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1662">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1662.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1664">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1664.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1666">(65)</div>
+            <div className="figma-node n-21-1667">
+              <div className="figma-node n-21-1668">
+                <div className="figma-node n-21-1669">
+                  <div className="figma-node n-21-1670"></div>
+                  <div className="figma-node n-21-1671"></div>
+                  <div className="figma-node n-21-1672"></div>
+                  <div className="figma-node n-21-1673"></div>
+                  <div className="figma-node n-21-1674"></div>
+                  <div className="figma-node n-21-1675"></div>
+                </div>
+                <div className="figma-node n-21-1676">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1676.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1679">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1679.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1686">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1686.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-1689">
+                <div className="figma-node n-21-1690">Best Seller</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1691">
+              <div className="figma-node n-21-1692">
+                <div className="figma-node n-21-1693">
+                  Cotton Classics 3-Pack Trunk
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1694">$46.00 $32.20 30% off</div>
+            <div className="figma-node n-21-1695">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-1696">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1696.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1698">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1698.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1700">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1700.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1702">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1702.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1704">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1704.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1706">(15)</div>
+            <div className="figma-node n-21-1707">
+              <div className="figma-node n-21-1708">
+                <div className="figma-node n-21-1709">
+                  <div className="figma-node n-21-1710"></div>
+                  <div className="figma-node n-21-1711"></div>
+                  <div className="figma-node n-21-1712"></div>
+                  <div className="figma-node n-21-1713"></div>
+                  <div className="figma-node n-21-1714"></div>
+                  <div className="figma-node n-21-1715"></div>
+                </div>
+                <div className="figma-node n-21-1716">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1716.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1719">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1719.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1726">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1726.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-1729">
+                <div className="figma-node n-21-1730">Best Seller</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1731">
+              <div className="figma-node n-21-1732">
+                <div className="figma-node n-21-1733">
+                  Cotton Classics 5-Pack Hip Brief
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1734">$76.50 $53.55 30% off</div>
+            <div className="figma-node n-21-1735">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-1736">
+              <div className="figma-node n-21-1737">
+                <div className="figma-node n-21-1738">+ 2 colors</div>
+              </div>
+              <div className="figma-node n-21-1739">
+                <div className="figma-node n-21-1740"></div>
+              </div>
+              <div className="figma-node n-21-1741">
+                <div className="figma-node n-21-1742"></div>
+              </div>
+              <div className="figma-node n-21-1743">
+                <div className="figma-node n-21-1744"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1745">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1745.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1747">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1747.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1749">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1749.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1751">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1751.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1753">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1753.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1755">(217)</div>
+            <div className="figma-node n-21-1756">
+              <div className="figma-node n-21-1757">
+                <div className="figma-node n-21-1758">
+                  <div className="figma-node n-21-1759"></div>
+                  <div className="figma-node n-21-1760"></div>
+                  <div className="figma-node n-21-1761"></div>
+                  <div className="figma-node n-21-1762"></div>
+                  <div className="figma-node n-21-1763"></div>
+                </div>
+                <div className="figma-node n-21-1764">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1764.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1767">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1767.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1773">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1773.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1776">
+              <div className="figma-node n-21-1777">
+                <div className="figma-node n-21-1778">
+                  Ripstop Hooded Windbreaker Jacket
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1779">$149.00 $89.40 40% off</div>
+            <div className="figma-node n-21-1780">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-1781">
+              <div className="figma-node n-21-1782">
+                <div className="figma-node n-21-1783">+ 1 color</div>
+              </div>
+              <div className="figma-node n-21-1784">
+                <div className="figma-node n-21-1785"></div>
+              </div>
+              <div className="figma-node n-21-1786">
+                <div className="figma-node n-21-1787"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1788">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1788.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1790">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1790.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1792">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1792.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1794">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1794.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1796">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1796.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1798">(2)</div>
+            <div className="figma-node n-21-1799">
+              <div className="figma-node n-21-1800">
+                <div className="figma-node n-21-1801">
+                  <div className="figma-node n-21-1802"></div>
+                  <div className="figma-node n-21-1803"></div>
+                  <div className="figma-node n-21-1804"></div>
+                  <div className="figma-node n-21-1805"></div>
+                  <div className="figma-node n-21-1806"></div>
+                  <div className="figma-node n-21-1807"></div>
+                </div>
+                <div className="figma-node n-21-1808">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1808.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1811">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1811.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1818">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1818.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-1821">
+                <div className="figma-node n-21-1822">New Arrival</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1823">
+              <div className="figma-node n-21-1824">
+                <div className="figma-node n-21-1825">
+                  Graphic Monogram Woven Shorts
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1826">$79.00 $47.40 40% off</div>
+            <div className="figma-node n-21-1827">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-1828">
+              <div className="figma-node n-21-1829">
+                <div className="figma-node n-21-1830">+ 1 color</div>
+              </div>
+              <div className="figma-node n-21-1831">
+                <div className="figma-node n-21-1832"></div>
+              </div>
+              <div className="figma-node n-21-1833">
+                <div className="figma-node n-21-1834"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1835">
+              <div className="figma-node n-21-1836">
+                <div className="figma-node n-21-1837">
+                  <div className="figma-node n-21-1838"></div>
+                  <div className="figma-node n-21-1839"></div>
+                  <div className="figma-node n-21-1840"></div>
+                  <div className="figma-node n-21-1841"></div>
+                  <div className="figma-node n-21-1842"></div>
+                </div>
+                <div className="figma-node n-21-1843">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1843.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1846">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1846.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1852">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1852.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-1855">
+                <div className="figma-node n-21-1856">New Arrival</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1857">
+              <div className="figma-node n-21-1858">
+                <div className="figma-node n-21-1859">
+                  Commuter Colorblock Woven Pants
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1860">$109.00 $65.40 40% off</div>
+            <div className="figma-node n-21-1861">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-1862">
+              <div className="figma-node n-21-1863">
+                <div className="figma-node n-21-1864">
+                  <div className="figma-node n-21-1865"></div>
+                  <div className="figma-node n-21-1866"></div>
+                  <div className="figma-node n-21-1867"></div>
+                  <div className="figma-node n-21-1868"></div>
+                  <div className="figma-node n-21-1869"></div>
+                </div>
+                <div className="figma-node n-21-1870">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1870.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1873">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1873.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1879">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1879.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1882">
+              <div className="figma-node n-21-1883">
+                <div className="figma-node n-21-1884">
+                  Commuter Colorblock Zip Jacket
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1885">$119.00 $71.40 40% off</div>
+            <div className="figma-node n-21-1886">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-1887">
+              <div className="figma-node n-21-1888">
+                <div className="figma-node n-21-1889">
+                  <div className="figma-node n-21-1890"></div>
+                  <div className="figma-node n-21-1891"></div>
+                  <div className="figma-node n-21-1892"></div>
+                  <div className="figma-node n-21-1893"></div>
+                  <div className="figma-node n-21-1894"></div>
+                </div>
+                <div className="figma-node n-21-1895">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1895.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1898">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1898.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1904">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1904.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1907">
+              <div className="figma-node n-21-1908">
+                <div className="figma-node n-21-1909">
+                  Monogram Fleece Joggers
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1910">$79.00 $47.40 40% off</div>
+            <div className="figma-node n-21-1911">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-1912">
+              <div className="figma-node n-21-1913">
+                <div className="figma-node n-21-1914">+ 2 colors</div>
+              </div>
+              <div className="figma-node n-21-1915">
+                <div className="figma-node n-21-1916"></div>
+              </div>
+              <div className="figma-node n-21-1917">
+                <div className="figma-node n-21-1918"></div>
+              </div>
+              <div className="figma-node n-21-1919">
+                <div className="figma-node n-21-1920"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1921">
+              <div className="figma-node n-21-1922">
+                <div className="figma-node n-21-1923">
+                  <div className="figma-node n-21-1924"></div>
+                  <div className="figma-node n-21-1925"></div>
+                  <div className="figma-node n-21-1926"></div>
+                  <div className="figma-node n-21-1927"></div>
+                  <div className="figma-node n-21-1928"></div>
+                </div>
+                <div className="figma-node n-21-1929">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1929.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1932">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1932.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1938">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1938.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1941">
+              <div className="figma-node n-21-1942">
+                <div className="figma-node n-21-1943">
+                  Monogram Relaxed Hoodie
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1944">$89.00 $53.40 40% off</div>
+            <div className="figma-node n-21-1945">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-1946">
+              <div className="figma-node n-21-1947">
+                <div className="figma-node n-21-1948">+ 2 colors</div>
+              </div>
+              <div className="figma-node n-21-1949">
+                <div className="figma-node n-21-1950"></div>
+              </div>
+              <div className="figma-node n-21-1951">
+                <div className="figma-node n-21-1952"></div>
+              </div>
+              <div className="figma-node n-21-1953">
+                <div className="figma-node n-21-1954"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1955">
+              <div className="figma-node n-21-1956">
+                <div className="figma-node n-21-1957">
+                  <div className="figma-node n-21-1958"></div>
+                  <div className="figma-node n-21-1959"></div>
+                  <div className="figma-node n-21-1960"></div>
+                  <div className="figma-node n-21-1961"></div>
+                  <div className="figma-node n-21-1962"></div>
+                </div>
+                <div className="figma-node n-21-1963">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1963.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1966">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1966.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-1972">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-1972.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1975">
+              <div className="figma-node n-21-1976">
+                <div className="figma-node n-21-1977">Monologo Tee</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1978">$55.00 $33.00 40% off</div>
+            <div className="figma-node n-21-1979">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-1980">
+              <div className="figma-node n-21-1981">
+                <div className="figma-node n-21-1982">+ 7 colors</div>
+              </div>
+              <div className="figma-node n-21-1983">
+                <div className="figma-node n-21-1984"></div>
+              </div>
+              <div className="figma-node n-21-1985">
+                <div className="figma-node n-21-1986"></div>
+              </div>
+              <div className="figma-node n-21-1987">
+                <div className="figma-node n-21-1988"></div>
+              </div>
+              <div className="figma-node n-21-1989">
+                <div className="figma-node n-21-1990"></div>
+              </div>
+              <div className="figma-node n-21-1991">
+                <div className="figma-node n-21-1992"></div>
+              </div>
+              <div className="figma-node n-21-1993">
+                <div className="figma-node n-21-1994"></div>
+              </div>
+              <div className="figma-node n-21-1995">
+                <div className="figma-node n-21-1996">+ More Colors</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-1997">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1997.svg"
+              />
+            </div>
+            <div className="figma-node n-21-1999">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-1999.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2001">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2001.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2003">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2003.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2005">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2005.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2007">(13)</div>
+            <div className="figma-node n-21-2008">
+              <div className="figma-node n-21-2009">
+                <div className="figma-node n-21-2010">
+                  <div className="figma-node n-21-2011"></div>
+                  <div className="figma-node n-21-2012"></div>
+                  <div className="figma-node n-21-2013"></div>
+                  <div className="figma-node n-21-2014"></div>
+                  <div className="figma-node n-21-2015"></div>
+                  <div className="figma-node n-21-2016"></div>
+                </div>
+                <div className="figma-node n-21-2017">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2017.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2020">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2020.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2027">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2027.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2030">
+              <div className="figma-node n-21-2031">
+                <div className="figma-node n-21-2032">Slim Jeans</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2033">$99.00 $59.40 40% off</div>
+            <div className="figma-node n-21-2034">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-2035">
+              <div className="figma-node n-21-2036">
+                <div className="figma-node n-21-2037">+ 15 colors</div>
+              </div>
+              <div className="figma-node n-21-2038">
+                <div className="figma-node n-21-2039"></div>
+              </div>
+              <div className="figma-node n-21-2040">
+                <div className="figma-node n-21-2041"></div>
+              </div>
+              <div className="figma-node n-21-2042">
+                <div className="figma-node n-21-2043"></div>
+              </div>
+              <div className="figma-node n-21-2044">
+                <div className="figma-node n-21-2045"></div>
+              </div>
+              <div className="figma-node n-21-2046">
+                <div className="figma-node n-21-2047"></div>
+              </div>
+              <div className="figma-node n-21-2048">
+                <div className="figma-node n-21-2049"></div>
+              </div>
+              <div className="figma-node n-21-2050">
+                <div className="figma-node n-21-2051">+ More Colors</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2052">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2052.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2054">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2054.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2056">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2056.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2058">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2058.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2060">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2060.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2062">(161)</div>
+            <div className="figma-node n-21-2063">
+              <div className="figma-node n-21-2064">
+                <div className="figma-node n-21-2065">
+                  <div className="figma-node n-21-2066"></div>
+                  <div className="figma-node n-21-2067"></div>
+                  <div className="figma-node n-21-2068"></div>
+                  <div className="figma-node n-21-2069"></div>
+                  <div className="figma-node n-21-2070"></div>
+                  <div className="figma-node n-21-2071"></div>
+                </div>
+                <div className="figma-node n-21-2072">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2072.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2075">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2075.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2082">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2082.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2085">
+              <div className="figma-node n-21-2086">
+                <div className="figma-node n-21-2087">
+                  Solid Classic Oxford Button-Down Shirt
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2088">$89.00 $53.40 40% off</div>
+            <div className="figma-node n-21-2089">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-2090">
+              <div className="figma-node n-21-2091">
+                <div className="figma-node n-21-2092">+ 3 colors</div>
+              </div>
+              <div className="figma-node n-21-2093">
+                <div className="figma-node n-21-2094"></div>
+              </div>
+              <div className="figma-node n-21-2095">
+                <div className="figma-node n-21-2096"></div>
+              </div>
+              <div className="figma-node n-21-2097">
+                <div className="figma-node n-21-2098"></div>
+              </div>
+              <div className="figma-node n-21-2099">
+                <div className="figma-node n-21-2100"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2101">
+              <div className="figma-node n-21-2102">
+                <div className="figma-node n-21-2103">
+                  <div className="figma-node n-21-2104"></div>
+                  <div className="figma-node n-21-2105"></div>
+                  <div className="figma-node n-21-2106"></div>
+                  <div className="figma-node n-21-2107"></div>
+                  <div className="figma-node n-21-2108"></div>
+                  <div className="figma-node n-21-2109"></div>
+                </div>
+                <div className="figma-node n-21-2110">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2110.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2113">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2113.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2120">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2120.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-2123">
+                <div className="figma-node n-21-2124">Best Seller</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2125">
+              <div className="figma-node n-21-2126">
+                <div className="figma-node n-21-2127">
+                  Liquid Touch Crewneck T-Shirt
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2128">$49.00 $29.40 40% off</div>
+            <div className="figma-node n-21-2129">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-2130">
+              <div className="figma-node n-21-2131">
+                <div className="figma-node n-21-2132">+ 20 colors</div>
+              </div>
+              <div className="figma-node n-21-2133">
+                <div className="figma-node n-21-2134"></div>
+              </div>
+              <div className="figma-node n-21-2135">
+                <div className="figma-node n-21-2136"></div>
+              </div>
+              <div className="figma-node n-21-2137">
+                <div className="figma-node n-21-2138"></div>
+              </div>
+              <div className="figma-node n-21-2139">
+                <div className="figma-node n-21-2140"></div>
+              </div>
+              <div className="figma-node n-21-2141">
+                <div className="figma-node n-21-2142"></div>
+              </div>
+              <div className="figma-node n-21-2143">
+                <div className="figma-node n-21-2144"></div>
+              </div>
+              <div className="figma-node n-21-2145">
+                <div className="figma-node n-21-2146">+ More Colors</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2147">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2147.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2149">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2149.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2151">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2151.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2153">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2153.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2155">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2155.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2157">(47)</div>
+            <div className="figma-node n-21-2158">
+              <div className="figma-node n-21-2159">
+                <div className="figma-node n-21-2160">
+                  <div className="figma-node n-21-2161"></div>
+                  <div className="figma-node n-21-2162"></div>
+                  <div className="figma-node n-21-2163"></div>
+                  <div className="figma-node n-21-2164"></div>
+                  <div className="figma-node n-21-2165"></div>
+                  <div className="figma-node n-21-2166"></div>
+                  <div className="figma-node n-21-2167"></div>
+                </div>
+                <div className="figma-node n-21-2168">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2168.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2171">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2171.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2179">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2179.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-2182">
+                <div className="figma-node n-21-2183">Best Seller</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2184">
+              <div className="figma-node n-21-2185">
+                <div className="figma-node n-21-2186">90s Straight Jeans</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2187">$129.00 $77.40 40% off</div>
+            <div className="figma-node n-21-2188">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-2189">
+              <div className="figma-node n-21-2190">
+                <div className="figma-node n-21-2191">+ 11 colors</div>
+              </div>
+              <div className="figma-node n-21-2192">
+                <div className="figma-node n-21-2193"></div>
+              </div>
+              <div className="figma-node n-21-2194">
+                <div className="figma-node n-21-2195"></div>
+              </div>
+              <div className="figma-node n-21-2196">
+                <div className="figma-node n-21-2197"></div>
+              </div>
+              <div className="figma-node n-21-2198">
+                <div className="figma-node n-21-2199"></div>
+              </div>
+              <div className="figma-node n-21-2200">
+                <div className="figma-node n-21-2201"></div>
+              </div>
+              <div className="figma-node n-21-2202">
+                <div className="figma-node n-21-2203"></div>
+              </div>
+              <div className="figma-node n-21-2204">
+                <div className="figma-node n-21-2205">+ More Colors</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2206">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2206.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2208">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2208.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2210">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2210.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2212">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2212.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2214">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2214.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2216">(19)</div>
+            <div className="figma-node n-21-2217">
+              <div className="figma-node n-21-2218">
+                <div className="figma-node n-21-2219">
+                  <div className="figma-node n-21-2220"></div>
+                  <div className="figma-node n-21-2221"></div>
+                  <div className="figma-node n-21-2222"></div>
+                  <div className="figma-node n-21-2223"></div>
+                  <div className="figma-node n-21-2224"></div>
+                </div>
+                <div className="figma-node n-21-2225">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2225.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2228">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2228.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2234">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2234.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-2237">
+                <div className="figma-node n-21-2238">Best Seller</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2239">
+              <div className="figma-node n-21-2240">
+                <div className="figma-node n-21-2241">
+                  Archive Logo Relaxed Crewneck T-Shirt
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2242">$49.00 $29.40 40% off</div>
+            <div className="figma-node n-21-2243">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-2244">
+              <div className="figma-node n-21-2245">
+                <div className="figma-node n-21-2246">+ 9 colors</div>
+              </div>
+              <div className="figma-node n-21-2247">
+                <div className="figma-node n-21-2248"></div>
+              </div>
+              <div className="figma-node n-21-2249">
+                <div className="figma-node n-21-2250"></div>
+              </div>
+              <div className="figma-node n-21-2251">
+                <div className="figma-node n-21-2252"></div>
+              </div>
+              <div className="figma-node n-21-2253">
+                <div className="figma-node n-21-2254"></div>
+              </div>
+              <div className="figma-node n-21-2255">
+                <div className="figma-node n-21-2256"></div>
+              </div>
+              <div className="figma-node n-21-2257">
+                <div className="figma-node n-21-2258"></div>
+              </div>
+              <div className="figma-node n-21-2259">
+                <div className="figma-node n-21-2260">+ More Colors</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2261">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2261.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2263">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2263.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2265">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2265.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2267">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2267.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2269">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2269.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2271">(27)</div>
+            <div className="figma-node n-21-2272">
+              <div className="figma-node n-21-2273">
+                <div className="figma-node n-21-2274">
+                  <div className="figma-node n-21-2275"></div>
+                  <div className="figma-node n-21-2276"></div>
+                  <div className="figma-node n-21-2277"></div>
+                  <div className="figma-node n-21-2278"></div>
+                  <div className="figma-node n-21-2279"></div>
+                  <div className="figma-node n-21-2280"></div>
+                </div>
+                <div className="figma-node n-21-2281">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2281.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2284">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2284.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2291">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2291.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-2294">
+                <div className="figma-node n-21-2295">Best Seller</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2296">
+              <div className="figma-node n-21-2297">
+                <div className="figma-node n-21-2298">Slim Jeans</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2299">$99.00 $59.40 40% off</div>
+            <div className="figma-node n-21-2300">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-2301">
+              <div className="figma-node n-21-2302">
+                <div className="figma-node n-21-2303">+ 15 colors</div>
+              </div>
+              <div className="figma-node n-21-2304">
+                <div className="figma-node n-21-2305"></div>
+              </div>
+              <div className="figma-node n-21-2306">
+                <div className="figma-node n-21-2307"></div>
+              </div>
+              <div className="figma-node n-21-2308">
+                <div className="figma-node n-21-2309"></div>
+              </div>
+              <div className="figma-node n-21-2310">
+                <div className="figma-node n-21-2311"></div>
+              </div>
+              <div className="figma-node n-21-2312">
+                <div className="figma-node n-21-2313"></div>
+              </div>
+              <div className="figma-node n-21-2314">
+                <div className="figma-node n-21-2315"></div>
+              </div>
+              <div className="figma-node n-21-2316">
+                <div className="figma-node n-21-2317">+ More Colors</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2318">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2318.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2320">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2320.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2322">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2322.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2324">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2324.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2326">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2326.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2328">(161)</div>
+            <div className="figma-node n-21-2329">
+              <div className="figma-node n-21-2330">
+                <div className="figma-node n-21-2331">
+                  <div className="figma-node n-21-2332"></div>
+                  <div className="figma-node n-21-2333"></div>
+                  <div className="figma-node n-21-2334"></div>
+                  <div className="figma-node n-21-2335"></div>
+                  <div className="figma-node n-21-2336"></div>
+                </div>
+                <div className="figma-node n-21-2337">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2337.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2340">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2340.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2346">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2346.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-2349">
+                <div className="figma-node n-21-2350">Best Seller</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2351">
+              <div className="figma-node n-21-2352">
+                <div className="figma-node n-21-2353">
+                  Denim Classic Button-Down Shirt
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2354">$129.00 $77.40 40% off</div>
+            <div className="figma-node n-21-2355">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-2356">
+              <div className="figma-node n-21-2357">
+                <div className="figma-node n-21-2358">
+                  <div className="figma-node n-21-2359"></div>
+                  <div className="figma-node n-21-2360"></div>
+                  <div className="figma-node n-21-2361"></div>
+                  <div className="figma-node n-21-2362"></div>
+                  <div className="figma-node n-21-2363"></div>
+                </div>
+                <div className="figma-node n-21-2364">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2364.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2367">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2367.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2373">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2373.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2376">
+              <div className="figma-node n-21-2377">
+                <div className="figma-node n-21-2378">
+                  Classic Harrington Jacket
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2379">$149.00 $89.40 40% off</div>
+            <div className="figma-node n-21-2380">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-2381">
+              <div className="figma-node n-21-2382">
+                <div className="figma-node n-21-2383">+ 3 colors</div>
+              </div>
+              <div className="figma-node n-21-2384">
+                <div className="figma-node n-21-2385"></div>
+              </div>
+              <div className="figma-node n-21-2386">
+                <div className="figma-node n-21-2387"></div>
+              </div>
+              <div className="figma-node n-21-2388">
+                <div className="figma-node n-21-2389"></div>
+              </div>
+              <div className="figma-node n-21-2390">
+                <div className="figma-node n-21-2391"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2392">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2392.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2394">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2394.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2396">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2396.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2398">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2398.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2400">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2400.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2402">(1)</div>
+            <div className="figma-node n-21-2403">
+              <div className="figma-node n-21-2404">
+                <div className="figma-node n-21-2405">
+                  <div className="figma-node n-21-2406"></div>
+                  <div className="figma-node n-21-2407"></div>
+                  <div className="figma-node n-21-2408"></div>
+                  <div className="figma-node n-21-2409"></div>
+                  <div className="figma-node n-21-2410"></div>
+                  <div className="figma-node n-21-2411"></div>
+                </div>
+                <div className="figma-node n-21-2412">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2412.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2415">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2415.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2422">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2422.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-2425">
+                <div className="figma-node n-21-2426">Best Seller</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2427">
+              <div className="figma-node n-21-2428">
+                <div className="figma-node n-21-2429">Baggy Jeans</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2430">$99.00 $59.40 40% off</div>
+            <div className="figma-node n-21-2431">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-2432">
+              <div className="figma-node n-21-2433">
+                <div className="figma-node n-21-2434">+ 4 colors</div>
+              </div>
+              <div className="figma-node n-21-2435">
+                <div className="figma-node n-21-2436"></div>
+              </div>
+              <div className="figma-node n-21-2437">
+                <div className="figma-node n-21-2438"></div>
+              </div>
+              <div className="figma-node n-21-2439">
+                <div className="figma-node n-21-2440"></div>
+              </div>
+              <div className="figma-node n-21-2441">
+                <div className="figma-node n-21-2442"></div>
+              </div>
+              <div className="figma-node n-21-2443">
+                <div className="figma-node n-21-2444"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2445">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2445.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2447">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2447.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2449">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2449.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2451">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2451.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2453">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2453.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2455">(1)</div>
+            <div className="figma-node n-21-2456">
+              <div className="figma-node n-21-2457">
+                <div className="figma-node n-21-2458">
+                  <div className="figma-node n-21-2459"></div>
+                  <div className="figma-node n-21-2460"></div>
+                  <div className="figma-node n-21-2461"></div>
+                  <div className="figma-node n-21-2462"></div>
+                  <div className="figma-node n-21-2463"></div>
+                </div>
+                <div className="figma-node n-21-2464">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2464.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2467">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2467.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2473">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2473.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-2476">
+                <div className="figma-node n-21-2477">New Arrival</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2478">
+              <div className="figma-node n-21-2479">
+                <div className="figma-node n-21-2480">
+                  Heritage Classic Terry Hoodie
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2481">$129.00 $77.40 40% off</div>
+            <div className="figma-node n-21-2482">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-2483">
+              <div className="figma-node n-21-2484">
+                <div className="figma-node n-21-2485">+ 1 color</div>
+              </div>
+              <div className="figma-node n-21-2486">
+                <div className="figma-node n-21-2487"></div>
+              </div>
+              <div className="figma-node n-21-2488">
+                <div className="figma-node n-21-2489"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2490">
+              <div className="figma-node n-21-2491">
+                <div className="figma-node n-21-2492">
+                  <div className="figma-node n-21-2493"></div>
+                  <div className="figma-node n-21-2494"></div>
+                  <div className="figma-node n-21-2495"></div>
+                  <div className="figma-node n-21-2496"></div>
+                  <div className="figma-node n-21-2497"></div>
+                </div>
+                <div className="figma-node n-21-2498">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2498.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2501">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2501.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2507">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2507.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2510">
+              <div className="figma-node n-21-2511">
+                <div className="figma-node n-21-2512">
+                  Small Script Logo Graphic Classic T-Shirt
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2513">$49.00 $29.40 40% off</div>
+            <div className="figma-node n-21-2514">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-2515">
+              <div className="figma-node n-21-2516">
+                <div className="figma-node n-21-2517">+ 3 colors</div>
+              </div>
+              <div className="figma-node n-21-2518">
+                <div className="figma-node n-21-2519"></div>
+              </div>
+              <div className="figma-node n-21-2520">
+                <div className="figma-node n-21-2521"></div>
+              </div>
+              <div className="figma-node n-21-2522">
+                <div className="figma-node n-21-2523"></div>
+              </div>
+              <div className="figma-node n-21-2524">
+                <div className="figma-node n-21-2525"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2526">
+              <div className="figma-node n-21-2527">
+                <div className="figma-node n-21-2528">
+                  <div className="figma-node n-21-2529"></div>
+                  <div className="figma-node n-21-2530"></div>
+                  <div className="figma-node n-21-2531"></div>
+                  <div className="figma-node n-21-2532"></div>
+                  <div className="figma-node n-21-2533"></div>
+                </div>
+                <div className="figma-node n-21-2534">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2534.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2537">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2537.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2543">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2543.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-2546">
+                <div className="figma-node n-21-2547">New Arrival</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2548">
+              <div className="figma-node n-21-2549">
+                <div className="figma-node n-21-2550">
+                  Heritage Classic Terry Shorts
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2551">$89.00 $53.40 40% off</div>
+            <div className="figma-node n-21-2552">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-2553">
+              <div className="figma-node n-21-2554">
+                <div className="figma-node n-21-2555">
+                  <div className="figma-node n-21-2556"></div>
+                  <div className="figma-node n-21-2557"></div>
+                  <div className="figma-node n-21-2558"></div>
+                  <div className="figma-node n-21-2559"></div>
+                  <div className="figma-node n-21-2560"></div>
+                </div>
+                <div className="figma-node n-21-2561">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2561.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2564">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2564.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2570">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2570.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-2573">
+                <div className="figma-node n-21-2574">New Arrival</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2575">
+              <div className="figma-node n-21-2576">
+                <div className="figma-node n-21-2577">
+                  Heritage Classic Terry Relaxed Sweatshirt
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2578">$109.00 $65.40 40% off</div>
+            <div className="figma-node n-21-2579">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-2580">
+              <div className="figma-node n-21-2581">
+                <div className="figma-node n-21-2582">
+                  <div className="figma-node n-21-2583"></div>
+                  <div className="figma-node n-21-2584"></div>
+                  <div className="figma-node n-21-2585"></div>
+                  <div className="figma-node n-21-2586"></div>
+                  <div className="figma-node n-21-2587"></div>
+                  <div className="figma-node n-21-2588"></div>
+                  <div className="figma-node n-21-2589"></div>
+                </div>
+                <div className="figma-node n-21-2590">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2590.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2593">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2593.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2601">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2601.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-2604">
+                <div className="figma-node n-21-2605">
+                  Infinity Bond Waistband
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2606">
+              <div className="figma-node n-21-2607">
+                <div className="figma-node n-21-2608">
+                  Icon Cotton Stretch 3-Pack Boxer Brief
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2609">$52.50</div>
+            <div className="figma-node n-21-2610">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-2611">
+              <div className="figma-node n-21-2612">
+                <div className="figma-node n-21-2613">+ 7 colors</div>
+              </div>
+              <div className="figma-node n-21-2614">
+                <div className="figma-node n-21-2615"></div>
+              </div>
+              <div className="figma-node n-21-2616">
+                <div className="figma-node n-21-2617"></div>
+              </div>
+              <div className="figma-node n-21-2618">
+                <div className="figma-node n-21-2619"></div>
+              </div>
+              <div className="figma-node n-21-2620">
+                <div className="figma-node n-21-2621"></div>
+              </div>
+              <div className="figma-node n-21-2622">
+                <div className="figma-node n-21-2623"></div>
+              </div>
+              <div className="figma-node n-21-2624">
+                <div className="figma-node n-21-2625"></div>
+              </div>
+              <div className="figma-node n-21-2626">
+                <div className="figma-node n-21-2627">+ More Colors</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2628">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2628.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2630">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2630.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2632">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2632.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2634">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2634.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2636">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2636.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2638">(30)</div>
+            <div className="figma-node n-21-2639">
+              <div className="figma-node n-21-2640">
+                <div className="figma-node n-21-2641">
+                  <div className="figma-node n-21-2642"></div>
+                  <div className="figma-node n-21-2643"></div>
+                  <div className="figma-node n-21-2644"></div>
+                  <div className="figma-node n-21-2645"></div>
+                  <div className="figma-node n-21-2646"></div>
+                  <div className="figma-node n-21-2647"></div>
+                  <div className="figma-node n-21-2648"></div>
+                </div>
+                <div className="figma-node n-21-2649">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2649.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2652">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2652.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2660">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2660.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-2663">
+                <div className="figma-node n-21-2664">
+                  Infinity Bond Waistband
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2665">
+              <div className="figma-node n-21-2666">
+                <div className="figma-node n-21-2667">
+                  Icon Cotton Stretch 3-Pack Boxer Brief
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2668">$52.50</div>
+            <div className="figma-node n-21-2669">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-2670">
+              <div className="figma-node n-21-2671">
+                <div className="figma-node n-21-2672">+ 7 colors</div>
+              </div>
+              <div className="figma-node n-21-2673">
+                <div className="figma-node n-21-2674"></div>
+              </div>
+              <div className="figma-node n-21-2675">
+                <div className="figma-node n-21-2676"></div>
+              </div>
+              <div className="figma-node n-21-2677">
+                <div className="figma-node n-21-2678"></div>
+              </div>
+              <div className="figma-node n-21-2679">
+                <div className="figma-node n-21-2680"></div>
+              </div>
+              <div className="figma-node n-21-2681">
+                <div className="figma-node n-21-2682"></div>
+              </div>
+              <div className="figma-node n-21-2683">
+                <div className="figma-node n-21-2684"></div>
+              </div>
+              <div className="figma-node n-21-2685">
+                <div className="figma-node n-21-2686">+ More Colors</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2687">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2687.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2689">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2689.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2691">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2691.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2693">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2693.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2695">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2695.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2697">(30)</div>
+            <div className="figma-node n-21-2698">
+              <div className="figma-node n-21-2699">
+                <div className="figma-node n-21-2700">
+                  <div className="figma-node n-21-2701"></div>
+                  <div className="figma-node n-21-2702"></div>
+                  <div className="figma-node n-21-2703"></div>
+                  <div className="figma-node n-21-2704"></div>
+                  <div className="figma-node n-21-2705"></div>
+                </div>
+                <div className="figma-node n-21-2706">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2706.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2709">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2709.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2715">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2715.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2718">
+              <div className="figma-node n-21-2719">
+                <div className="figma-node n-21-2720">
+                  Linen Cotton Classic Button-Down Shirt
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2721">$99.00 $59.40 40% off</div>
+            <div className="figma-node n-21-2722">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-2723">
+              <div className="figma-node n-21-2724">
+                <div className="figma-node n-21-2725">+ 4 colors</div>
+              </div>
+              <div className="figma-node n-21-2726">
+                <div className="figma-node n-21-2727"></div>
+              </div>
+              <div className="figma-node n-21-2728">
+                <div className="figma-node n-21-2729"></div>
+              </div>
+              <div className="figma-node n-21-2730">
+                <div className="figma-node n-21-2731"></div>
+              </div>
+              <div className="figma-node n-21-2732">
+                <div className="figma-node n-21-2733"></div>
+              </div>
+              <div className="figma-node n-21-2734">
+                <div className="figma-node n-21-2735"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2736">
+              <div className="figma-node n-21-2737">
+                <div className="figma-node n-21-2738">
+                  <div className="figma-node n-21-2739"></div>
+                  <div className="figma-node n-21-2740"></div>
+                  <div className="figma-node n-21-2741"></div>
+                  <div className="figma-node n-21-2742"></div>
+                  <div className="figma-node n-21-2743"></div>
+                </div>
+                <div className="figma-node n-21-2744">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2744.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2747">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2747.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2753">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2753.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2756">
+              <div className="figma-node n-21-2757">
+                <div className="figma-node n-21-2758">
+                  Cotton Stretch Straight Trousers
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2759">$89.00 $53.40 40% off</div>
+            <div className="figma-node n-21-2760">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-2761">
+              <div className="figma-node n-21-2762">
+                <div className="figma-node n-21-2763">+ 3 colors</div>
+              </div>
+              <div className="figma-node n-21-2764">
+                <div className="figma-node n-21-2765"></div>
+              </div>
+              <div className="figma-node n-21-2766">
+                <div className="figma-node n-21-2767"></div>
+              </div>
+              <div className="figma-node n-21-2768">
+                <div className="figma-node n-21-2769"></div>
+              </div>
+              <div className="figma-node n-21-2770">
+                <div className="figma-node n-21-2771"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2772">
+              <div className="figma-node n-21-2773">
+                <div className="figma-node n-21-2774">
+                  <div className="figma-node n-21-2775"></div>
+                  <div className="figma-node n-21-2776"></div>
+                  <div className="figma-node n-21-2777"></div>
+                  <div className="figma-node n-21-2778"></div>
+                  <div className="figma-node n-21-2779"></div>
+                </div>
+                <div className="figma-node n-21-2780">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2780.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2783">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2783.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2789">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2789.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-2792">
+                <div className="figma-node n-21-2793">New Arrival</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2794">
+              <div className="figma-node n-21-2795">
+                <div className="figma-node n-21-2796">
+                  Linen Cotton Zip Jacket
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2797">$169.00 $101.40 40% off</div>
+            <div className="figma-node n-21-2798">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-2799">
+              <div className="figma-node n-21-2800">
+                <div className="figma-node n-21-2801">
+                  <div className="figma-node n-21-2802"></div>
+                  <div className="figma-node n-21-2803"></div>
+                  <div className="figma-node n-21-2804"></div>
+                  <div className="figma-node n-21-2805"></div>
+                  <div className="figma-node n-21-2806"></div>
+                  <div className="figma-node n-21-2807"></div>
+                </div>
+                <div className="figma-node n-21-2808">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2808.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2811">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2811.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2818">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2818.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2821">
+              <div className="figma-node n-21-2822">
+                <div className="figma-node n-21-2823">Slim Tapered Jeans</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2824">$99.00 $59.40 40% off</div>
+            <div className="figma-node n-21-2825">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-2826">
+              <div className="figma-node n-21-2827">
+                <div className="figma-node n-21-2828">+ 5 colors</div>
+              </div>
+              <div className="figma-node n-21-2829">
+                <div className="figma-node n-21-2830"></div>
+              </div>
+              <div className="figma-node n-21-2831">
+                <div className="figma-node n-21-2832"></div>
+              </div>
+              <div className="figma-node n-21-2833">
+                <div className="figma-node n-21-2834"></div>
+              </div>
+              <div className="figma-node n-21-2835">
+                <div className="figma-node n-21-2836"></div>
+              </div>
+              <div className="figma-node n-21-2837">
+                <div className="figma-node n-21-2838"></div>
+              </div>
+              <div className="figma-node n-21-2839">
+                <div className="figma-node n-21-2840"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2841">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2841.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2843">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2843.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2845">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2845.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2847">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2847.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2849">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2849.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2851">(6)</div>
+            <div className="figma-node n-21-2852">
+              <div className="figma-node n-21-2853">
+                <div className="figma-node n-21-2854">
+                  <div className="figma-node n-21-2855"></div>
+                  <div className="figma-node n-21-2856"></div>
+                  <div className="figma-node n-21-2857"></div>
+                  <div className="figma-node n-21-2858"></div>
+                  <div className="figma-node n-21-2859"></div>
+                  <div className="figma-node n-21-2860"></div>
+                </div>
+                <div className="figma-node n-21-2861">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2861.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2864">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2864.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2871">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2871.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-2874">
+                <div className="figma-node n-21-2875">New Arrival</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2876">
+              <div className="figma-node n-21-2877">
+                <div className="figma-node n-21-2878">
+                  Straight Seersucker Elastic 7&quot; Shorts
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2879">$79.00 $47.40 40% off</div>
+            <div className="figma-node n-21-2880">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-2881">
+              <div className="figma-node n-21-2882">
+                <div className="figma-node n-21-2883">+ 1 color</div>
+              </div>
+              <div className="figma-node n-21-2884">
+                <div className="figma-node n-21-2885"></div>
+              </div>
+              <div className="figma-node n-21-2886">
+                <div className="figma-node n-21-2887"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2888">
+              <div className="figma-node n-21-2889">
+                <div className="figma-node n-21-2890">
+                  <div className="figma-node n-21-2891"></div>
+                  <div className="figma-node n-21-2892"></div>
+                  <div className="figma-node n-21-2893"></div>
+                  <div className="figma-node n-21-2894"></div>
+                  <div className="figma-node n-21-2895"></div>
+                </div>
+                <div className="figma-node n-21-2896">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2896.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2899">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2899.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2905">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2905.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2908">
+              <div className="figma-node n-21-2909">
+                <div className="figma-node n-21-2910">
+                  Cotton Relaxed Polo Sweater
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2911">$129.00 $77.40 40% off</div>
+            <div className="figma-node n-21-2912">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-2913">
+              <div className="figma-node n-21-2914">
+                <div className="figma-node n-21-2915">+ 1 color</div>
+              </div>
+              <div className="figma-node n-21-2916">
+                <div className="figma-node n-21-2917"></div>
+              </div>
+              <div className="figma-node n-21-2918">
+                <div className="figma-node n-21-2919"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2920">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2920.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2922">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2922.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2924">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2924.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2926">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2926.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2928">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-2928.svg"
+              />
+            </div>
+            <div className="figma-node n-21-2930">(1)</div>
+            <div className="figma-node n-21-2931">
+              <div className="figma-node n-21-2932">
+                <div className="figma-node n-21-2933">
+                  <div className="figma-node n-21-2934"></div>
+                  <div className="figma-node n-21-2935"></div>
+                  <div className="figma-node n-21-2936"></div>
+                  <div className="figma-node n-21-2937"></div>
+                  <div className="figma-node n-21-2938"></div>
+                </div>
+                <div className="figma-node n-21-2939">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2939.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2942">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2942.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2948">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2948.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2951">
+              <div className="figma-node n-21-2952">
+                <div className="figma-node n-21-2953">
+                  90s Baggy Chino Pants
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2954">$109.00 $65.40 40% off</div>
+            <div className="figma-node n-21-2955">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-2956">
+              <div className="figma-node n-21-2957">
+                <div className="figma-node n-21-2958">+ 5 colors</div>
+              </div>
+              <div className="figma-node n-21-2959">
+                <div className="figma-node n-21-2960"></div>
+              </div>
+              <div className="figma-node n-21-2961">
+                <div className="figma-node n-21-2962"></div>
+              </div>
+              <div className="figma-node n-21-2963">
+                <div className="figma-node n-21-2964"></div>
+              </div>
+              <div className="figma-node n-21-2965">
+                <div className="figma-node n-21-2966"></div>
+              </div>
+              <div className="figma-node n-21-2967">
+                <div className="figma-node n-21-2968"></div>
+              </div>
+              <div className="figma-node n-21-2969">
+                <div className="figma-node n-21-2970"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2971">
+              <div className="figma-node n-21-2972">
+                <div className="figma-node n-21-2973">
+                  <div className="figma-node n-21-2974"></div>
+                  <div className="figma-node n-21-2975"></div>
+                  <div className="figma-node n-21-2976"></div>
+                  <div className="figma-node n-21-2977"></div>
+                  <div className="figma-node n-21-2978"></div>
+                  <div className="figma-node n-21-2979"></div>
+                </div>
+                <div className="figma-node n-21-2980">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2980.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2983">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2983.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-2990">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-2990.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-2993">
+                <div className="figma-node n-21-2994">New Arrival</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2995">
+              <div className="figma-node n-21-2996">
+                <div className="figma-node n-21-2997">
+                  Solid Linen Blend Classic Shirt
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-2998">$109.00 $65.40 40% off</div>
+            <div className="figma-node n-21-2999">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-3000">
+              <div className="figma-node n-21-3001">
+                <div className="figma-node n-21-3002">+ 4 colors</div>
+              </div>
+              <div className="figma-node n-21-3003">
+                <div className="figma-node n-21-3004"></div>
+              </div>
+              <div className="figma-node n-21-3005">
+                <div className="figma-node n-21-3006"></div>
+              </div>
+              <div className="figma-node n-21-3007">
+                <div className="figma-node n-21-3008"></div>
+              </div>
+              <div className="figma-node n-21-3009">
+                <div className="figma-node n-21-3010"></div>
+              </div>
+              <div className="figma-node n-21-3011">
+                <div className="figma-node n-21-3012"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-3013">
+              <div className="figma-node n-21-3014">
+                <div className="figma-node n-21-3015">
+                  <div className="figma-node n-21-3016"></div>
+                  <div className="figma-node n-21-3017"></div>
+                  <div className="figma-node n-21-3018"></div>
+                  <div className="figma-node n-21-3019"></div>
+                  <div className="figma-node n-21-3020"></div>
+                  <div className="figma-node n-21-3021"></div>
+                </div>
+                <div className="figma-node n-21-3022">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-3022.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-3025">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-3025.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-3032">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-3032.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-3035">
+                <div className="figma-node n-21-3036">New Arrival</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-3037">
+              <div className="figma-node n-21-3038">
+                <div className="figma-node n-21-3039">
+                  Solid Linen Blend Classic Shirt
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-3040">$99.00 $59.40 40% off</div>
+            <div className="figma-node n-21-3041">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-3042">
+              <div className="figma-node n-21-3043">
+                <div className="figma-node n-21-3044">+ 4 colors</div>
+              </div>
+              <div className="figma-node n-21-3045">
+                <div className="figma-node n-21-3046"></div>
+              </div>
+              <div className="figma-node n-21-3047">
+                <div className="figma-node n-21-3048"></div>
+              </div>
+              <div className="figma-node n-21-3049">
+                <div className="figma-node n-21-3050"></div>
+              </div>
+              <div className="figma-node n-21-3051">
+                <div className="figma-node n-21-3052"></div>
+              </div>
+              <div className="figma-node n-21-3053">
+                <div className="figma-node n-21-3054"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-3055">
+              <div className="figma-node n-21-3056">
+                <div className="figma-node n-21-3057">
+                  <div className="figma-node n-21-3058"></div>
+                  <div className="figma-node n-21-3059"></div>
+                  <div className="figma-node n-21-3060"></div>
+                  <div className="figma-node n-21-3061"></div>
+                  <div className="figma-node n-21-3062"></div>
+                </div>
+                <div className="figma-node n-21-3063">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-3063.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-3066">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-3066.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-3072">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-3072.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-3075">
+              <div className="figma-node n-21-3076">
+                <div className="figma-node n-21-3077">
+                  Standard Straight Wool Blend Jeans
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-3078">$149.00 $89.40 40% off</div>
+            <div className="figma-node n-21-3079">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-3080">
+              <div className="figma-node n-21-3081">
+                <div className="figma-node n-21-3082">+ 1 color</div>
+              </div>
+              <div className="figma-node n-21-3083">
+                <div className="figma-node n-21-3084"></div>
+              </div>
+              <div className="figma-node n-21-3085">
+                <div className="figma-node n-21-3086"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-3087">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-3087.svg"
+              />
+            </div>
+            <div className="figma-node n-21-3089">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-3089.svg"
+              />
+            </div>
+            <div className="figma-node n-21-3091">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-3091.svg"
+              />
+            </div>
+            <div className="figma-node n-21-3093">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-3093.svg"
+              />
+            </div>
+            <div className="figma-node n-21-3095">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-3095.svg"
+              />
+            </div>
+            <div className="figma-node n-21-3097">(1)</div>
+            <div className="figma-node n-21-3098">
+              <div className="figma-node n-21-3099">
+                <div className="figma-node n-21-3100">
+                  <div className="figma-node n-21-3101"></div>
+                  <div className="figma-node n-21-3102"></div>
+                  <div className="figma-node n-21-3103"></div>
+                  <div className="figma-node n-21-3104"></div>
+                  <div className="figma-node n-21-3105"></div>
+                </div>
+                <div className="figma-node n-21-3106">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-3106.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-3109">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-3109.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-3115">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-3115.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-3118">
+              <div className="figma-node n-21-3119">
+                <div className="figma-node n-21-3120">
+                  Monologo Graphic Stripe Classic T-Shirt
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-3121">$49.00 $29.40 40% off</div>
+            <div className="figma-node n-21-3122">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-3123">
+              <div className="figma-node n-21-3124">
+                <div className="figma-node n-21-3125">+ 1 color</div>
+              </div>
+              <div className="figma-node n-21-3126">
+                <div className="figma-node n-21-3127"></div>
+              </div>
+              <div className="figma-node n-21-3128">
+                <div className="figma-node n-21-3129"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-3130">
+              <div className="figma-node n-21-3131">
+                <div className="figma-node n-21-3132">
+                  <div className="figma-node n-21-3133"></div>
+                  <div className="figma-node n-21-3134"></div>
+                  <div className="figma-node n-21-3135"></div>
+                  <div className="figma-node n-21-3136"></div>
+                  <div className="figma-node n-21-3137"></div>
+                  <div className="figma-node n-21-3138"></div>
+                </div>
+                <div className="figma-node n-21-3139">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-3139.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-3142">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-3142.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-3149">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-3149.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-3152">
+              <div className="figma-node n-21-3153">
+                <div className="figma-node n-21-3154">90s Straight Jeans</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-3155">$129.00 $77.40 40% off</div>
+            <div className="figma-node n-21-3156">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-3157">
+              <div className="figma-node n-21-3158">
+                <div className="figma-node n-21-3159">+ 11 colors</div>
+              </div>
+              <div className="figma-node n-21-3160">
+                <div className="figma-node n-21-3161"></div>
+              </div>
+              <div className="figma-node n-21-3162">
+                <div className="figma-node n-21-3163"></div>
+              </div>
+              <div className="figma-node n-21-3164">
+                <div className="figma-node n-21-3165"></div>
+              </div>
+              <div className="figma-node n-21-3166">
+                <div className="figma-node n-21-3167"></div>
+              </div>
+              <div className="figma-node n-21-3168">
+                <div className="figma-node n-21-3169"></div>
+              </div>
+              <div className="figma-node n-21-3170">
+                <div className="figma-node n-21-3171"></div>
+              </div>
+              <div className="figma-node n-21-3172">
+                <div className="figma-node n-21-3173">+ More Colors</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-3174">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-3174.svg"
+              />
+            </div>
+            <div className="figma-node n-21-3176">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-3176.svg"
+              />
+            </div>
+            <div className="figma-node n-21-3178">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-3178.svg"
+              />
+            </div>
+            <div className="figma-node n-21-3180">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-3180.svg"
+              />
+            </div>
+            <div className="figma-node n-21-3182">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-3182.svg"
+              />
+            </div>
+            <div className="figma-node n-21-3184">(19)</div>
+            <div className="figma-node n-21-3185">
+              <div className="figma-node n-21-3186">
+                <div className="figma-node n-21-3187">
+                  <div className="figma-node n-21-3188"></div>
+                  <div className="figma-node n-21-3189"></div>
+                  <div className="figma-node n-21-3190"></div>
+                  <div className="figma-node n-21-3191"></div>
+                  <div className="figma-node n-21-3192"></div>
+                  <div className="figma-node n-21-3193"></div>
+                </div>
+                <div className="figma-node n-21-3194">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-3194.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-3197">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-3197.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-3204">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-3204.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-3207">
+                <div className="figma-node n-21-3208">Best Seller</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-3209">
+              <div className="figma-node n-21-3210">
+                <div className="figma-node n-21-3211">Baggy Jeans</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-3212">$149.00 $89.40 40% off</div>
+            <div className="figma-node n-21-3213">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-3214">
+              <div className="figma-node n-21-3215">
+                <div className="figma-node n-21-3216">+ 4 colors</div>
+              </div>
+              <div className="figma-node n-21-3217">
+                <div className="figma-node n-21-3218"></div>
+              </div>
+              <div className="figma-node n-21-3219">
+                <div className="figma-node n-21-3220"></div>
+              </div>
+              <div className="figma-node n-21-3221">
+                <div className="figma-node n-21-3222"></div>
+              </div>
+              <div className="figma-node n-21-3223">
+                <div className="figma-node n-21-3224"></div>
+              </div>
+              <div className="figma-node n-21-3225">
+                <div className="figma-node n-21-3226"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-3227">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-3227.svg"
+              />
+            </div>
+            <div className="figma-node n-21-3229">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-3229.svg"
+              />
+            </div>
+            <div className="figma-node n-21-3231">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-3231.svg"
+              />
+            </div>
+            <div className="figma-node n-21-3233">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-3233.svg"
+              />
+            </div>
+            <div className="figma-node n-21-3235">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-3235.svg"
+              />
+            </div>
+            <div className="figma-node n-21-3237">(1)</div>
+            <div className="figma-node n-21-3238">
+              <div className="figma-node n-21-3239">
+                <div className="figma-node n-21-3240">
+                  <div className="figma-node n-21-3241"></div>
+                  <div className="figma-node n-21-3242"></div>
+                  <div className="figma-node n-21-3243"></div>
+                  <div className="figma-node n-21-3244"></div>
+                  <div className="figma-node n-21-3245"></div>
+                  <div className="figma-node n-21-3246"></div>
+                </div>
+                <div className="figma-node n-21-3247">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-3247.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-3250">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-3250.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-3257">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-3257.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-3260">
+              <div className="figma-node n-21-3261">
+                <div className="figma-node n-21-3262">
+                  Cotton Stretch Stripe Classic Button-Down Shirt
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-3263">$89.00 $53.40 40% off</div>
+            <div className="figma-node n-21-3264">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-3265">
+              <div className="figma-node n-21-3266">
+                <div className="figma-node n-21-3267">+ 1 color</div>
+              </div>
+              <div className="figma-node n-21-3268">
+                <div className="figma-node n-21-3269"></div>
+              </div>
+              <div className="figma-node n-21-3270">
+                <div className="figma-node n-21-3271"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-3272">
+              <div className="figma-node n-21-3273">
+                <div className="figma-node n-21-3274">
+                  <div className="figma-node n-21-3275"></div>
+                  <div className="figma-node n-21-3276"></div>
+                  <div className="figma-node n-21-3277"></div>
+                  <div className="figma-node n-21-3278"></div>
+                  <div className="figma-node n-21-3279"></div>
+                  <div className="figma-node n-21-3280"></div>
+                </div>
+                <div className="figma-node n-21-3281">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-3281.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-3284">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-3284.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-3291">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-3291.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-3294">
+                <div className="figma-node n-21-3295">Best Seller</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-3296">
+              <div className="figma-node n-21-3297">
+                <div className="figma-node n-21-3298">Slim Jeans</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-3299">$99.00 $59.40 40% off</div>
+            <div className="figma-node n-21-3300">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-3301">
+              <div className="figma-node n-21-3302">
+                <div className="figma-node n-21-3303">+ 15 colors</div>
+              </div>
+              <div className="figma-node n-21-3304">
+                <div className="figma-node n-21-3305"></div>
+              </div>
+              <div className="figma-node n-21-3306">
+                <div className="figma-node n-21-3307"></div>
+              </div>
+              <div className="figma-node n-21-3308">
+                <div className="figma-node n-21-3309"></div>
+              </div>
+              <div className="figma-node n-21-3310">
+                <div className="figma-node n-21-3311"></div>
+              </div>
+              <div className="figma-node n-21-3312">
+                <div className="figma-node n-21-3313"></div>
+              </div>
+              <div className="figma-node n-21-3314">
+                <div className="figma-node n-21-3315"></div>
+              </div>
+              <div className="figma-node n-21-3316">
+                <div className="figma-node n-21-3317">+ More Colors</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-3318">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-3318.svg"
+              />
+            </div>
+            <div className="figma-node n-21-3320">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-3320.svg"
+              />
+            </div>
+            <div className="figma-node n-21-3322">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-3322.svg"
+              />
+            </div>
+            <div className="figma-node n-21-3324">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-3324.svg"
+              />
+            </div>
+            <div className="figma-node n-21-3326">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-3326.svg"
+              />
+            </div>
+            <div className="figma-node n-21-3328">(161)</div>
+            <div className="figma-node n-21-3329">
+              <div className="figma-node n-21-3330">
+                <div className="figma-node n-21-3331">
+                  <div className="figma-node n-21-3332"></div>
+                  <div className="figma-node n-21-3333"></div>
+                  <div className="figma-node n-21-3334"></div>
+                  <div className="figma-node n-21-3335"></div>
+                  <div className="figma-node n-21-3336"></div>
+                  <div className="figma-node n-21-3337"></div>
+                </div>
+                <div className="figma-node n-21-3338">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-3338.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-3341">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-3341.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-3348">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-3348.svg"
+                  />
+                </div>
+              </div>
+              <div className="figma-node n-21-3351">
+                <div className="figma-node n-21-3352">New Arrival</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-3353">
+              <div className="figma-node n-21-3354">
+                <div className="figma-node n-21-3355">
+                  Heritage Classic Terry Hoodie
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-3356">$129.00 $77.40 40% off</div>
+            <div className="figma-node n-21-3357">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-3358">
+              <div className="figma-node n-21-3359">
+                <div className="figma-node n-21-3360">+ 1 color</div>
+              </div>
+              <div className="figma-node n-21-3361">
+                <div className="figma-node n-21-3362"></div>
+              </div>
+              <div className="figma-node n-21-3363">
+                <div className="figma-node n-21-3364"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-3365">
+              <div className="figma-node n-21-3366">
+                <div className="figma-node n-21-3367">
+                  <div className="figma-node n-21-3368"></div>
+                  <div className="figma-node n-21-3369"></div>
+                  <div className="figma-node n-21-3370"></div>
+                  <div className="figma-node n-21-3371"></div>
+                  <div className="figma-node n-21-3372"></div>
+                </div>
+                <div className="figma-node n-21-3373">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-3373.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-3376">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-3376.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-3382">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-3382.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-3385">
+              <div className="figma-node n-21-3386">
+                <div className="figma-node n-21-3387">
+                  Liquid Touch Polo Shirt
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-3388">$79.00 $47.40 40% off</div>
+            <div className="figma-node n-21-3389">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-3390">
+              <div className="figma-node n-21-3391">
+                <div className="figma-node n-21-3392">+ 14 colors</div>
+              </div>
+              <div className="figma-node n-21-3393">
+                <div className="figma-node n-21-3394"></div>
+              </div>
+              <div className="figma-node n-21-3395">
+                <div className="figma-node n-21-3396"></div>
+              </div>
+              <div className="figma-node n-21-3397">
+                <div className="figma-node n-21-3398"></div>
+              </div>
+              <div className="figma-node n-21-3399">
+                <div className="figma-node n-21-3400"></div>
+              </div>
+              <div className="figma-node n-21-3401">
+                <div className="figma-node n-21-3402"></div>
+              </div>
+              <div className="figma-node n-21-3403">
+                <div className="figma-node n-21-3404"></div>
+              </div>
+              <div className="figma-node n-21-3405">
+                <div className="figma-node n-21-3406">+ More Colors</div>
+              </div>
+            </div>
+            <div className="figma-node n-21-3407">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-3407.svg"
+              />
+            </div>
+            <div className="figma-node n-21-3409">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-3409.svg"
+              />
+            </div>
+            <div className="figma-node n-21-3411">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-3411.svg"
+              />
+            </div>
+            <div className="figma-node n-21-3413">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-3413.svg"
+              />
+            </div>
+            <div className="figma-node n-21-3415">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-3415.svg"
+              />
+            </div>
+            <div className="figma-node n-21-3417">(24)</div>
+            <div className="figma-node n-21-3418">
+              <div className="figma-node n-21-3419">
+                <div className="figma-node n-21-3420">
+                  <div className="figma-node n-21-3421"></div>
+                  <div className="figma-node n-21-3422"></div>
+                  <div className="figma-node n-21-3423"></div>
+                  <div className="figma-node n-21-3424"></div>
+                  <div className="figma-node n-21-3425"></div>
+                </div>
+                <div className="figma-node n-21-3426">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-3426.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-3429">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-3429.svg"
+                  />
+                </div>
+                <div className="figma-node n-21-3435">
+                  <img
+                    className="figma-img"
+                    alt=""
+                    src="/assets/page2/svg_21-3435.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-3438">
+              <div className="figma-node n-21-3439">
+                <div className="figma-node n-21-3440">
+                  Cotton Stretch Chino Pull-On Shorts
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-3441">$79.00 $47.40 40% off</div>
+            <div className="figma-node n-21-3442">
+              Friends + Family: Extra 20% off $125+
+            </div>
+            <div className="figma-node n-21-3443">
+              <div className="figma-node n-21-3444">
+                <div className="figma-node n-21-3445">+ 3 colors</div>
+              </div>
+              <div className="figma-node n-21-3446">
+                <div className="figma-node n-21-3447"></div>
+              </div>
+              <div className="figma-node n-21-3448">
+                <div className="figma-node n-21-3449"></div>
+              </div>
+              <div className="figma-node n-21-3450">
+                <div className="figma-node n-21-3451"></div>
+              </div>
+              <div className="figma-node n-21-3452">
+                <div className="figma-node n-21-3453"></div>
+              </div>
+            </div>
+            <div className="figma-node n-21-3454">
+              Showing 80 of 1,722 products
+            </div>
+            <div className="figma-node n-21-3455">
+              <div className="figma-node n-21-3456">Load More</div>
+            </div>
+          </div>
+          <div className="figma-node n-21-3457">
+            <div className="figma-node n-21-3458">
+              <div className="figma-node n-21-3459">You May Also Like</div>
+              <div className="figma-node n-21-3460">
+                <img
+                  className="figma-img"
+                  alt=""
+                  src="/assets/page2/svg_21-3460.svg"
+                />
+              </div>
+              <div className="figma-node n-21-3463">
+                <img
+                  className="figma-img"
+                  alt=""
+                  src="/assets/page2/svg_21-3463.svg"
+                />
+              </div>
+              <div className="figma-node n-21-3466">
+                <div className="figma-node n-21-3467">
+                  <div className="figma-node n-21-3468"></div>
+                </div>
+                <div className="figma-node n-21-3469">
+                  <div className="figma-node n-21-3470">
+                    Heritage Cotton Stretch 3- Pack Trunk
+                  </div>
+                </div>
+                <div className="figma-node n-21-3471">
+                  $52.50 $36.75 30% off
+                </div>
+              </div>
+              <div className="figma-node n-21-3472">
+                <div className="figma-node n-21-3473">
+                  <div className="figma-node n-21-3474"></div>
+                </div>
+                <div className="figma-node n-21-3475">
+                  <div className="figma-node n-21-3476">
+                    Icon Cotton Stretch Limited Edition 3-Pack Trunk
+                  </div>
+                </div>
+                <div className="figma-node n-21-3477">$52.50</div>
+              </div>
+              <div className="figma-node n-21-3478">
+                <div className="figma-node n-21-3479">
+                  <div className="figma-node n-21-3480"></div>
+                </div>
+                <div className="figma-node n-21-3481">
+                  <div className="figma-node n-21-3482">
+                    Embroidered Monologo Baseball Cap
+                  </div>
+                </div>
+                <div className="figma-node n-21-3483">
+                  $39.00 $23.40 40% off
+                </div>
+              </div>
+              <div className="figma-node n-21-3484">
+                <div className="figma-node n-21-3485">
+                  <div className="figma-node n-21-3486"></div>
+                </div>
+                <div className="figma-node n-21-3487">
+                  <div className="figma-node n-21-3488">Denim Monogram Cap</div>
+                </div>
+                <div className="figma-node n-21-3489">
+                  $39.00 $31.20 20% off
+                </div>
+              </div>
+              <div className="figma-node n-21-3490">
+                <div className="figma-node n-21-3491">
+                  <div className="figma-node n-21-3492"></div>
+                </div>
+                <div className="figma-node n-21-3493">
+                  <div className="figma-node n-21-3494">
+                    Cotton Classics 5-Pack Boxer Brief
+                  </div>
+                </div>
+                <div className="figma-node n-21-3495">
+                  $76.50 $53.55 30% off
+                </div>
+              </div>
+              <div className="figma-node n-21-3496">
+                <div className="figma-node n-21-3497">
+                  <div className="figma-node n-21-3498"></div>
+                </div>
+                <div className="figma-node n-21-3499">
+                  <div className="figma-node n-21-3500">Denim Monogram Cap</div>
+                </div>
+                <div className="figma-node n-21-3501">
+                  $39.00 $31.20 20% off
+                </div>
+              </div>
+              <div className="figma-node n-21-3502">
+                <div className="figma-node n-21-3503">
+                  <div className="figma-node n-21-3504"></div>
+                </div>
+                <div className="figma-node n-21-3505">
+                  <div className="figma-node n-21-3506">
+                    Cotton Classics 7-Pack Boxer Brief
+                  </div>
+                </div>
+                <div className="figma-node n-21-3507">
+                  $99.50 $79.60 20% off
+                </div>
+              </div>
+            </div>
+            <div className="figma-node n-21-3508">
+              <div className="figma-node n-21-3509">Recently Viewed</div>
+              <div className="figma-node n-21-3510">
+                <div className="figma-node n-21-3511">
+                  <div className="figma-node n-21-3512"></div>
+                </div>
+                <div className="figma-node n-21-3513">
+                  <div className="figma-node n-21-3514">90s Tapered Jeans</div>
+                </div>
+                <div className="figma-node n-21-3515">
+                  $169.00 $84.50 50% off
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="figma-node n-21-3516">
+            Men&#39;s Fashion and Accessories
+          </div>
+          <div className="figma-node n-21-3517">
+            Discover your new look with modern and timeless menÃ¢â‚¬â„¢s
+            clothing and accessories at this comprehensive shop page at the
+            official AV APPAREL online store. Mix and match differing styles
+            and fits with exclusive styles to cover a wide range of looks you
+            wonÃ¢â‚¬â„¢t find anywhere else.
+          </div>
+          <div className="figma-node n-21-3518">
+            Start with an iconic menÃ¢â‚¬â„¢s graphic tee for a bold logo
+            statement. Our retro-inspired monogram logo is as relevant today as
+            when it was first released decades ago. For a pared back look, go
+            for a subtler design with a tonal embroidered logo for a reserved,
+            sophisticated edge. Add a light wash denim trucker jacket with
+            straight leg pants for exceptional versatility. Switch it up with
+            slim fit dark wash jeans and a striped button-down shirt and similar
+            choices for menÃ¢â‚¬â„¢s casual outfits.
+          </div>
+          <div className="figma-node n-21-3519">
+            Gear up with well-built menÃ¢â‚¬â„¢s outerwear that will provide an
+            on-trend menÃ¢â‚¬â„¢s fashion look with excellent weather protection
+            to keep you warm and dry all day long. Choose a water-repellent
+            parka jacket or long wool blend coat for exceptional coverage. Opt
+            for a bomber jacket or denim chore jacket for menÃ¢â‚¬â„¢s clothing
+            pieces that will never go out of style. Layer up with a knit
+            pullover sweater or plush sweatshirt for additional comfort.
+          </div>
+          <div className="figma-node n-21-3520">
+            Finish your ensemble with a signature menÃ¢â‚¬â„¢s hat and a modern
+            bracelet. Upgrade your everyday carry with menÃ¢â‚¬â„¢s jewelry,
+            watches and wallets youÃ¢â‚¬â„¢ll feature in your collection for
+            years to come. For all your work, travel, and business needs, choose
+            a new menÃ¢â‚¬â„¢s backpack, sling bag, tote bag, briefcase or
+            duffle bag in supple leather, nylon, textured faux leather, cotton
+            canvas, and more.
+          </div>
+          <div className="figma-node n-21-3521">
+            Search for more casual clothes for men and refined menÃ¢â‚¬â„¢s
+            outfits at our{" "}
+          </div>
+          <div className="figma-node n-21-3522">
+            <div className="figma-node n-21-3523">menÃ¢â‚¬â„¢s tops</div>
+          </div>
+          <div className="figma-node n-21-3524"> and </div>
+          <div className="figma-node n-21-3525">
+            <div className="figma-node n-21-3526">menÃ¢â‚¬â„¢s bottoms</div>
+          </div>
+          <div className="figma-node n-21-3527">
+            {" "}
+            shops. Finish your look with modern{" "}
+          </div>
+          <div className="figma-node n-21-3528">
+            <div className="figma-node n-21-3529">menÃ¢â‚¬â„¢s accessories</div>
+          </div>
+          <div className="figma-node n-21-3530">.</div>
+          <div className="figma-node n-21-3531">Explore More</div>
+          <div className="figma-node n-21-3532">
+            <div className="figma-node n-21-3533">
+              <div className="figma-node n-21-3534">Sale</div>
+            </div>
+            <div className="figma-node n-21-3535">
+              <div className="figma-node n-21-3536">New Arrivals</div>
+            </div>
+            <div className="figma-node n-21-3537">
+              <div className="figma-node n-21-3538">Bestsellers</div>
+            </div>
+            <div className="figma-node n-21-3539">
+              <div className="figma-node n-21-3540">Underwear</div>
+            </div>
+            <div className="figma-node n-21-3541">
+              <div className="figma-node n-21-3542">Bags</div>
+            </div>
+            <div className="figma-node n-21-3543">
+              <div className="figma-node n-21-3544">Tees</div>
+            </div>
+            <div className="figma-node n-21-3545">
+              <div className="figma-node n-21-3546">Jackets</div>
+            </div>
+            <div className="figma-node n-21-3547">
+              <div className="figma-node n-21-3548">Sweaters</div>
+            </div>
+            <div className="figma-node n-21-3549">
+              <div className="figma-node n-21-3550">My AV Rewards</div>
+            </div>
+          </div>
+        </div>
+        <div className="figma-node n-21-3556">
+          <div className="figma-node n-21-3557">
+            <img
+              className="figma-img"
+              alt=""
+              src="/assets/page2/svg_21-3557.svg"
+            />
+          </div>
+          <div className="figma-node n-21-3562">
+            <div className="figma-node n-21-3563">New</div>
+            <div className="figma-node n-21-3564">Women</div>
+            <div className="figma-node n-21-3565">Men</div>
+            <div className="figma-node n-21-3566">Underwear</div>
+            <div className="figma-node n-21-3567">Collection</div>
+            <div className="figma-node n-21-3568">Kids</div>
+            <div className="figma-node n-21-3569">Home</div>
+            <div className="figma-node n-21-3570">Sale</div>
+          </div>
+          <div className="figma-node n-21-3571">
+            <img
+              className="figma-img"
+              alt=""
+              src="/assets/page2/svg_21-3571.svg"
+            />
+          </div>
+          <div className="figma-node n-21-3573">
+            <img
+              className="figma-img"
+              alt=""
+              src="/assets/page2/svg_21-3573.svg"
+            />
+          </div>
+          <div className="figma-node n-21-3575">
+            <img
+              className="figma-img"
+              alt=""
+              src="/assets/page2/svg_21-3575.svg"
+            />
+          </div>
+        </div>
+        <div className="figma-node n-21-3577">
+          <div className="figma-node n-21-3578">Skip</div>
+          <div className="figma-node n-21-3579">to</div>
+          <div className="figma-node n-21-3580">main</div>
+          <div className="figma-node n-21-3581">content</div>
+        </div>
+        <div className="figma-node n-21-3582">
+          <div className="figma-node n-21-3583">Help</div>
+          <div className="figma-node n-21-3584">
+            <div className="figma-node n-21-3585">
+              <div className="figma-node n-21-3586">Customer Service</div>
+            </div>
+            <div className="figma-node n-21-3587">
+              <div className="figma-node n-21-3588">FAQs</div>
+            </div>
+            <div className="figma-node n-21-3589">
+              <div className="figma-node n-21-3590">Contact Us</div>
+            </div>
+            <div className="figma-node n-21-3591">
+              <div className="figma-node n-21-3592">Track Order</div>
+            </div>
+            <div className="figma-node n-21-3593">
+              <div className="figma-node n-21-3594">Returns</div>
+            </div>
+            <div className="figma-node n-21-3595">
+              <div className="figma-node n-21-3596">Shipping</div>
+            </div>
+            <div className="figma-node n-21-3597">
+              <div className="figma-node n-21-3598">Accessibility</div>
+            </div>
+            <div className="figma-node n-21-3599">
+              <div className="figma-node n-21-3600"></div>
+              <div className="figma-node n-21-3601">Chat</div>
+            </div>
+          </div>
+          <div className="figma-node n-21-3602">
+            <div className="figma-node n-21-3603">Promotions</div>
+          </div>
+          <div className="figma-node n-21-3604">
+            <div className="figma-node n-21-3605">Gift Cards</div>
+          </div>
+          <div className="figma-node n-21-3606">
+            <div className="figma-node n-21-3607">Stores</div>
+          </div>
+          <div className="figma-node n-21-3608">
+            <div className="figma-node n-21-3609">Store Directory</div>
+          </div>
+          <div className="figma-node n-21-3610">
+            <div className="figma-node n-21-3611">My AV Rewards</div>
+          </div>
+          <div className="figma-node n-21-3612">
+            <div className="figma-node n-21-3613">Klarna</div>
+          </div>
+          <div className="figma-node n-21-3614">
+            <div className="figma-node n-21-3615">Cash App Afterpay</div>
+          </div>
+          <div className="figma-node n-21-3616">
+            <div className="figma-node n-21-3617">
+              Student and Service Discount
+            </div>
+          </div>
+          <div className="figma-node n-21-3618">About</div>
+          <div className="figma-node n-21-3619">
+            <div className="figma-node n-21-3620">
+              <div className="figma-node n-21-3621">About AV APPAREL</div>
+            </div>
+            <div className="figma-node n-21-3622">
+              <div className="figma-node n-21-3623">Careers</div>
+            </div>
+            <div className="figma-node n-21-3624">
+              <div className="figma-node n-21-3625">Privacy Commitment</div>
+            </div>
+            <div className="figma-node n-21-3626">
+              <div className="figma-node n-21-3627">
+                Sustainability + Inclusivity
+              </div>
+            </div>
+          </div>
+          <div className="figma-node n-21-3628">Explore</div>
+          <div className="figma-node n-21-3629">
+            <div className="figma-node n-21-3630">
+              <div className="figma-node n-21-3631">Underwear Guide</div>
+            </div>
+            <div className="figma-node n-21-3632">
+              <div className="figma-node n-21-3633">Denim Fit Guide</div>
+            </div>
+            <div className="figma-node n-21-3634">
+              <div className="figma-node n-21-3635">#MYCALVINS</div>
+            </div>
+            <div className="figma-node n-21-3636">
+              <div className="figma-node n-21-3637">Re-Calvin</div>
+            </div>
+          </div>
+          <div className="figma-node n-21-3638">
+            <div className="figma-node n-21-3639">
+              <div className="figma-node n-21-3640"></div>
+            </div>
+            <div className="figma-node n-21-3641">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-3641.svg"
+              />
+            </div>
+            <div className="figma-node n-21-3644">
+              <div className="figma-node n-21-3645"></div>
+            </div>
+            <div className="figma-node n-21-3646">
+              <img
+                className="figma-img"
+                alt=""
+                src="/assets/page2/svg_21-3646.svg"
+              />
+            </div>
+            <div className="figma-node n-21-3649">
+              <div className="figma-node n-21-3650"></div>
+            </div>
+            <div className="figma-node n-21-3651">
+              <div className="figma-node n-21-3652"></div>
+            </div>
+          </div>
+          <div className="figma-node n-21-3653"></div>
+          <div className="figma-node n-21-3654">
+            <div className="figma-node n-21-3655">
+              <div className="figma-node n-21-3656">
+                PVH Corp. Joint Modern Slavery Act Statement
+              </div>
+            </div>
+            <div className="figma-node n-21-3657">
+              <div className="figma-node n-21-3658">|</div>
+              <div className="figma-node n-21-3659">Privacy Policy</div>
+            </div>
+            <div className="figma-node n-21-3660">
+              <div className="figma-node n-21-3661">|</div>
+              <div className="figma-node n-21-3662">Interest Based Ads</div>
+            </div>
+            <div className="figma-node n-21-3663">
+              <div className="figma-node n-21-3664">|</div>
+              <div className="figma-node n-21-3665">
+                Do Not Sell or Share My Personal Information
+              </div>
+            </div>
+            <div className="figma-node n-21-3666">
+              <div className="figma-node n-21-3667">|</div>
+              <div className="figma-node n-21-3668">Terms &amp; Conditions</div>
+            </div>
+          </div>
+          <div className="figma-node n-21-3669">Web ID: 931897789</div>
+          <div className="figma-node n-21-3670">|</div>
+          <div className="figma-node n-21-3671">
+            Copyright Ã‚Â© 2026 AV APPAREL. All rights reserved.
+          </div>
+          <div className="figma-node n-21-3672">
+            <div className="figma-node n-21-3673"></div>
+            <div className="figma-node n-21-3674"> United States</div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}

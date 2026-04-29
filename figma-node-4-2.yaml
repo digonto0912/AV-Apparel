@@ -1,0 +1,3861 @@
+metadata:
+  name: Untitled
+  components: {}
+  componentSets: {}
+nodes:
+  - id: 4:2
+    name: Main
+    type: FRAME
+    layout: layout_NO1AIO
+    fills: fill_MN8G6Q
+    children:
+      - id: 4:3
+        name: Background
+        type: FRAME
+        layout: layout_5XJ1AV
+        fills: fill_MN8G6Q
+        children:
+          - id: 4:4
+            name: Main → This phone is a requirement to support existing Gomez monitor of SiteGenesis. Demadware customers ca...
+            type: FRAME
+            layout: layout_C8SUKE
+            children:
+              - id: 8:2
+                name: Container
+                type: FRAME
+                layout: layout_B60TC5
+                children:
+                  - id: 8:3
+                    name: Container
+                    type: FRAME
+                    layout: layout_MYQGAL
+                    children:
+                      - id: 8:4
+                        name: Shop Calvin Klein jeans.
+                        type: FRAME
+                        layout: layout_JLMU22
+                        fills: fill_CY37XU
+                      - id: 8:5
+                        name: Shots for your Body
+                        type: TEXT
+                        layout: layout_JK1Y2N
+                        text: Shots for your Body
+                        textStyle: style_BJIIH3
+                        fills: fill_MN8G6Q
+                      - id: 8:6
+                        name: 'Find the perfect fit:'
+                        type: TEXT
+                        layout: layout_NTOGWX
+                        text: 'Find the perfect fit: '
+                        textStyle: style_K9VD6F
+                        fills: fill_MN8G6Q
+                      - id: 8:7
+                        name: Link → Women
+                        type: TEXT
+                        layout: layout_LNIEPT
+                        text: 'Women '
+                        textStyle: style_LXPOPS
+                        fills: fill_1Z2B9B
+                      - id: 8:8
+                        name: Link → Men
+                        type: TEXT
+                        layout: layout_JYTDP1
+                        text: Men
+                        textStyle: style_LXPOPS
+                        fills: fill_MN8G6Q
+                      - id: 8:9
+                        name: Link
+                        type: IMAGE-SVG
+                        layout: layout_7B79GM
+                  - id: 8:15
+                    name: Container
+                    type: FRAME
+                    layout: layout_QR1223
+                    children:
+                      - id: 8:16
+                        name: Group - 1 / 8
+                        type: FRAME
+                        layout: layout_8WLACI
+                        children:
+                          - id: 8:17
+                            name: Picture → Shop Calvin Klein jeans.
+                            type: FRAME
+                            layout: layout_8WLACI
+                            fills: fill_9GAXN4
+                          - id: 8:18
+                            name: Baggy
+                            type: TEXT
+                            layout: layout_GS982A
+                            text: Baggy
+                            textStyle: style_5WRC21
+                            fills: fill_MN8G6Q
+                      - id: 8:19
+                        name: Group - 2 / 8
+                        type: FRAME
+                        layout: layout_03QKAB
+                        children:
+                          - id: 8:20
+                            name: Picture → Shop Calvin Klein jeans.
+                            type: FRAME
+                            layout: layout_8WLACI
+                            fills: fill_YXAFLU
+                          - id: 8:21
+                            name: 90s Straight
+                            type: TEXT
+                            layout: layout_MS6GJ6
+                            text: |-
+                              90s
+                              Straight
+                            textStyle: style_CKWT9D
+                            fills: fill_MN8G6Q
+                      - id: 8:22
+                        name: Group - 3 / 8
+                        type: FRAME
+                        layout: layout_NW3DM8
+                        children:
+                          - id: 8:23
+                            name: Picture → Shop Calvin Klein jeans.
+                            type: FRAME
+                            layout: layout_8WLACI
+                            fills: fill_CWUZFI
+                          - id: 8:24
+                            name: 90s Tapered
+                            type: TEXT
+                            layout: layout_H7YG9X
+                            text: |-
+                              90s
+                              Tapered
+                            textStyle: style_2IBWDS
+                            fills: fill_MN8G6Q
+                      - id: 8:25
+                        name: Group - 4 / 8
+                        type: FRAME
+                        layout: layout_BX9EBD
+                        children:
+                          - id: 8:26
+                            name: Picture → Shop Calvin Klein jeans.
+                            type: FRAME
+                            layout: layout_8WLACI
+                            fills: fill_IIDHTD
+                          - id: 8:27
+                            name: Standard Straight
+                            type: TEXT
+                            layout: layout_43K4VK
+                            text: |-
+                              Standard
+                              Straight
+                            textStyle: style_OH9IMS
+                            fills: fill_MN8G6Q
+                      - id: 8:28
+                        name: Group - 5 / 8
+                        type: FRAME
+                        layout: layout_6SFFDH
+                        children:
+                          - id: 8:29
+                            name: Picture → Shop Calvin Klein jeans.
+                            type: FRAME
+                            layout: layout_8WLACI
+                            fills: fill_45D2JB
+                          - id: 8:30
+                            name: Slim
+                            type: TEXT
+                            layout: layout_RRPLTC
+                            text: Slim
+                            textStyle: style_CKWT9D
+                            fills: fill_MN8G6Q
+                      - id: 8:31
+                        name: Group - 6 / 8
+                        type: FRAME
+                        layout: layout_UE6N3Y
+                        children:
+                          - id: 8:32
+                            name: Picture → Shop Calvin Klein jeans.
+                            type: FRAME
+                            layout: layout_8WLACI
+                            fills: fill_TZEPQZ
+                          - id: 8:33
+                            name: Slim Tapered
+                            type: TEXT
+                            layout: layout_UFXRLE
+                            text: |-
+                              Slim
+                              Tapered
+                            textStyle: style_2IBWDS
+                            fills: fill_MN8G6Q
+                      - id: 8:34
+                        name: Group - 7 / 8
+                        type: FRAME
+                        layout: layout_FENAHM
+                        children:
+                          - id: 8:35
+                            name: Picture → Shop Calvin Klein jeans.
+                            type: FRAME
+                            layout: layout_8WLACI
+                            fills: fill_YEPHVK
+                          - id: 8:36
+                            name: Skinny
+                            type: TEXT
+                            layout: layout_SHKDXU
+                            text: Skinny
+                            textStyle: style_ZXCBET
+                            fills: fill_MN8G6Q
+                      - id: 8:37
+                        name: Group - 8 / 8
+                        type: FRAME
+                        layout: layout_MSCCP9
+                        fills: fill_6X5X2N
+                        children:
+                          - id: 8:38
+                            name: Shop Calvin Klein jeans.
+                            type: FRAME
+                            layout: layout_8WLACI
+                            fills: fill_YZU0BP
+                          - id: 8:39
+                            name: Shop all Denim
+                            type: TEXT
+                            layout: layout_K9PUG4
+                            text: |-
+                              Shop all
+                              Denim
+                            textStyle: style_05KX0P
+                            fills: fill_MN8G6Q
+                      - id: 8:40
+                        name: Button - Next slide → Shop Calvin Klein jeans.
+                        type: FRAME
+                        layout: layout_K2HZLN
+                        fills: fill_98TOB3
+                      - id: 8:41
+                        name: Button - Previous slide → Shop Calvin Klein jeans.
+                        type: FRAME
+                        layout: layout_NRXU73
+                        fills: fill_98TOB3
+                        opacity: 0.3499999940395355
+                      - id: 8:42
+                        name: Overlay
+                        type: IMAGE-SVG
+                        layout: layout_ZHXAP4
+                        fills: fill_GU18K4
+                        borderRadius: 10px
+              - id: 4:29
+                name: Section
+                type: FRAME
+                layout: layout_W50P1F
+                children:
+                  - id: 4:30
+                    name: Picture → HP_Spring_W.webp
+                    type: FRAME
+                    layout: layout_18UR0P
+                    fills: fill_0L352M
+                  - id: 4:31
+                    name: Picture → HP_Spring_M.webp
+                    type: FRAME
+                    layout: layout_OT91YP
+                    fills: fill_9ZUVX5
+                  - id: 4:32
+                    name: Spring Getaway Essentials
+                    type: TEXT
+                    layout: layout_JTFZ8I
+                    text: |-
+                      Spring
+                      Getaway
+                      Essentials
+                    textStyle: style_MU0SZG
+                    fills: fill_MN8G6Q
+                  - id: 4:33
+                    name: Polished shirts and lightweight fabrics for long trips and warm days. Live in luxurious comfort.
+                    type: TEXT
+                    layout: layout_T1RN0J
+                    text: |-
+                      Polished shirts and lightweight fabrics for long
+                      trips and warm days. Live in luxurious comfort.
+                    textStyle: style_TDEKVF
+                    fills: fill_MN8G6Q
+                  - id: 4:34
+                    name: Link
+                    type: FRAME
+                    layout: layout_T1XBQ4
+                    strokes: stroke_B2QC3M
+                    children:
+                      - id: 4:35
+                        name: Shop Women
+                        type: TEXT
+                        layout: layout_JEY016
+                        text: Shop Women
+                        textStyle: style_PSN33S
+                        fills: fill_MN8G6Q
+                  - id: 4:36
+                    name: Link
+                    type: FRAME
+                    layout: layout_QT9D7P
+                    strokes: stroke_B2QC3M
+                    children:
+                      - id: 4:37
+                        name: Shop Men
+                        type: TEXT
+                        layout: layout_1UIWY7
+                        text: Shop Men
+                        textStyle: style_PSN33S
+                        fills: fill_MN8G6Q
+              - id: 4:38
+                name: Section
+                type: FRAME
+                layout: layout_UEN7KI
+                children:
+                  - id: 4:39
+                    name: Link - Models posing in 90s inspired looks
+                    type: FRAME
+                    layout: layout_L3D5XY
+                    children:
+                      - id: 4:40
+                        name: Background
+                        type: FRAME
+                        layout: layout_1SAND1
+                        fills: fill_MN8G6Q
+                        borderRadius: 8px
+                        children:
+                          - id: 4:41
+                            name: Picture → HP_90s_Edit_1.webp
+                            type: FRAME
+                            layout: layout_A7HOG1
+                            fills: fill_HAV4CL
+                      - id: 4:42
+                        name: Background
+                        type: FRAME
+                        layout: layout_J8IVZN
+                        fills: fill_MN8G6Q
+                        borderRadius: 8px
+                        children:
+                          - id: 4:43
+                            name: Picture → HP_90s_Edit_4.webp
+                            type: FRAME
+                            layout: layout_A7HOG1
+                            fills: fill_C25FGL
+                  - id: 4:44
+                    name: Background
+                    type: FRAME
+                    layout: layout_GDPT5J
+                    fills: fill_MN8G6Q
+                    borderRadius: 8px
+                    children:
+                      - id: 4:45
+                        name: Link → Picture → Models posing in 90s inspired looks
+                        type: FRAME
+                        layout: layout_OBWU38
+                        fills: fill_0P7NN8
+                  - id: 4:46
+                    name: Background
+                    type: FRAME
+                    layout: layout_14CKEP
+                    fills: fill_MN8G6Q
+                    borderRadius: 8px
+                    children:
+                      - id: 4:47
+                        name: The 90s Edit
+                        type: TEXT
+                        layout: layout_TCC2VS
+                        text: |-
+                          The 90s
+                          Edit
+                        textStyle: style_UQVCX0
+                        fills: fill_6X5X2N
+                      - id: 4:48
+                        name: Iconic then. Iconic now. Minimalism that defined an era, styled for today. Captured at Calvin Klein’s original New York office.
+                        type: TEXT
+                        layout: layout_2TFU6E
+                        text: |-
+                          Iconic then. Iconic now. Minimalism
+                          that defined an era, styled for today. Captured at
+                          Calvin Klein’s original New York office.
+                        textStyle: style_6AGZ6L
+                        fills: fill_6X5X2N
+                      - id: 4:49
+                        name: Link
+                        type: FRAME
+                        layout: layout_OV2WEZ
+                        strokes: stroke_ULYVDB
+                        children:
+                          - id: 4:50
+                            name: Shop Women
+                            type: TEXT
+                            layout: layout_7OJI1D
+                            text: Shop Women
+                            textStyle: style_TXCTZ4
+                            fills: fill_6X5X2N
+                      - id: 4:51
+                        name: Link
+                        type: FRAME
+                        layout: layout_77IBGV
+                        strokes: stroke_ULYVDB
+                        children:
+                          - id: 4:52
+                            name: Shop Men
+                            type: TEXT
+                            layout: layout_99Q2P1
+                            text: Shop Men
+                            textStyle: style_TXCTZ4
+                            fills: fill_6X5X2N
+                  - id: 4:53
+                    name: Background
+                    type: FRAME
+                    layout: layout_1F9R3Y
+                    fills: fill_MN8G6Q
+                    borderRadius: 8px
+                    children:
+                      - id: 4:54
+                        name: Link → Picture → Models posing in 90s inspired looks
+                        type: FRAME
+                        layout: layout_OBWU38
+                        fills: fill_B25HGE
+                  - id: 4:55
+                    name: Link - Models posing in 90s inspired looks
+                    type: FRAME
+                    layout: layout_LSOV7F
+                    children:
+                      - id: 4:56
+                        name: Background
+                        type: FRAME
+                        layout: layout_790HLA
+                        fills: fill_MN8G6Q
+                        borderRadius: 8px
+                        children:
+                          - id: 4:57
+                            name: Picture → HP_90s_Edit_3.webp
+                            type: FRAME
+                            layout: layout_1IXJ7J
+                            fills: fill_TU140G
+                      - id: 4:58
+                        name: Background
+                        type: FRAME
+                        layout: layout_T2BWS8
+                        fills: fill_MN8G6Q
+                        borderRadius: 8px
+                        children:
+                          - id: 4:59
+                            name: Picture → HP_90s_Edit_6.webp
+                            type: FRAME
+                            layout: layout_EIZ459
+                            fills: fill_LUHS87
+                      - id: 4:60
+                        name: Background
+                        type: FRAME
+                        layout: layout_CPO65A
+                        fills: fill_MN8G6Q
+                        borderRadius: 8px
+                        children:
+                          - id: 4:61
+                            name: Picture → HP_90s_Edit_7.webp
+                            type: FRAME
+                            layout: layout_1IXJ7J
+                            fills: fill_HIXUJX
+              - id: 4:62
+                name: Section
+                type: FRAME
+                layout: layout_MQ5BN5
+                children:
+                  - id: 4:63
+                    name: Link → Picture → Models posing in Calvin Klein spring jackets
+                    type: FRAME
+                    layout: layout_0O13ZA
+                    fills: fill_FTKS6R
+                  - id: 4:64
+                    name: |-
+                      Heading → Spring
+                      Jackets
+                    type: TEXT
+                    layout: layout_K0EG6Y
+                    text: |-
+                      Spring
+                      Jackets
+                    textStyle: style_61RHOX
+                    fills: fill_MN8G6Q
+                  - id: 4:65
+                    name: Sporty silhouettes with modern detail. Lightweight jackets designed for life outdoors.
+                    type: TEXT
+                    layout: layout_JX9932
+                    text: |-
+                      Sporty silhouettes with modern detail.
+                      Lightweight jackets designed for life
+                      outdoors.
+                    textStyle: style_5ZV42Q
+                    fills: fill_MN8G6Q
+                  - id: 4:66
+                    name: Link
+                    type: FRAME
+                    layout: layout_90R4NH
+                    strokes: stroke_B2QC3M
+                    children:
+                      - id: 4:67
+                        name: Shop Women
+                        type: TEXT
+                        layout: layout_JEY016
+                        text: Shop Women
+                        textStyle: style_NJ9B06
+                        fills: fill_MN8G6Q
+                  - id: 4:68
+                    name: Link
+                    type: FRAME
+                    layout: layout_YBCE7B
+                    strokes: stroke_B2QC3M
+                    children:
+                      - id: 4:69
+                        name: Shop Men
+                        type: TEXT
+                        layout: layout_JMCZG0
+                        text: Shop Men
+                        textStyle: style_NJ9B06
+                        fills: fill_MN8G6Q
+              - id: 4:70
+                name: Section
+                type: FRAME
+                layout: layout_VOX4RO
+                children:
+                  - id: 4:71
+                    name: Link → Picture → Models posing in Calvin Klein denim
+                    type: FRAME
+                    layout: layout_18UR0P
+                    fills: fill_4O3DMK
+                  - id: 4:72
+                    name: Picture → HP_90s_M.webp
+                    type: FRAME
+                    layout: layout_OT91YP
+                    fills: fill_TC0B6G
+                  - id: 4:73
+                    name: New 90s Washes
+                    type: TEXT
+                    layout: layout_NX6GTO
+                    text: |-
+                      New
+                      90s Washes
+                    textStyle: style_W41QMV
+                    fills: fill_MN8G6Q
+                  - id: 4:74
+                    name: Signature denim fits in new shades for spring. Easy living in the classic straight leg.
+                    type: TEXT
+                    layout: layout_N84EII
+                    text: |-
+                      Signature denim fits in new shades for spring.
+                      Easy living in the classic straight leg.
+                    textStyle: style_TDEKVF
+                    fills: fill_MN8G6Q
+                  - id: 4:75
+                    name: Link
+                    type: FRAME
+                    layout: layout_CDSJHO
+                    strokes: stroke_B2QC3M
+                    children:
+                      - id: 4:76
+                        name: Shop Women
+                        type: TEXT
+                        layout: layout_JEY016
+                        text: Shop Women
+                        textStyle: style_PSN33S
+                        fills: fill_MN8G6Q
+                  - id: 4:77
+                    name: Link
+                    type: FRAME
+                    layout: layout_4XSYTS
+                    strokes: stroke_B2QC3M
+                    children:
+                      - id: 4:78
+                        name: Shop Men
+                        type: TEXT
+                        layout: layout_1UIWY7
+                        text: Shop Men
+                        textStyle: style_PSN33S
+                        fills: fill_MN8G6Q
+              - id: 4:79
+                name: Section - section class="half_width
+                type: FRAME
+                layout: layout_4ZKNVT
+                children:
+                  - id: 4:80
+                    name: |-
+                      Heading → Live in
+                      Calvin Klein
+                    type: TEXT
+                    layout: layout_8N0XZB
+                    text: |-
+                      Live in
+                      Calvin Klein
+                    textStyle: style_5714C2
+                    fills: fill_6X5X2N
+                  - id: 4:81
+                    name: Live like an icon. Shop our latest campaigns.
+                    type: TEXT
+                    layout: layout_WAM87H
+                    text: Live like an icon. Shop our latest campaigns.
+                    textStyle: style_6AGZ6L
+                    fills: fill_6X5X2N
+              - id: 4:82
+                name: Section
+                type: FRAME
+                layout: layout_EJXRAP
+                children:
+                  - id: 4:83
+                    name: Group - 1 / 3
+                    type: FRAME
+                    layout: layout_K6S95P
+                    children:
+                      - id: 4:84
+                        name: Link → Picture → Dakota Johnson posing in Calvin Klein underwear
+                        type: FRAME
+                        layout: layout_K6S95P
+                        fills: fill_6JKDOF
+                      - id: 4:85
+                        name: Dakota Johnson
+                        type: TEXT
+                        layout: layout_RWH3RL
+                        text: Dakota Johnson
+                        textStyle: style_12FH4Z
+                        fills: fill_MN8G6Q
+                  - id: 4:86
+                    name: Group - 2 / 3
+                    type: FRAME
+                    layout: layout_I86GKL
+                    children:
+                      - id: 4:87
+                        name: Link → Picture → Raphinha posing in Calvin Klein underwear
+                        type: FRAME
+                        layout: layout_K6S95P
+                        fills: fill_JP2VIY
+                      - id: 4:88
+                        name: Raphinha
+                        type: TEXT
+                        layout: layout_QM6VM1
+                        text: Raphinha
+                        textStyle: style_12FH4Z
+                        fills: fill_MN8G6Q
+                  - id: 4:89
+                    name: Group - 3 / 3
+                    type: FRAME
+                    layout: layout_PDILSP
+                    children:
+                      - id: 4:90
+                        name: Link → Picture → Jung Kook posing in Calvin Klein apparel
+                        type: FRAME
+                        layout: layout_K6S95P
+                        fills: fill_XD9XSL
+                      - id: 4:91
+                        name: Jung Kook
+                        type: TEXT
+                        layout: layout_OPV950
+                        text: Jung Kook
+                        textStyle: style_12FH4Z
+                        fills: fill_MN8G6Q
+              - id: 4:92
+                name: Section
+                type: FRAME
+                layout: layout_6KRCNC
+                children:
+                  - id: 4:93
+                    name: Container
+                    type: IMAGE-SVG
+                    layout: layout_TY9FWN
+                  - id: 4:97
+                    name: p class="text_heading eyebrow">Introducing</p → My Calvin Rewards
+                    type: TEXT
+                    layout: layout_8JXSXJ
+                    text: My Calvin Rewards
+                    textStyle: style_LUE5KC
+                    fills: fill_MN8G6Q
+                  - id: 4:98
+                    name: Earn. Redeem. Enjoy.
+                    type: TEXT
+                    layout: layout_7FFT41
+                    text: Earn. Redeem. Enjoy.
+                    textStyle: style_VYF3E6
+                    fills: fill_MN8G6Q
+                  - id: 4:99
+                    name: A new way to experience Calvin Klein. Unlock exclusive benefits designed for you, every time you shop.
+                    type: TEXT
+                    layout: layout_0VOWPS
+                    text: |-
+                      A new way to experience Calvin Klein. Unlock exclusive
+                      benefits designed for you, every time you shop.
+                    textStyle: style_6AGZ6L
+                    fills: fill_MN8G6Q
+                  - id: 4:100
+                    name: Link
+                    type: FRAME
+                    layout: layout_0OP1HE
+                    strokes: stroke_IWFQD4
+                    borderRadius: 80px
+                    children:
+                      - id: 4:101
+                        name: Learn More
+                        type: TEXT
+                        layout: layout_OOTBP9
+                        text: Learn More
+                        textStyle: style_ZQ1B0K
+                        fills: fill_MN8G6Q
+              - id: 4:102
+                name: Section → Tabpanel
+                type: FRAME
+                layout: layout_Q4U3ZI
+                fills: fill_MN8G6Q
+                strokes: stroke_OT8W21
+                children:
+                  - id: 4:103
+                    name: List
+                    type: FRAME
+                    layout: layout_O0AIJV
+                    children:
+                      - id: 4:104
+                        name: Heading
+                        type: FRAME
+                        layout: layout_9PFFIA
+                        children:
+                          - id: 4:105
+                            name: New Arrivals
+                            type: TEXT
+                            layout: layout_1HB9ZS
+                            text: New Arrivals
+                            textStyle: style_4AJO1J
+                            fills: fill_6X5X2N
+                          - id: 4:106
+                            name: 'Link -  Women  New Arrivals '
+                            type: FRAME
+                            layout: layout_Q6EBOM
+                            strokes: stroke_YS9SR7
+                            children:
+                              - id: 4:107
+                                name: Women
+                                type: TEXT
+                                layout: layout_GVI3W9
+                                text: Women
+                                textStyle: style_KBFVM5
+                                fills: fill_VVMOVX
+                          - id: 4:108
+                            name: 'Link -  Men  New Arrivals '
+                            type: FRAME
+                            layout: layout_TJM5DO
+                            strokes: stroke_YS9SR7
+                            children:
+                              - id: 4:109
+                                name: Men
+                                type: TEXT
+                                layout: layout_KP6JSE
+                                text: Men
+                                textStyle: style_KBFVM5
+                                fills: fill_VVMOVX
+                      - id: 4:110
+                        name: Heading
+                        type: FRAME
+                        layout: layout_TEU7A6
+                        strokes: stroke_WDJIA9
+                        children:
+                          - id: 4:111
+                            name: Underwear
+                            type: TEXT
+                            layout: layout_9MAKGS
+                            text: Underwear
+                            textStyle: style_4AJO1J
+                            fills: fill_6X5X2N
+                          - id: 4:112
+                            name: 'Link -  Women  Underwear '
+                            type: FRAME
+                            layout: layout_LG60VA
+                            strokes: stroke_YS9SR7
+                            children:
+                              - id: 4:113
+                                name: Women
+                                type: TEXT
+                                layout: layout_GVI3W9
+                                text: Women
+                                textStyle: style_KBFVM5
+                                fills: fill_VVMOVX
+                          - id: 4:114
+                            name: 'Link -  Men  Underwear '
+                            type: FRAME
+                            layout: layout_QJKF3P
+                            strokes: stroke_YS9SR7
+                            children:
+                              - id: 4:115
+                                name: Men
+                                type: TEXT
+                                layout: layout_KP6JSE
+                                text: Men
+                                textStyle: style_KBFVM5
+                                fills: fill_VVMOVX
+                      - id: 4:116
+                        name: Heading
+                        type: FRAME
+                        layout: layout_7FXHAS
+                        strokes: stroke_WDJIA9
+                        children:
+                          - id: 4:117
+                            name: Tops
+                            type: TEXT
+                            layout: layout_5ILHJ6
+                            text: Tops
+                            textStyle: style_4AJO1J
+                            fills: fill_6X5X2N
+                          - id: 4:118
+                            name: 'Link -  Women  Tops '
+                            type: FRAME
+                            layout: layout_5XK8JI
+                            strokes: stroke_YS9SR7
+                            children:
+                              - id: 4:119
+                                name: Women
+                                type: TEXT
+                                layout: layout_GVI3W9
+                                text: Women
+                                textStyle: style_KBFVM5
+                                fills: fill_VVMOVX
+                          - id: 4:120
+                            name: 'Link -  Men  Tops '
+                            type: FRAME
+                            layout: layout_QJKF3P
+                            strokes: stroke_YS9SR7
+                            children:
+                              - id: 4:121
+                                name: Men
+                                type: TEXT
+                                layout: layout_KP6JSE
+                                text: Men
+                                textStyle: style_KBFVM5
+                                fills: fill_VVMOVX
+                      - id: 4:122
+                        name: Heading
+                        type: FRAME
+                        layout: layout_3GDGMH
+                        strokes: stroke_WDJIA9
+                        children:
+                          - id: 4:123
+                            name: Bottoms
+                            type: TEXT
+                            layout: layout_D3AUYV
+                            text: Bottoms
+                            textStyle: style_4AJO1J
+                            fills: fill_6X5X2N
+                          - id: 4:124
+                            name: 'Link -  Women  Bottoms '
+                            type: FRAME
+                            layout: layout_LG60VA
+                            strokes: stroke_YS9SR7
+                            children:
+                              - id: 4:125
+                                name: Women
+                                type: TEXT
+                                layout: layout_GVI3W9
+                                text: Women
+                                textStyle: style_KBFVM5
+                                fills: fill_VVMOVX
+                          - id: 4:126
+                            name: 'Link -  Men  Bottoms '
+                            type: FRAME
+                            layout: layout_I47O6K
+                            strokes: stroke_YS9SR7
+                            children:
+                              - id: 4:127
+                                name: Men
+                                type: TEXT
+                                layout: layout_KP6JSE
+                                text: Men
+                                textStyle: style_KBFVM5
+                                fills: fill_VVMOVX
+          - id: 4:128
+            name: Footer
+            type: FRAME
+            layout: layout_DPOWK7
+            fills: fill_6X5X2N
+            children:
+              - id: 4:129
+                name: Heading → Help
+                type: TEXT
+                layout: layout_TN5YKG
+                text: Help
+                textStyle: style_U5BCV6
+                fills: fill_MN8G6Q
+              - id: 4:130
+                name: List
+                type: FRAME
+                layout: layout_DAHG2J
+                children:
+                  - id: 4:131
+                    name: Item → Link → Customer Service
+                    type: TEXT
+                    layout: layout_1GBFNC
+                    text: Customer Service
+                    textStyle: style_LL50YV
+                    fills: fill_ATTKWL
+                  - id: 4:132
+                    name: Item → Link → FAQs
+                    type: TEXT
+                    layout: layout_6AP99E
+                    text: FAQs
+                    textStyle: style_1A6QAC
+                    fills: fill_ATTKWL
+                  - id: 4:133
+                    name: Item → Link → Contact Us
+                    type: TEXT
+                    layout: layout_XMX2BL
+                    text: Contact Us
+                    textStyle: style_LL50YV
+                    fills: fill_ATTKWL
+                  - id: 4:134
+                    name: Item → Link → Track Order
+                    type: TEXT
+                    layout: layout_QEQH91
+                    text: Track Order
+                    textStyle: style_LL50YV
+                    fills: fill_ATTKWL
+                  - id: 4:135
+                    name: Item → Link → Returns
+                    type: TEXT
+                    layout: layout_TMH4W0
+                    text: Returns
+                    textStyle: style_LL50YV
+                    fills: fill_ATTKWL
+                  - id: 4:136
+                    name: Item → Link → Shipping
+                    type: TEXT
+                    layout: layout_BUZI51
+                    text: Shipping
+                    textStyle: style_LL50YV
+                    fills: fill_ATTKWL
+                  - id: 4:137
+                    name: Item → Link → Accessibility
+                    type: TEXT
+                    layout: layout_MNOP4C
+                    text: Accessibility
+                    textStyle: style_LL50YV
+                    fills: fill_ATTKWL
+                  - id: 4:138
+                    name: Item → Button
+                    type: FRAME
+                    layout: layout_4J52MH
+                    children:
+                      - id: 4:139
+                        name: Frame
+                        type: IMAGE-SVG
+                        layout: layout_9BS2NJ
+                      - id: 4:142
+                        name: Chat
+                        type: TEXT
+                        layout: layout_Z7PQRX
+                        text: Chat
+                        textStyle: style_LL50YV
+                        fills: fill_ATTKWL
+              - id: 4:143
+                name: Link → Promotions
+                type: TEXT
+                layout: layout_E8YBK8
+                text: Promotions
+                textStyle: style_6565C0
+                fills: fill_MN8G6Q
+              - id: 4:144
+                name: Link → Gift Cards
+                type: TEXT
+                layout: layout_UXV9FC
+                text: Gift Cards
+                textStyle: style_6565C0
+                fills: fill_MN8G6Q
+              - id: 4:145
+                name: Link → Stores
+                type: TEXT
+                layout: layout_O4PILR
+                text: Stores
+                textStyle: style_6565C0
+                fills: fill_MN8G6Q
+              - id: 4:146
+                name: Link → Store Directory
+                type: TEXT
+                layout: layout_11H7OC
+                text: Store Directory
+                textStyle: style_6565C0
+                fills: fill_MN8G6Q
+              - id: 4:147
+                name: Link - a href="https://www.calvinklein.us/en/preferred-loyalty-program.html">Preferred Loyalty Program</a → My Calvin Rewards
+                type: TEXT
+                layout: layout_1RXYA6
+                text: My Calvin Rewards
+                textStyle: style_6565C0
+                fills: fill_MN8G6Q
+              - id: 4:148
+                name: Link → Klarna
+                type: TEXT
+                layout: layout_1QLM8B
+                text: Klarna
+                textStyle: style_6565C0
+                fills: fill_MN8G6Q
+              - id: 4:149
+                name: Link → Cash App Afterpay
+                type: TEXT
+                layout: layout_AYGO7U
+                text: Cash App Afterpay
+                textStyle: style_6565C0
+                fills: fill_MN8G6Q
+              - id: 4:150
+                name: Link → Student and Service Discount
+                type: TEXT
+                layout: layout_KUQ9CH
+                text: Student and Service Discount
+                textStyle: style_6565C0
+                fills: fill_MN8G6Q
+              - id: 4:151
+                name: Heading → About
+                type: TEXT
+                layout: layout_3GAES9
+                text: About
+                textStyle: style_U5BCV6
+                fills: fill_MN8G6Q
+              - id: 4:152
+                name: List
+                type: FRAME
+                layout: layout_ANR115
+                children:
+                  - id: 4:153
+                    name: Item → Link → About Calvin Klein
+                    type: TEXT
+                    layout: layout_OD1VTA
+                    text: About Calvin Klein
+                    textStyle: style_LL50YV
+                    fills: fill_ATTKWL
+                  - id: 4:154
+                    name: Item → Link → Careers
+                    type: TEXT
+                    layout: layout_AREIHP
+                    text: Careers
+                    textStyle: style_LL50YV
+                    fills: fill_ATTKWL
+                  - id: 4:155
+                    name: Item → Link → Privacy Commitment
+                    type: TEXT
+                    layout: layout_2MXP2D
+                    text: Privacy Commitment
+                    textStyle: style_LL50YV
+                    fills: fill_ATTKWL
+                  - id: 4:156
+                    name: Item → Link → Sustainability + Inclusivity
+                    type: TEXT
+                    layout: layout_AF8L42
+                    text: Sustainability + Inclusivity
+                    textStyle: style_LL50YV
+                    fills: fill_ATTKWL
+              - id: 4:157
+                name: Heading → Explore
+                type: TEXT
+                layout: layout_CPL47T
+                text: Explore
+                textStyle: style_U5BCV6
+                fills: fill_MN8G6Q
+              - id: 4:158
+                name: List
+                type: FRAME
+                layout: layout_A08JX8
+                children:
+                  - id: 4:159
+                    name: Item → Link → Underwear Guide
+                    type: TEXT
+                    layout: layout_O4QCMG
+                    text: Underwear Guide
+                    textStyle: style_LL50YV
+                    fills: fill_ATTKWL
+                  - id: 4:160
+                    name: Item → Link → Denim Fit Guide
+                    type: TEXT
+                    layout: layout_WR85IK
+                    text: Denim Fit Guide
+                    textStyle: style_LL50YV
+                    fills: fill_ATTKWL
+                  - id: 4:161
+                    name: 'Item → Link → #MYCALVINS'
+                    type: TEXT
+                    layout: layout_580SOB
+                    text: '#MYCALVINS'
+                    textStyle: style_JTEC10
+                    fills: fill_ATTKWL
+                  - id: 4:162
+                    name: Item → Link → Re-Calvin
+                    type: TEXT
+                    layout: layout_BS3QRL
+                    text: Re-Calvin
+                    textStyle: style_LL50YV
+                    fills: fill_ATTKWL
+              - id: 4:163
+                name: Navigation - Social
+                type: IMAGE-SVG
+                layout: layout_CL2MZV
+              - id: 4:180
+                name: SVG
+                type: IMAGE-SVG
+                layout: layout_VXG6PN
+              - id: 4:183
+                name: Navigation - legal info
+                type: FRAME
+                layout: layout_ATX759
+                children:
+                  - id: 4:184
+                    name: |-
+                      Link - PVH Corp. Joint Modern Slavery Act
+                                Statement → PVH Corp. Joint Modern Slavery Act Statement
+                    type: TEXT
+                    layout: layout_9UTSHM
+                    text: PVH Corp. Joint Modern Slavery Act Statement
+                    textStyle: style_L7K3IA
+                    fills: fill_ATTKWL
+                  - id: 4:185
+                    name: Link - Privacy Policy
+                    type: FRAME
+                    layout: layout_LLPQ9G
+                    children:
+                      - id: 4:186
+                        name: '|'
+                        type: TEXT
+                        layout: layout_5GREVJ
+                        text: '|'
+                        textStyle: style_L7K3IA
+                        fills: fill_ATTKWL
+                      - id: 4:187
+                        name: Privacy Policy
+                        type: TEXT
+                        layout: layout_TTCA7R
+                        text: Privacy Policy
+                        textStyle: style_L7K3IA
+                        fills: fill_ATTKWL
+                  - id: 4:188
+                    name: Link - Interest Based Ads
+                    type: FRAME
+                    layout: layout_V67Q1W
+                    children:
+                      - id: 4:189
+                        name: '|'
+                        type: TEXT
+                        layout: layout_5GREVJ
+                        text: '|'
+                        textStyle: style_L7K3IA
+                        fills: fill_ATTKWL
+                      - id: 4:190
+                        name: Interest Based Ads
+                        type: TEXT
+                        layout: layout_60XXZ1
+                        text: Interest Based Ads
+                        textStyle: style_L7K3IA
+                        fills: fill_ATTKWL
+                  - id: 4:191
+                    name: |-
+                      Link - Do Not Sell or Share My Personal
+                                Information
+                    type: FRAME
+                    layout: layout_H9N3CY
+                    children:
+                      - id: 4:192
+                        name: '|'
+                        type: TEXT
+                        layout: layout_5GREVJ
+                        text: '|'
+                        textStyle: style_L7K3IA
+                        fills: fill_ATTKWL
+                      - id: 4:193
+                        name: Do Not Sell or Share My Personal Information
+                        type: TEXT
+                        layout: layout_X6GOLC
+                        text: Do Not Sell or Share My Personal Information
+                        textStyle: style_L7K3IA
+                        fills: fill_ATTKWL
+                  - id: 4:194
+                    name: Link - Terms & Conditions
+                    type: FRAME
+                    layout: layout_IPKNLI
+                    children:
+                      - id: 4:195
+                        name: '|'
+                        type: TEXT
+                        layout: layout_5GREVJ
+                        text: '|'
+                        textStyle: style_L7K3IA
+                        fills: fill_ATTKWL
+                      - id: 4:196
+                        name: Terms & Conditions
+                        type: TEXT
+                        layout: layout_FUY56J
+                        text: Terms & Conditions
+                        textStyle: style_L7K3IA
+                        fills: fill_ATTKWL
+              - id: 4:197
+                name: 'Web ID: 776309460'
+                type: TEXT
+                layout: layout_FUTTBE
+                text: 'Web ID: 776309460'
+                textStyle: style_L7K3IA
+                fills: fill_ATTKWL
+              - id: 4:198
+                name: '|'
+                type: TEXT
+                layout: layout_YCNQZQ
+                text: '|'
+                textStyle: style_L7K3IA
+                fills: fill_ATTKWL
+              - id: 4:199
+                name: Copyright © 2026 Calvin Klein. All rights reserved.
+                type: TEXT
+                layout: layout_AUV8X3
+                text: Copyright © 2026 Calvin Klein. All rights reserved.
+                textStyle: style_L7K3IA
+                fills: fill_ATTKWL
+              - id: 4:200
+                name: Button
+                type: FRAME
+                layout: layout_IP9MM6
+                children:
+                  - id: 4:201
+                    name: Frame
+                    type: IMAGE-SVG
+                    layout: layout_SP5UIW
+                  - id: 4:205
+                    name: United States
+                    type: TEXT
+                    layout: layout_6O8DG0
+                    text: ' United States'
+                    textStyle: style_FWIITZ
+                    fills: fill_1Z2B9B
+          - id: 4:211
+            name: Header
+            type: FRAME
+            layout: layout_S23UTL
+            children:
+              - id: 4:216
+                name: Nav - Main → List
+                type: FRAME
+                layout: layout_29GD73
+                children:
+                  - id: 14:46
+                    name: AV Apparel
+                    type: TEXT
+                    layout: layout_SB4GAN
+                    text: AV Apparel
+                    textStyle: style_NCW27N
+                    fills: fill_MN8G6Q
+                  - id: 4:217
+                    name: Item → Link → New
+                    type: TEXT
+                    layout: layout_FXUVMU
+                    text: New
+                    textStyle: style_XKUSTZ
+                    fills: fill_MN8G6Q
+                  - id: 4:218
+                    name: Item → Link → Women
+                    type: TEXT
+                    layout: layout_TNW9B3
+                    text: Women
+                    textStyle: style_XKUSTZ
+                    fills: fill_MN8G6Q
+                  - id: 4:219
+                    name: Item → Link → Men
+                    type: TEXT
+                    layout: layout_SJJNLP
+                    text: Men
+                    textStyle: style_XKUSTZ
+                    fills: fill_MN8G6Q
+                  - id: 4:220
+                    name: Item → Link → Underwear
+                    type: TEXT
+                    layout: layout_VO02CL
+                    text: Underwear
+                    textStyle: style_XKUSTZ
+                    fills: fill_MN8G6Q
+                  - id: 4:221
+                    name: Item → Link → Collection
+                    type: TEXT
+                    layout: layout_6WB2XV
+                    text: Collection
+                    textStyle: style_XKUSTZ
+                    fills: fill_MN8G6Q
+                  - id: 4:222
+                    name: Item → Link → Kids
+                    type: TEXT
+                    layout: layout_80194Y
+                    text: Kids
+                    textStyle: style_XKUSTZ
+                    fills: fill_MN8G6Q
+                  - id: 4:223
+                    name: Item → Link → Home
+                    type: TEXT
+                    layout: layout_24IOFH
+                    text: Home
+                    textStyle: style_XKUSTZ
+                    fills: fill_MN8G6Q
+                  - id: 4:224
+                    name: Item → Link → Sale → Sale
+                    type: TEXT
+                    layout: layout_AZ45VP
+                    text: Sale
+                    textStyle: style_XKUSTZ
+                    fills: fill_MN8G6Q
+              - id: 4:225
+                name: Button - search
+                type: IMAGE-SVG
+                layout: layout_13B6GO
+              - id: 4:227
+                name: Button - Account
+                type: IMAGE-SVG
+                layout: layout_BQ6KKT
+              - id: 4:229
+                name: Button - Cart 0 Items
+                type: IMAGE-SVG
+                layout: layout_T3MM7B
+globalVars:
+  styles:
+    layout_NO1AIO:
+      mode: none
+      overflowScroll:
+        - y
+      sizing: {}
+      dimensions:
+        width: 1920
+        height: 9869
+    fill_MN8G6Q:
+      - '#FFFFFF'
+    layout_5XJ1AV:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 0
+      dimensions:
+        width: 1920
+        height: 9698.28
+    layout_C8SUKE:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 171
+      dimensions:
+        width: 1920
+        height: 8993.97
+    layout_B60TC5:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: -171
+      dimensions:
+        width: 1920
+        height: 1384.14
+    layout_MYQGAL:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 0
+      dimensions:
+        width: 1920
+        height: 960
+    layout_JLMU22:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: -0.95
+        y: 0
+      dimensions:
+        width: 1921.91
+        height: 1081.06
+    fill_CY37XU:
+      - type: IMAGE
+        imageRef: abe449bada9528fdec3ac928b74b21dc34cd6d93
+        scaleMode: STRETCH
+        objectFit: fill
+        isBackground: false
+        imageDownloadArguments:
+          needsCropping: true
+          requiresImageDimensions: false
+          cropTransform:
+            - - 1
+              - 0
+              - -0.00010248796024825424
+            - - 0
+              - 0.4624519348144531
+              - 0.41590508818626404
+          filenameSuffix: 6ededc
+    layout_JK1Y2N:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 40.92
+        y: 350.2
+      dimensions:
+        width: 1838.34
+        height: 258
+    style_BJIIH3:
+      fontFamily: Inter
+      fontWeight: 500
+      fontSize: 188.60000610351562
+      lineHeight: 1.0689289479283728em
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    layout_NTOGWX:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 40
+        y: 893
+      dimensions:
+        width: 139.98
+        height: 21
+    style_K9VD6F:
+      fontFamily: Arial
+      fontWeight: 400
+      fontSize: 16
+      lineHeight: 1em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_LNIEPT:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 199.78
+        y: 893
+      dimensions:
+        width: 62.55
+        height: 21
+    style_LXPOPS:
+      fontFamily: Inter
+      fontWeight: 500
+      fontSize: 16
+      lineHeight: 1em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    fill_1Z2B9B:
+      - '#999999'
+    layout_JYTDP1:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 282.13
+        y: 896
+      dimensions:
+        width: 34.01
+        height: 16
+    layout_7B79GM:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 1860
+        y: 900
+      dimensions:
+        width: 20
+        height: 20
+    layout_68VRKL:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 4.99
+        y: 6.65
+      dimensions:
+        width: 10.02
+        height: 10.02
+    layout_TCNXX6:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 0
+      dimensions:
+        width: 10.02
+        height: 10.02
+    layout_8P9CG5:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: -1.18
+        y: 3.83
+      dimensions:
+        width: 12.37
+        height: 8.54
+    layout_26193Y:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 9.17
+        y: 3.33
+      dimensions:
+        width: 1.67
+        height: 11.67
+    layout_QR1223:
+      mode: none
+      overflowScroll:
+        - x
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 960
+      dimensions:
+        width: 1920
+        height: 424.14
+    layout_8WLACI:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 0
+      dimensions:
+        width: 295.38
+        height: 394.14
+    fill_9GAXN4:
+      - type: IMAGE
+        imageRef: ca85227919a6e74d2c95b6b421f1fb8186054900
+        scaleMode: STRETCH
+        objectFit: fill
+        isBackground: false
+        imageDownloadArguments:
+          needsCropping: true
+          requiresImageDimensions: false
+          cropTransform:
+            - - 1
+              - 0
+              - 0
+            - - 0
+              - 0.9999805092811584
+              - 0.00000975205512077082
+          filenameSuffix: 1ad6ee
+    layout_GS982A:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 90.5
+        y: 175.06
+      dimensions:
+        width: 114.58
+        height: 44
+    style_5WRC21:
+      fontFamily: Inter
+      fontWeight: 500
+      fontSize: 38.900001525878906
+      lineHeight: 1.1311053540892082em
+      letterSpacing: '-2.0565552198981663%'
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    layout_03QKAB:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 295.38
+        y: 0
+      dimensions:
+        width: 295.38
+        height: 394.14
+    fill_YXAFLU:
+      - type: IMAGE
+        imageRef: 29af28fe1a4c1454380a13d1a804b1edfb8c6880
+        scaleMode: STRETCH
+        objectFit: fill
+        isBackground: false
+        imageDownloadArguments:
+          needsCropping: true
+          requiresImageDimensions: false
+          cropTransform:
+            - - 1
+              - 0
+              - 0
+            - - 0
+              - 0.9999805092811584
+              - 0.00000975205512077082
+          filenameSuffix: 1ad6ee
+    layout_MS6GJ6:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 82.35
+        y: 149.06
+      dimensions:
+        width: 130.85
+        height: 95
+    style_CKWT9D:
+      fontFamily: Inter
+      fontWeight: 500
+      fontSize: 35.79999923706055
+      lineHeight: 1.229050305522094em
+      letterSpacing: '-2.2346369524297653%'
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    layout_NW3DM8:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 590.75
+        y: 0
+      dimensions:
+        width: 295.38
+        height: 394.14
+    fill_CWUZFI:
+      - type: IMAGE
+        imageRef: 2eb9ba22f62695d78e3e76c8eeb13db43c48bd78
+        scaleMode: STRETCH
+        objectFit: fill
+        isBackground: false
+        imageDownloadArguments:
+          needsCropping: true
+          requiresImageDimensions: false
+          cropTransform:
+            - - 1
+              - 0
+              - 0
+            - - 0
+              - 0.9999805092811584
+              - 0.00000975205512077082
+          filenameSuffix: 1ad6ee
+    layout_H7YG9X:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 74.5
+        y: 149.06
+      dimensions:
+        width: 146.58
+        height: 95
+    style_2IBWDS:
+      fontFamily: Inter
+      fontWeight: 500
+      fontSize: 38.400001525878906
+      lineHeight: 1.1458332878020092em
+      letterSpacing: '-2.0833332815931924%'
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    layout_BX9EBD:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 886.13
+        y: 0
+      dimensions:
+        width: 295.38
+        height: 394.14
+    fill_IIDHTD:
+      - type: IMAGE
+        imageRef: 4f2249ffe1c66858fd10f15579d2a0690894a3dc
+        scaleMode: STRETCH
+        objectFit: fill
+        isBackground: false
+        imageDownloadArguments:
+          needsCropping: true
+          requiresImageDimensions: false
+          cropTransform:
+            - - 1
+              - 0
+              - 0
+            - - 0
+              - 0.9999805092811584
+              - 0.00000975205512077082
+          filenameSuffix: 1ad6ee
+    layout_43K4VK:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 67.09
+        y: 149.06
+      dimensions:
+        width: 161.37
+        height: 95
+    style_OH9IMS:
+      fontFamily: Inter
+      fontWeight: 500
+      fontSize: 38.099998474121094
+      lineHeight: 1.1548556892957988em
+      letterSpacing: '-2.099737648189981%'
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    layout_6SFFDH:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 1181.5
+        y: 0
+      dimensions:
+        width: 295.38
+        height: 394.14
+    fill_45D2JB:
+      - type: IMAGE
+        imageRef: 6d7bebf93bf7e6a62371b40a05ac9ed05c8d9b96
+        scaleMode: STRETCH
+        objectFit: fill
+        isBackground: false
+        imageDownloadArguments:
+          needsCropping: true
+          requiresImageDimensions: false
+          cropTransform:
+            - - 1
+              - 0
+              - 0
+            - - 0
+              - 0.9999805092811584
+              - 0.00000975205512077082
+          filenameSuffix: 1ad6ee
+    layout_RRPLTC:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 112.64
+        y: 175.06
+      dimensions:
+        width: 70.29
+        height: 44
+    layout_UE6N3Y:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 1476.88
+        y: 0
+      dimensions:
+        width: 295.38
+        height: 394.14
+    fill_TZEPQZ:
+      - type: IMAGE
+        imageRef: 7494d64f4f158dc4211583769f4899e7ceed68fa
+        scaleMode: STRETCH
+        objectFit: fill
+        isBackground: false
+        imageDownloadArguments:
+          needsCropping: true
+          requiresImageDimensions: false
+          cropTransform:
+            - - 1
+              - 0
+              - 0
+            - - 0
+              - 0.9999805092811584
+              - 0.00000975205512077082
+          filenameSuffix: 1ad6ee
+    layout_UFXRLE:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 74.5
+        y: 149.06
+      dimensions:
+        width: 146.57
+        height: 95
+    layout_FENAHM:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 1772.25
+        y: 0
+      dimensions:
+        width: 295.38
+        height: 394.14
+    fill_YEPHVK:
+      - type: IMAGE
+        imageRef: 5791b6aa4f52b5e1c5a7eaebff3abb7ec5337b08
+        scaleMode: STRETCH
+        objectFit: fill
+        isBackground: false
+        imageDownloadArguments:
+          needsCropping: true
+          requiresImageDimensions: false
+          cropTransform:
+            - - 1
+              - 0
+              - 0
+            - - 0
+              - 0.9999805092811584
+              - 0.00000975205512077082
+          filenameSuffix: 1ad6ee
+    layout_SHKDXU:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 93.86
+        y: 175.06
+      dimensions:
+        width: 107.84
+        height: 44
+    style_ZXCBET:
+      fontFamily: Inter
+      fontWeight: 500
+      fontSize: 35
+      lineHeight: 1.2571428571428571em
+      letterSpacing: '-2.285714319774083%'
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    layout_MSCCP9:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 2067.63
+        y: 0
+      dimensions:
+        width: 295.38
+        height: 394.14
+    fill_6X5X2N:
+      - '#000000'
+    fill_YZU0BP:
+      - type: IMAGE
+        imageRef: 44d5503f089ebb31e3b5ed55b70617277117be82
+        scaleMode: STRETCH
+        objectFit: fill
+        isBackground: false
+        imageDownloadArguments:
+          needsCropping: true
+          requiresImageDimensions: false
+          cropTransform:
+            - - 1
+              - 0
+              - 0
+            - - 0
+              - 1.3343489170074463
+              - -0.16717448830604553
+          filenameSuffix: 2abe42
+    layout_K9PUG4:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 79.68
+        y: 149.06
+      dimensions:
+        width: 136.2
+        height: 95
+    style_05KX0P:
+      fontFamily: Inter
+      fontWeight: 500
+      fontSize: 37.29999923706055
+      lineHeight: 1.1796246890075661em
+      letterSpacing: '-2.144772193791534%'
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    layout_K2HZLN:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 1837
+        y: 402.14
+      dimensions:
+        width: 27
+        height: 27
+    fill_98TOB3:
+      - type: IMAGE
+        imageRef: 1e7f4e39254c6bed6f7f2ed91780f8a6478b144a
+        scaleMode: STRETCH
+        objectFit: fill
+        isBackground: false
+        imageDownloadArguments:
+          needsCropping: true
+          requiresImageDimensions: false
+          cropTransform:
+            - - 1
+              - 0
+              - 0
+            - - 0
+              - 1
+              - 0
+          filenameSuffix: 56586a
+    layout_NRXU73:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 1706
+        y: 402.14
+      dimensions:
+        width: 27
+        height: 27
+    layout_ZHXAP4:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 1752
+        y: 414.14
+      dimensions:
+        width: 64
+        height: 4
+    fill_GU18K4:
+      - rgba(0, 0, 0, 0.1)
+    layout_4T17UP:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 0
+      dimensions:
+        width: 22
+        height: 4
+    layout_W50P1F:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 1254
+      dimensions:
+        width: 1920
+        height: 1280
+    layout_18UR0P:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 0
+      dimensions:
+        width: 960
+        height: 1280
+    fill_0L352M:
+      - type: IMAGE
+        imageRef: fb47be236372c51bc3d06313670028f93ba3cb5e
+        scaleMode: STRETCH
+        objectFit: fill
+        isBackground: false
+        imageDownloadArguments:
+          needsCropping: true
+          requiresImageDimensions: false
+          cropTransform:
+            - - 1
+              - 0
+              - 0
+            - - 0
+              - 1
+              - 0
+          filenameSuffix: 56586a
+    layout_OT91YP:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 960
+        y: 0
+      dimensions:
+        width: 960
+        height: 1280
+    fill_9ZUVX5:
+      - type: IMAGE
+        imageRef: e567f3378b7404aad8c6c9b79bc442d517931aba
+        scaleMode: STRETCH
+        objectFit: fill
+        isBackground: false
+        imageDownloadArguments:
+          needsCropping: true
+          requiresImageDimensions: false
+          cropTransform:
+            - - 1
+              - 0
+              - 0
+            - - 0
+              - 1
+              - 0
+          filenameSuffix: 56586a
+    layout_JTFZ8I:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 752
+        y: 427
+      dimensions:
+        width: 416
+        height: 308
+    style_MU0SZG:
+      fontFamily: Inter
+      fontWeight: 500
+      fontSize: 89.5
+      lineHeight: 1.005586592178771em
+      letterSpacing: '-4.4692737430167595%'
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    layout_T1RN0J:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 811.86
+        y: 737
+      dimensions:
+        width: 296.47
+        height: 39
+    style_TDEKVF:
+      fontFamily: Arial
+      fontWeight: 400
+      fontSize: 14
+      lineHeight: 1.5em
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    layout_T1XBQ4:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 858.02
+        y: 796
+      dimensions:
+        width: 100.78
+        height: 30
+    stroke_B2QC3M:
+      colors:
+        - rgba(255, 255, 255, 0.4)
+      strokeWeight: 0px 0px 1px
+    layout_JEY016:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 4
+      dimensions:
+        width: 100.98
+        height: 21
+    style_PSN33S:
+      fontFamily: Arial
+      fontWeight: 400
+      fontSize: 16
+      lineHeight: 1.875em
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    layout_QT9D7P:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 986.22
+        y: 796
+      dimensions:
+        width: 75.77
+        height: 30
+    layout_1UIWY7:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 4
+      dimensions:
+        width: 75.96
+        height: 21
+    layout_UEN7KI:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 8
+        y: 2542
+      dimensions:
+        width: 1904
+        height: 1895.97
+    layout_L3D5XY:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 0
+      dimensions:
+        width: 629.33
+        height: 1895.97
+    layout_1SAND1:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 0
+      dimensions:
+        width: 629.31
+        height: 943.97
+    layout_A7HOG1:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 0
+      dimensions:
+        width: 629.31
+        height: 944.97
+    fill_HAV4CL:
+      - type: IMAGE
+        imageRef: 9f0c36d12020673350700380b9286890e608af7b
+        scaleMode: STRETCH
+        objectFit: fill
+        isBackground: false
+        imageDownloadArguments:
+          needsCropping: true
+          requiresImageDimensions: false
+          cropTransform:
+            - - 1
+              - 0
+              - 0
+            - - 0
+              - 1
+              - 0
+          filenameSuffix: 56586a
+    layout_J8IVZN:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 951.98
+      dimensions:
+        width: 629.31
+        height: 943.97
+    fill_C25FGL:
+      - type: IMAGE
+        imageRef: 17f35fb22482983493ac71ac0914a1fe03e80dc3
+        scaleMode: STRETCH
+        objectFit: fill
+        isBackground: false
+        imageDownloadArguments:
+          needsCropping: true
+          requiresImageDimensions: false
+          cropTransform:
+            - - 1
+              - 0
+              - 0
+            - - 0
+              - 1
+              - 0
+          filenameSuffix: 56586a
+    layout_GDPT5J:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 637.33
+        y: 0
+      dimensions:
+        width: 629.33
+        height: 690.8
+    layout_OBWU38:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: -0.5
+      dimensions:
+        width: 629.33
+        height: 692.75
+    fill_0P7NN8:
+      - type: IMAGE
+        imageRef: 506bb21df1262e395625ecdd5203416585e15389
+        scaleMode: STRETCH
+        objectFit: fill
+        isBackground: false
+        imageDownloadArguments:
+          needsCropping: true
+          requiresImageDimensions: false
+          cropTransform:
+            - - 1
+              - 0
+              - 0
+            - - 0
+              - 0.9999819993972778
+              - 0.000008998938938020729
+          filenameSuffix: 43f25d
+    layout_14CKEP:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 637.33
+        y: 699.22
+      dimensions:
+        width: 629.33
+        height: 497.52
+    layout_TCC2VS:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 187.08
+        y: 81.62
+      dimensions:
+        width: 255.35
+        height: 167.13
+    style_UQVCX0:
+      fontFamily: Inter
+      fontWeight: 300
+      fontSize: 71.9000015258789
+      lineHeight: 0.9613352055591227em
+      letterSpacing: '-4.450625841130118%'
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    layout_2TFU6E:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 136.03
+        y: 259.87
+      dimensions:
+        width: 357.47
+        height: 69
+    style_6AGZ6L:
+      fontFamily: Arial
+      fontWeight: 400
+      fontSize: 16
+      lineHeight: 1.5em
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    layout_OV2WEZ:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 219.62
+        y: 354.87
+      dimensions:
+        width: 90.17
+        height: 30
+    stroke_ULYVDB:
+      colors:
+        - rgba(0, 0, 0, 0.4)
+      strokeWeight: 0px 0px 1px
+    layout_7OJI1D:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 6
+      dimensions:
+        width: 90.37
+        height: 18
+    style_TXCTZ4:
+      fontFamily: Arial
+      fontWeight: 400
+      fontSize: 14
+      lineHeight: 2.142857142857143em
+      letterSpacing: 1.4285714498588018%
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    layout_77IBGV:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 341.8
+        y: 354.87
+      dimensions:
+        width: 67.89
+        height: 30
+    layout_99Q2P1:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 6
+      dimensions:
+        width: 68.09
+        height: 18
+    layout_1F9R3Y:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 637.33
+        y: 1204.73
+      dimensions:
+        width: 629.33
+        height: 690.8
+    fill_B25HGE:
+      - type: IMAGE
+        imageRef: df8cc6dd239cea1ea21bcc284c3c892ffa79918a
+        scaleMode: STRETCH
+        objectFit: fill
+        isBackground: false
+        imageDownloadArguments:
+          needsCropping: true
+          requiresImageDimensions: false
+          cropTransform:
+            - - 1
+              - 0
+              - 0
+            - - 0
+              - 0.9999819993972778
+              - 0.000008998938938020729
+          filenameSuffix: 43f25d
+    layout_LSOV7F:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 1274.66
+        y: 0
+      dimensions:
+        width: 629.33
+        height: 1895.97
+    layout_790HLA:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 0
+      dimensions:
+        width: 629.33
+        height: 467.41
+    layout_1IXJ7J:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: -0.33
+      dimensions:
+        width: 629.33
+        height: 468.98
+    fill_TU140G:
+      - type: IMAGE
+        imageRef: 90a63214cb1725335d2c5082af0e55c6cd6e68b7
+        scaleMode: STRETCH
+        objectFit: fill
+        isBackground: false
+        imageDownloadArguments:
+          needsCropping: true
+          requiresImageDimensions: false
+          cropTransform:
+            - - 1
+              - 0
+              - 0
+            - - 0
+              - 0.9999558925628662
+              - 0.000022058044123696163
+          filenameSuffix: 32ccc3
+    layout_T2BWS8:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 475.69
+      dimensions:
+        width: 629.33
+        height: 943.98
+    layout_EIZ459:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: -0.33
+      dimensions:
+        width: 629.33
+        height: 943.98
+    fill_LUHS87:
+      - type: IMAGE
+        imageRef: 7b5259e68a5721582067d3a45371b6af1467dd7d
+        scaleMode: STRETCH
+        objectFit: fill
+        isBackground: false
+        imageDownloadArguments:
+          needsCropping: true
+          requiresImageDimensions: false
+          cropTransform:
+            - - 1
+              - 0
+              - 0
+            - - 0
+              - 0.999984085559845
+              - 0.000007944957360450644
+          filenameSuffix: '1384e7'
+    layout_CPO65A:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 1428.27
+      dimensions:
+        width: 629.33
+        height: 467.41
+    fill_HIXUJX:
+      - type: IMAGE
+        imageRef: 5cbcd9340f171d0abd73d087c34c087c561a69a1
+        scaleMode: STRETCH
+        objectFit: fill
+        isBackground: false
+        imageDownloadArguments:
+          needsCropping: true
+          requiresImageDimensions: false
+          cropTransform:
+            - - 1
+              - 0
+              - 0
+            - - 0
+              - 0.9999558925628662
+              - 0.000022058044123696163
+          filenameSuffix: 32ccc3
+    layout_MQ5BN5:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 4445.97
+      dimensions:
+        width: 1920
+        height: 1280
+    layout_0O13ZA:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 0
+      dimensions:
+        width: 1920
+        height: 1280
+    fill_FTKS6R:
+      - type: IMAGE
+        imageRef: 07eb091a3ed602a5509b0c48e17e8aa27568e34a
+        scaleMode: STRETCH
+        objectFit: fill
+        isBackground: false
+        imageDownloadArguments:
+          needsCropping: true
+          requiresImageDimensions: false
+          cropTransform:
+            - - 1
+              - 0
+              - 0
+            - - 0
+              - 1
+              - 0
+          filenameSuffix: 56586a
+    layout_K0EG6Y:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 40
+        y: 66
+      dimensions:
+        width: 317.11
+        height: 228
+    style_61RHOX:
+      fontFamily: Inter
+      fontWeight: 500
+      fontSize: 91.80000305175781
+      lineHeight: 1.0893245825233682em
+      letterSpacing: '-4.357298330093473%'
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_JX9932:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 40
+        y: 301
+      dimensions:
+        width: 277.26
+        height: 69
+    style_5ZV42Q:
+      fontFamily: Arial
+      fontWeight: 400
+      fontSize: 16
+      lineHeight: 1.5em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_90R4NH:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 40
+        y: 390
+      dimensions:
+        width: 100.78
+        height: 30
+    style_NJ9B06:
+      fontFamily: Arial
+      fontWeight: 400
+      fontSize: 16
+      lineHeight: 1.875em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_YBCE7B:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 168.2
+        y: 390
+      dimensions:
+        width: 75.77
+        height: 30
+    layout_JMCZG0:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 4
+      dimensions:
+        width: 75.97
+        height: 21
+    layout_VOX4RO:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 5725.97
+      dimensions:
+        width: 1920
+        height: 1280
+    fill_4O3DMK:
+      - type: IMAGE
+        imageRef: 0577782bc0b7fa40121f637e90e7833603437a29
+        scaleMode: STRETCH
+        objectFit: fill
+        isBackground: false
+        imageDownloadArguments:
+          needsCropping: true
+          requiresImageDimensions: false
+          cropTransform:
+            - - 1
+              - 0
+              - 0
+            - - 0
+              - 1
+              - 0
+          filenameSuffix: 56586a
+    fill_TC0B6G:
+      - type: IMAGE
+        imageRef: c3bd5cada0fc348d0d0684cbb5e577f92a7fb313
+        scaleMode: STRETCH
+        objectFit: fill
+        isBackground: false
+        imageDownloadArguments:
+          needsCropping: true
+          requiresImageDimensions: false
+          cropTransform:
+            - - 1
+              - 0
+              - 0
+            - - 0
+              - 1
+              - 0
+          filenameSuffix: 56586a
+    layout_NX6GTO:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 704.44
+        y: 472
+      dimensions:
+        width: 511.31
+        height: 218
+    style_W41QMV:
+      fontFamily: Inter
+      fontWeight: 500
+      fontSize: 93.5999984741211
+      lineHeight: 0.9615384772135821em
+      letterSpacing: '-4.273504343171475%'
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    layout_N84EII:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 814.08
+        y: 692
+      dimensions:
+        width: 292.04
+        height: 39
+    layout_CDSJHO:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 858.02
+        y: 751
+      dimensions:
+        width: 100.78
+        height: 30
+    layout_4XSYTS:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 986.22
+        y: 751
+      dimensions:
+        width: 75.77
+        height: 30
+    layout_4ZKNVT:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 7005.97
+      dimensions:
+        width: 1920
+        height: 406
+    layout_8N0XZB:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 725.75
+        y: 66
+      dimensions:
+        width: 468.7
+        height: 228
+    style_5714C2:
+      fontFamily: Inter
+      fontWeight: 500
+      fontSize: 91.80000305175781
+      lineHeight: 1.0893245825233682em
+      letterSpacing: '-4.357298330093473%'
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    layout_WAM87H:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 800.56
+        y: 300
+      dimensions:
+        width: 319.06
+        height: 24
+    layout_EJXRAP:
+      mode: none
+      overflowScroll:
+        - x
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 7411.97
+      dimensions:
+        width: 1920
+        height: 800
+    layout_K6S95P:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 0
+      dimensions:
+        width: 640
+        height: 800
+    fill_6JKDOF:
+      - type: IMAGE
+        imageRef: e4e89ee76981aeb1d18cef5c73142d276ee11fe3
+        scaleMode: STRETCH
+        objectFit: fill
+        isBackground: false
+        imageDownloadArguments:
+          needsCropping: true
+          requiresImageDimensions: false
+          cropTransform:
+            - - 1
+              - 0
+              - 0
+            - - 0
+              - 1
+              - 0
+          filenameSuffix: 56586a
+    layout_RWH3RL:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 40
+        y: 746
+      dimensions:
+        width: 108.43
+        height: 14
+    style_12FH4Z:
+      fontFamily: Arial
+      fontWeight: 400
+      fontSize: 14
+      lineHeight: 1em
+      letterSpacing: 1.4285714498588018%
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_I86GKL:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 640
+        y: 0
+      dimensions:
+        width: 640
+        height: 800
+    fill_JP2VIY:
+      - type: IMAGE
+        imageRef: 0150a7d69a198fe2ee51377576d5156a2e1711c3
+        scaleMode: STRETCH
+        objectFit: fill
+        isBackground: false
+        imageDownloadArguments:
+          needsCropping: true
+          requiresImageDimensions: false
+          cropTransform:
+            - - 1
+              - 0
+              - 0
+            - - 0
+              - 1
+              - 0
+          filenameSuffix: 56586a
+    layout_QM6VM1:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 40
+        y: 746
+      dimensions:
+        width: 63.84
+        height: 14
+    layout_PDILSP:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 1280
+        y: 0
+      dimensions:
+        width: 640
+        height: 800
+    fill_XD9XSL:
+      - type: IMAGE
+        imageRef: cb5f2136ec4c4a1b8ac0624faaac16bd1b14ddfd
+        scaleMode: STRETCH
+        objectFit: fill
+        isBackground: false
+        imageDownloadArguments:
+          needsCropping: true
+          requiresImageDimensions: false
+          cropTransform:
+            - - 1
+              - 0
+              - 0
+            - - 0
+              - 1
+              - 0
+          filenameSuffix: 56586a
+    layout_OPV950:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 40
+        y: 746
+      dimensions:
+        width: 70.25
+        height: 14
+    layout_6KRCNC:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 8211.97
+      dimensions:
+        width: 1920
+        height: 460
+    layout_TY9FWN:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 0
+      dimensions:
+        width: 1920
+        height: 460
+    fill_2PRQIH:
+      - rgba(217, 217, 217, 0.02)
+      - type: GRADIENT_RADIAL
+        gradient: radial-gradient(circle at 10% -93%, rgba(0, 0, 0, 0.6) 20%, rgba(0, 0, 0, 0) 100%)
+      - type: GRADIENT_RADIAL
+        gradient: radial-gradient(circle at 58% -104%, rgba(113, 113, 113, 1) 50%, rgba(113, 113, 113, 0) 100%)
+      - type: GRADIENT_RADIAL
+        gradient: radial-gradient(circle at 15% -153%, rgba(207, 207, 207, 1) 0%, rgba(207, 207, 207, 0) 100%)
+    fill_XFSY9K:
+      - rgba(217, 217, 217, 0.02)
+      - type: GRADIENT_RADIAL
+        gradient: radial-gradient(circle at 10% -93%, rgba(0, 0, 0, 0.6) 20%, rgba(0, 0, 0, 0) 100%)
+      - type: GRADIENT_RADIAL
+        gradient: radial-gradient(circle at 58% -104%, rgba(90, 110, 126, 1) 50%, rgba(90, 110, 126, 0) 100%)
+      - type: GRADIENT_RADIAL
+        gradient: radial-gradient(circle at 15% -153%, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%)
+    fill_4XV6CI:
+      - rgba(217, 217, 217, 0.02)
+      - type: GRADIENT_RADIAL
+        gradient: radial-gradient(circle at 10% -93%, rgba(30, 16, 12, 1) 10%, rgba(30, 16, 12, 0) 100%)
+      - type: GRADIENT_RADIAL
+        gradient: radial-gradient(circle at 58% -104%, rgba(118, 65, 48, 1) 30%, rgba(118, 65, 48, 0) 100%)
+      - type: GRADIENT_RADIAL
+        gradient: radial-gradient(circle at 15% -153%, rgba(212, 191, 159, 1) 0%, rgba(212, 191, 159, 0) 100%)
+    layout_8JXSXJ:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 799.45
+        y: 80
+      dimensions:
+        width: 321.3
+        height: 36
+    style_LUE5KC:
+      fontFamily: Inter
+      fontWeight: 500
+      fontSize: 38.900001525878906
+      lineHeight: 0.9254498351638977em
+      letterSpacing: '-4.1131104397963325%'
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    layout_7FFT41:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 613.42
+        y: 134
+      dimensions:
+        width: 693.36
+        height: 103
+    style_VYF3E6:
+      fontFamily: Arial
+      fontWeight: 400
+      fontSize: 77.5
+      lineHeight: 1.032258064516129em
+      letterSpacing: '-4.129032319591892%'
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    layout_0VOWPS:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 759.55
+        y: 261
+      dimensions:
+        width: 401.09
+        height: 45
+    layout_0OP1HE:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 886.19
+        y: 332
+      dimensions:
+        width: 147.61
+        height: 53
+    stroke_IWFQD4:
+      colors:
+        - '#FFFFFF'
+      strokeWeight: 1px
+    layout_OOTBP9:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 33
+        y: 16
+      dimensions:
+        width: 81.81
+        height: 20
+    style_ZQ1B0K:
+      fontFamily: Arial
+      fontWeight: 400
+      fontSize: 15
+      lineHeight: 1em
+      letterSpacing: 1.3333333532015483%
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    layout_Q4U3ZI:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 8671.97
+      dimensions:
+        width: 1920
+        height: 322
+    stroke_OT8W21:
+      colors:
+        - rgba(255, 255, 255, 0.2)
+      strokeWeight: 0px 0px 1px
+    layout_O0AIJV:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 120
+      dimensions:
+        width: 1920
+        height: 81
+    layout_9PFFIA:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 60.86
+        y: 0
+      dimensions:
+        width: 447
+        height: 81
+    layout_1HB9ZS:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 133.12
+        y: 3
+      dimensions:
+        width: 180.95
+        height: 41
+    style_4AJO1J:
+      fontFamily: Arial
+      fontWeight: 400
+      fontSize: 32
+      lineHeight: 1.5em
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    layout_Q6EBOM:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 155.67
+        y: 59
+      dimensions:
+        width: 58.83
+        height: 22
+    stroke_YS9SR7:
+      colors:
+        - rgba(0, 0, 0, 0.2)
+      strokeWeight: 0px 0px 1px
+    layout_GVI3W9:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: -3
+      dimensions:
+        width: 59.03
+        height: 21
+    style_KBFVM5:
+      fontFamily: Arial
+      fontWeight: 400
+      fontSize: 16
+      lineHeight: 1em
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    fill_VVMOVX:
+      - '#696969'
+    layout_TJM5DO:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 257.52
+        y: 59
+      dimensions:
+        width: 33.81
+        height: 22
+    layout_KP6JSE:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: -3
+      dimensions:
+        width: 34.01
+        height: 21
+    layout_TEU7A6:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 511.28
+        y: 0
+      dimensions:
+        width: 447
+        height: 81
+    stroke_WDJIA9:
+      colors:
+        - rgba(0, 0, 0, 0.2)
+      strokeWeight: 0px 0px 0px 1px
+    layout_9MAKGS:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 140.95
+        y: 3
+      dimensions:
+        width: 166.29
+        height: 41
+    layout_LG60VA:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 156.17
+        y: 59
+      dimensions:
+        width: 58.83
+        height: 22
+    layout_QJKF3P:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 258.02
+        y: 59
+      dimensions:
+        width: 33.81
+        height: 22
+    layout_7FXHAS:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 961.7
+        y: 0
+      dimensions:
+        width: 447
+        height: 81
+    layout_5ILHJ6:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 190.02
+        y: 3
+      dimensions:
+        width: 68.17
+        height: 41
+    layout_5XK8JI:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 156.18
+        y: 59
+      dimensions:
+        width: 58.83
+        height: 22
+    layout_3GDGMH:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 1412.13
+        y: 0
+      dimensions:
+        width: 447
+        height: 81
+    layout_D3AUYV:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 163.62
+        y: 3
+      dimensions:
+        width: 120.95
+        height: 41
+    layout_I47O6K:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 258.01
+        y: 59
+      dimensions:
+        width: 33.81
+        height: 22
+    layout_DPOWK7:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 9164.97
+      dimensions:
+        width: 1920
+        height: 704.31
+    layout_TN5YKG:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 498.09
+        y: 56
+      dimensions:
+        width: 32.56
+        height: 19.5
+    style_U5BCV6:
+      fontFamily: Arial
+      fontWeight: 400
+      fontSize: 15
+      lineHeight: 1.3em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_DAHG2J:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 498.09
+        y: 91.5
+      dimensions:
+        width: 298.91
+        height: 332.08
+    layout_1GBFNC:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 4
+      dimensions:
+        width: 111.01
+        height: 17
+    style_LL50YV:
+      fontFamily: Arial
+      fontWeight: 400
+      fontSize: 13
+      lineHeight: 1.5em
+      letterSpacing: 1.5384615613864017%
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    fill_ATTKWL:
+      - '#808080'
+    layout_6AP99E:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 47.5
+      dimensions:
+        width: 32.26
+        height: 17
+    style_1A6QAC:
+      fontFamily: Arial
+      fontWeight: 400
+      fontSize: 12.600000381469727
+      lineHeight: 1.5476190007643018em
+      letterSpacing: 1.587301562898074%
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_XMX2BL:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 91
+      dimensions:
+        width: 70.14
+        height: 17
+    layout_QEQH91:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 134.5
+      dimensions:
+        width: 74.01
+        height: 17
+    layout_TMH4W0:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 178
+      dimensions:
+        width: 46.76
+        height: 17
+    layout_BUZI51:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 221.5
+      dimensions:
+        width: 54.68
+        height: 17
+    layout_MNOP4C:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 265
+      dimensions:
+        width: 76.98
+        height: 17
+    layout_4J52MH:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 307.5
+      dimensions:
+        width: 58.28
+        height: 24.58
+    layout_9BS2NJ:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 3.58
+      dimensions:
+        width: 20
+        height: 16
+    layout_G08IRO:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 0
+      dimensions:
+        width: 20
+        height: 16
+    layout_UMRHZ1:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 2.44
+        y: 0.67
+      dimensions:
+        width: 15.11
+        height: 14.61
+    fill_I1M0ZO:
+      - '#AAAAAA'
+    layout_Z7PQRX:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 26.99
+        y: 1
+      dimensions:
+        width: 31.5
+        height: 17
+    layout_E8YBK8:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 38.02
+        y: 57
+      dimensions:
+        width: 81.17
+        height: 20
+    style_6565C0:
+      fontFamily: Arial
+      fontWeight: 400
+      fontSize: 15
+      lineHeight: 1.5em
+      letterSpacing: 1.3333333532015483%
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_UXV9FC:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 38.02
+        y: 104.5
+      dimensions:
+        width: 74.42
+        height: 20
+    layout_O4PILR:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 38.02
+        y: 152
+      dimensions:
+        width: 44.7
+        height: 20
+    layout_11H7OC:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 38.02
+        y: 199.5
+      dimensions:
+        width: 106.23
+        height: 20
+    layout_1RXYA6:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 38.02
+        y: 247
+      dimensions:
+        width: 136.4
+        height: 20
+    layout_1QLM8B:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 38.02
+        y: 294.5
+      dimensions:
+        width: 47.06
+        height: 20
+    layout_AYGO7U:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 38.02
+        y: 342
+      dimensions:
+        width: 137.64
+        height: 20
+    layout_KUQ9CH:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 38.02
+        y: 389.5
+      dimensions:
+        width: 209.64
+        height: 20
+    layout_3GAES9:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 813
+        y: 56
+      dimensions:
+        width: 43.15
+        height: 19.5
+    layout_ANR115:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 813
+        y: 91.5
+      dimensions:
+        width: 449
+        height: 158
+    layout_OD1VTA:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 4
+      dimensions:
+        width: 113.92
+        height: 17
+    layout_AREIHP:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 47.5
+      dimensions:
+        width: 50.34
+        height: 17
+    layout_2MXP2D:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 91
+      dimensions:
+        width: 132.06
+        height: 17
+    layout_AF8L42:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 134.5
+      dimensions:
+        width: 156.73
+        height: 17
+    layout_CPL47T:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 813
+        y: 275.5
+      dimensions:
+        width: 51.92
+        height: 19.5
+    layout_A08JX8:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 813
+        y: 311
+      dimensions:
+        width: 449
+        height: 158
+    layout_O4QCMG:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 4
+      dimensions:
+        width: 111.43
+        height: 17
+    layout_WR85IK:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 47.5
+      dimensions:
+        width: 98.95
+        height: 17
+    layout_580SOB:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 91
+      dimensions:
+        width: 82.87
+        height: 17
+    style_JTEC10:
+      fontFamily: Arial
+      fontWeight: 400
+      fontSize: 12.899999618530273
+      lineHeight: 1.5116279516775428em
+      letterSpacing: 1.5503876658487739%
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_BS3QRL:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 134.5
+      dimensions:
+        width: 60
+        height: 17
+    layout_CL2MZV:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 1278
+        y: 56
+      dimensions:
+        width: 603.98
+        height: 24
+    layout_M1FMTS:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 3.8
+      dimensions:
+        width: 20
+        height: 20
+    layout_2MZTA3:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 0
+      dimensions:
+        width: 20
+        height: 20
+    layout_L580NJ:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 44
+        y: 3.8
+      dimensions:
+        width: 20
+        height: 20
+    layout_BO5G6S:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 1.54
+        y: 0
+      dimensions:
+        width: 17.15
+        height: 20
+    layout_5Q800D:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 88
+        y: 3.8
+      dimensions:
+        width: 20
+        height: 20
+    layout_7AJNR7:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 3.33
+        y: 0
+      dimensions:
+        width: 12.22
+        height: 20
+    layout_R2M0QA:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 132
+        y: 3.8
+      dimensions:
+        width: 20
+        height: 20
+    layout_3IVQCP:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0.46
+        y: 0.53
+      dimensions:
+        width: 18.93
+        height: 18.95
+    fill_0KPBNE:
+      - '#CCCCCC'
+    layout_VG9J47:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 176
+        y: 3.8
+      dimensions:
+        width: 20
+        height: 20
+    layout_PB2W9B:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 0
+      dimensions:
+        width: 18
+        height: 18
+    layout_8A20K3:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 220
+        y: 3.8
+      dimensions:
+        width: 20
+        height: 20
+    layout_YTWLLH:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 3
+      dimensions:
+        width: 20
+        height: 14
+    layout_VXG6PN:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 38
+        y: 522
+      dimensions:
+        width: 108
+        height: 20
+    layout_4NWPRA:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 0
+      dimensions:
+        width: 108
+        height: 20
+    layout_GPMK8O:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 1.5
+      dimensions:
+        width: 108
+        height: 17
+    layout_ATX759:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 38
+        y: 558
+      dimensions:
+        width: 1844
+        height: 24
+    layout_9UTSHM:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 5
+      dimensions:
+        width: 269.25
+        height: 16
+    style_L7K3IA:
+      fontFamily: Arial
+      fontWeight: 400
+      fontSize: 12
+      lineHeight: 1.5em
+      letterSpacing: 1.6666666915019352%
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_LLPQ9G:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 284.47
+        y: 5
+      dimensions:
+        width: 102.33
+        height: 16
+    layout_5GREVJ:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: -3
+        y: 0
+      dimensions:
+        width: 3.54
+        height: 18
+    layout_TTCA7R:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 12
+        y: 0
+      dimensions:
+        width: 78.53
+        height: 16
+    layout_V67Q1W:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 390.22
+        y: 5
+      dimensions:
+        width: 130.17
+        height: 16
+    layout_60XXZ1:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 12
+        y: 0
+      dimensions:
+        width: 106.37
+        height: 16
+    layout_H9N3CY:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 523.81
+        y: 5
+      dimensions:
+        width: 280.38
+        height: 16
+    layout_X6GOLC:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 12
+        y: 0
+      dimensions:
+        width: 256.58
+        height: 16
+    layout_IPKNLI:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 807.61
+        y: 5
+      dimensions:
+        width: 134.86
+        height: 16
+    layout_FUY56J:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 12
+        y: 0
+      dimensions:
+        width: 111.06
+        height: 16
+    layout_FUTTBE:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 38
+        y: 587
+      dimensions:
+        width: 113.51
+        height: 16
+    layout_YCNQZQ:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 159.97
+        y: 587
+      dimensions:
+        width: 3.54
+        height: 18
+    layout_AUV8X3:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 178.73
+        y: 587
+      dimensions:
+        width: 283.41
+        height: 16
+    layout_IP9MM6:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 38
+        y: 627
+      dimensions:
+        width: 112.14
+        height: 18
+    layout_SP5UIW:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 1.31
+      dimensions:
+        width: 20
+        height: 20
+    layout_RW0SUP:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 8
+        y: 6
+      dimensions:
+        width: 4
+        height: 4
+    layout_5NPKNK:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 3
+        y: 1
+      dimensions:
+        width: 14
+        height: 18
+    layout_6O8DG0:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 20
+        y: 0
+      dimensions:
+        width: 92.34
+        height: 18
+    style_FWIITZ:
+      fontFamily: Arial
+      fontWeight: 400
+      fontSize: 14
+      lineHeight: 1.5em
+      letterSpacing: 1.4285714498588018%
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_S23UTL:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0
+        y: 0
+      dimensions:
+        width: 1920
+        height: 0.01
+    layout_29GD73:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 667.06
+        y: 4
+      dimensions:
+        width: 585.88
+        height: 80
+    layout_SB4GAN:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: -629.06
+        y: 21
+      dimensions:
+        width: 152
+        height: 44
+    style_NCW27N:
+      fontFamily: ArTarumianKamar
+      fontWeight: 400
+      fontSize: 32.79999923706055
+      lineHeight: 1.3414634458370545em
+      letterSpacing: '-1.82926840792094%'
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    layout_FXUVMU:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 16
+        y: 32
+      dimensions:
+        width: 28.5
+        height: 17
+    style_XKUSTZ:
+      fontFamily: Arial
+      fontWeight: 400
+      fontSize: 13
+      lineHeight: 1em
+      letterSpacing: 1.5384615613864017%
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_TNW9B3:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 76.3
+        y: 32
+      dimensions:
+        width: 49
+        height: 17
+    layout_SJJNLP:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 157.1
+        y: 32
+      dimensions:
+        width: 28.28
+        height: 17
+    layout_VO02CL:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 217.17
+        y: 32
+      dimensions:
+        width: 70.37
+        height: 17
+    layout_6WB2XV:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 319.35
+        y: 32
+      dimensions:
+        width: 63.73
+        height: 17
+    layout_80194Y:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 414.88
+        y: 32
+      dimensions:
+        width: 26.25
+        height: 17
+    layout_24IOFH:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 472.92
+        y: 32
+      dimensions:
+        width: 38.2
+        height: 17
+    layout_AZ45VP:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 542.92
+        y: 32
+      dimensions:
+        width: 27.15
+        height: 17
+    layout_13B6GO:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 1774
+        y: 34
+      dimensions:
+        width: 20
+        height: 20
+    layout_XXM3PQ:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 1
+        y: 1.76
+      dimensions:
+        width: 18.42
+        height: 16.99
+    layout_BQ6KKT:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 1818
+        y: 34
+      dimensions:
+        width: 20
+        height: 20
+    layout_91I3Y9:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 1
+        y: 1.25
+      dimensions:
+        width: 18.01
+        height: 16
+    layout_T3MM7B:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 1862
+        y: 34
+      dimensions:
+        width: 20
+        height: 20
+    layout_HC7A4K:
+      mode: none
+      sizing: {}
+      locationRelativeToParent:
+        x: 0.49
+        y: 1.25
+      dimensions:
+        width: 19.02
+        height: 16.17
