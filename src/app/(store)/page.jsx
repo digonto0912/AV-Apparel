@@ -1,7 +1,7 @@
 ﻿"use client";
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { FiChevronLeft, FiChevronRight, FiX } from "react-icons/fi";
+import { FiChevronLeft, FiChevronRight, FiX, FiMenu } from "react-icons/fi";
 import { useProducts } from "@/context/ProductsContext";
 import { fetchSiteOffers } from "@/lib/firestore";
 import "./home-v2.css";
@@ -10,6 +10,7 @@ export default function HomePage() {
   const { products, loading: productsLoading } = useProducts();
   const [offerDismissed, setOfferDismissed] = useState(false);
   const [offers, setOffers] = useState([]);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const scrollRef = useRef(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(true);
@@ -122,43 +123,45 @@ export default function HomePage() {
           <header className="hero__header" aria-label="Header">
             <div className="hero__headerGlass" />
             <div className="hero__headerInner">
-              <Link href="/" aria-label="AV APPAREL">
-                <img
-                  className="hero__logo"
-                  src="/home-v2/assets/images/logo.png"
-                  alt="AV APPAREL"
-                />
-              </Link>
+              <div className="hero__headerInnerContent">
+                <Link href="/" aria-label="AV APPAREL">
+                  <img
+                    className="hero__logo"
+                    src="/home-v2/assets/images/logo.png"
+                    alt="AV APPAREL"
+                  />
+                </Link>
 
-              <nav className="hero__nav" aria-label="Primary">
-                <Link href="/products?tag=new" className="hero__navLink">
-                  New
-                </Link>
-                <Link href="/products?gender=Women" className="hero__navLink">
-                  Women
-                </Link>
-                <Link href="/products?gender=Men" className="hero__navLink">
-                  Men
-                </Link>
-                <Link
-                  href="/products?category=Underwear"
-                  className="hero__navLink"
-                >
-                  Underwear
-                </Link>
-                <Link href="/products?gender=Kids" className="hero__navLink">
-                  Kids
-                </Link>
-              </nav>
+                <nav className="hero__nav" aria-label="Primary">
+                  <Link href="/products?tag=new" className="hero__navLink">
+                    New
+                  </Link>
+                  <Link href="/products?gender=Women" className="hero__navLink">
+                    Women
+                  </Link>
+                  <Link href="/products?gender=Men" className="hero__navLink">
+                    Men
+                  </Link>
+                  <Link
+                    href="/products?category=Underwear"
+                    className="hero__navLink"
+                  >
+                    Underwear
+                  </Link>
+                  <Link href="/products?gender=Kids" className="hero__navLink">
+                    Kids
+                  </Link>
+                </nav>
+              </div>
 
               <div className="hero__actions" aria-label="Actions">
-                <button
+                {/* <button
                   className="hero__iconBtn"
                   aria-label="Search"
                   type="button"
                 >
                   <img src="/home-v2/assets/icons/icon-search.svg" alt="" />
-                </button>
+                </button> */}
                 <Link
                   className="hero__iconBtn"
                   href="/account"
@@ -180,12 +183,105 @@ export default function HomePage() {
                 >
                   <img src="/home-v2/assets/icons/icon-bag.svg" alt="" />
                 </Link>
+                <button
+                  className="hero__menuBtn"
+                  onClick={() => setIsMobileMenuOpen(true)}
+                  aria-label="Open menu"
+                >
+                  <FiMenu size={24} />
+                </button>
               </div>
             </div>
+
+            {/* Mobile Navigation Overlay */}
+            {isMobileMenuOpen && (
+              <div className="hero__mobileMenu">
+                <div className="hero__mobileMenuHeader">
+                  <Link
+                    href="/"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                    aria-label="AV APPAREL"
+                  >
+                    <img
+                      className="hero__logo"
+                      src="/home-v2/assets/images/logo.png"
+                      alt="AV APPAREL"
+                    />
+                  </Link>
+                  <button
+                    className="hero__mobileMenuClose"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                    aria-label="Close menu"
+                  >
+                    <FiX size={24} />
+                  </button>
+                </div>
+                <nav className="hero__mobileNav">
+                  <Link
+                    href="/products?tag=new"
+                    className="hero__mobileNavLink"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    New Arrivals
+                  </Link>
+                  <Link
+                    href="/products?gender=Women"
+                    className="hero__mobileNavLink"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Women
+                  </Link>
+                  <Link
+                    href="/products?gender=Men"
+                    className="hero__mobileNavLink"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Men
+                  </Link>
+                  <Link
+                    href="/products?category=Underwear"
+                    className="hero__mobileNavLink"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Underwear
+                  </Link>
+                  <Link
+                    href="/products?gender=Kids"
+                    className="hero__mobileNavLink"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Kids
+                  </Link>
+                </nav>
+                <div className="hero__mobileMenuFooter">
+                  <Link
+                    href="/account"
+                    className="hero__mobileFooterLink"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Account
+                  </Link>
+                  <Link
+                    href="/wishlist"
+                    className="hero__mobileFooterLink"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Wishlist
+                  </Link>
+                  <Link
+                    href="/checkout-bag"
+                    className="hero__mobileFooterLink"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Cart
+                  </Link>
+                </div>
+              </div>
+            )}
           </header>
 
           <img
-            className="hero__man"
+            className={`hero__man ${isMobileMenuOpen ? "hero__man--behind" : ""}`}
             src="/home-v2/assets/images/hero-man.png"
             alt=""
             style={{ maxWidth: "none" }}
@@ -195,82 +291,94 @@ export default function HomePage() {
         <section className="chapters" aria-label="New Chapters">
           <div className="chapters__title">New Chapters</div>
           <div className="chapters__media" aria-label="New chapters media grid">
-            <img
-              src="/home-v2/assets/images/new-chapters-1.png"
-              alt=""
-              className="chapters__img chapters__img1"
-            />
-            <img
-              src="/home-v2/assets/images/new-chapters-2.png"
-              alt=""
-              className="chapters__img chapters__img2"
-            />
-            <img
-              src="/home-v2/assets/images/new-chapters-3.png"
-              alt=""
-              className="chapters__img chapters__img3"
-            />
-            <img
-              src="/home-v2/assets/images/new-chapters-4.png"
-              alt=""
-              className="chapters__img chapters__img4"
-            />
+            <Link href="/products?gender=Men" className="chapters__link">
+              <img
+                src="/home-v2/assets/images/new-chapters-1.png"
+                alt=""
+                className="chapters__img chapters__img1"
+              />
+            </Link>
+            <Link href="/products?gender=Men" className="chapters__link">
+              <img
+                src="/home-v2/assets/images/new-chapters-2.png"
+                alt=""
+                className="chapters__img chapters__img2"
+              />
+            </Link>
+            <Link href="/products?gender=Men" className="chapters__link">
+              <img
+                src="/home-v2/assets/images/new-chapters-3.png"
+                alt=""
+                className="chapters__img chapters__img3"
+              />
+            </Link>
+            <Link href="/products?gender=Men" className="chapters__link">
+              <img
+                src="/home-v2/assets/images/new-chapters-4.png"
+                alt=""
+                className="chapters__img chapters__img4"
+              />
+            </Link>
           </div>
         </section>
 
         <section className="signature" aria-label="Signature Pieces">
-            <div className="signature__header">
-              <h2 className="signature__title">Signature Pieces</h2>
-              <div className="signature__nav">
-                <button
-                  className="signature__navBtn"
-                  onClick={() => scroll("left")}
-                  disabled={!canScrollLeft}
-                  aria-label="Scroll left"
-                >
-                  <FiChevronLeft />
-                </button>
-                <button
-                  className="signature__navBtn"
-                  onClick={() => scroll("right")}
-                  disabled={!canScrollRight}
-                  aria-label="Scroll right"
-                >
-                  <FiChevronRight />
-                </button>
-              </div>
+          <div className="signature__header">
+            <h2 className="signature__title">Signature Pieces</h2>
+            <div className="signature__nav">
+              <button
+                className="signature__navBtn"
+                onClick={() => scroll("left")}
+                disabled={!canScrollLeft}
+                aria-label="Scroll left"
+              >
+                <FiChevronLeft />
+              </button>
+              <button
+                className="signature__navBtn"
+                onClick={() => scroll("right")}
+                disabled={!canScrollRight}
+                aria-label="Scroll right"
+              >
+                <FiChevronRight />
+              </button>
             </div>
+          </div>
 
-            <div className="signature__grid" ref={scrollRef} aria-label="Signature pieces grid">
-              {productsLoading ? (
-                // Loading skeletons
-                [...Array(3)].map((_, i) => (
-                  <div key={i} className="signature__card animate-pulse">
-                    <div className="bg-gray-200 w-full aspect-[610/932] mb-4"></div>
-                    <div className="bg-gray-200 h-6 w-3/4"></div>
-                  </div>
-                ))
-              ) : bestSellers.length > 0 ? (
-                bestSellers.map((product) => (
-                  <Link
-                    href={`/products/${product.slug}`}
-                    key={product.id}
-                    className="signature__card"
-                  >
-                    <img
-                      src={product.images?.[0] || "/placeholder.png"}
-                      alt={product.name}
-                    />
-                    <div className="signature__caption">{product.name}</div>
-                  </Link>
-                ))
-              ) : (
-                <div className="text-center w-full py-10 text-gray-500">
-                  No best sellers found at the moment.
+          <div
+            className="signature__grid"
+            ref={scrollRef}
+            aria-label="Signature pieces grid"
+          >
+            {productsLoading ? (
+              // Loading skeletons
+              [...Array(3)].map((_, i) => (
+                <div key={i} className="signature__card animate-pulse">
+                  <div className="bg-gray-200 w-full aspect-[610/932] mb-4"></div>
+                  <div className="bg-gray-200 h-6 w-3/4"></div>
                 </div>
-              )}
-            </div>
-          </section>
+              ))
+            ) : bestSellers.length > 0 ? (
+              bestSellers.map((product) => (
+                <Link
+                  href={`/products/${product.slug}`}
+                  key={product.id}
+                  className="signature__card"
+                >
+                  <img
+                    src={product.images?.[0] || "/placeholder.png"}
+                    alt={product.name}
+                  />
+                  <div className="signature__caption">{product.name}</div>
+                </Link>
+              ))
+            ) : (
+              <div className="text-center w-full py-10 text-gray-500">
+                No best sellers found at the moment.
+              </div>
+            )}
+          </div>
+        </section>
       </main>
     </div>
   );

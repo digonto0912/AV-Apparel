@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Just+Me+Again+Down+Here&family=Passion+One:wght@400;700;900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 .homev2 {
   width: 100%;
   background: #ffffff;
   color: #000;
-  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    Segoe UI,
+    Roboto,
+    Arial,
+    sans-serif;
 }
 
 .homev2__container {
@@ -148,6 +157,23 @@
   justify-content: space-between;
 }
 
+.homev2 .hero__headerInnerContent {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.homev2 .hero__menuBtn {
+  display: none;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  color: #fff;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
 .homev2 .hero__logo {
   width: 72px;
   height: auto;
@@ -156,13 +182,13 @@
 
 .homev2 .hero__nav {
   display: flex;
-  gap: 30px;
+  gap: 26px;
   align-items: center;
 }
 
 .homev2 .hero__navLink {
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 13px;
+  font-weight: 400;
   letter-spacing: 0.3px;
   color: #fff;
   text-decoration: none;
@@ -199,6 +225,62 @@
   display: block;
 }
 
+/* Mobile Menu Styles */
+.homev2 .hero__mobileMenu {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.95);
+  backdrop-filter: blur(10px);
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  height: 520px;
+}
+
+.homev2 .hero__mobileMenuHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.homev2 .hero__mobileMenuClose {
+  background: transparent;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  padding: 0;
+}
+
+.homev2 .hero__mobileNav {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.homev2 .hero__mobileNavLink {
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.homev2 .hero__mobileMenuFooter {
+  margin-top: auto;
+  display: flex;
+  gap: 20px;
+  padding-top: 40px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.homev2 .hero__mobileFooterLink {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
 .homev2 .hero__man {
   position: absolute;
   left: 50%;
@@ -209,12 +291,28 @@
   transform: translateX(-50%);
   object-fit: contain;
   pointer-events: none;
+  z-index: 200;
+}
+
+.homev2 .hero__man--behind {
   z-index: 2;
+}
+
+@media (min-width: 1024px) and (max-width: 1385px) {
+  .homev2 .hero__man {
+    z-index: 2;
+  }
 }
 
 @media (max-width: 1024px) {
   .homev2 .hero__nav {
     display: none;
+  }
+  .homev2 .hero__menuBtn {
+    display: flex;
+  }
+  .homev2 .hero__headerInnerContent {
+    gap: 15px;
   }
 }
 
@@ -229,13 +327,36 @@
   .homev2 .hero__headerInner {
     padding: 10px 15px;
   }
+  .homev2 .hero__logo {
+    width: 60px;
+  }
+  .homev2 .hero__actions {
+    gap: 12px;
+  }
+  .homev2 .hero__iconBtn,
+  .homev2 .hero__iconBtn img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 917px) {
+  .homev2 .hero__man {
+    z-index: 2;
+  }
+}
+
+@media (max-width: 665px) {
+  .homev2 .hero__man {
+    z-index: 2;
+  }
 }
 
 /* Signature pieces */
 .homev2 .signature {
   position: relative;
   width: 100%;
-  padding: 80px 40px;
+  padding: 4.9vw 40px;
   background: #fff;
 }
 
@@ -243,13 +364,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 2.4vw;
 }
 
 .homev2 .signature__title {
-  font-family: Jost, Inter, system-ui, sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 400;
-  font-size: 60px;
+  font-size: 3.1vw;
   line-height: 1.2;
   letter-spacing: 0.325px;
   color: #000;
@@ -262,8 +383,8 @@
 }
 
 .homev2 .signature__navBtn {
-  width: 50px;
-  height: 50px;
+  width: 2.56vw;
+  height: 2.56vw;
   border-radius: 50%;
   border: 1px solid #000;
   background: transparent;
@@ -271,7 +392,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  font-size: 24px;
+  font-size: 1.3vw;
   transition: all 0.2s ease;
   color: #000;
 }
@@ -317,9 +438,9 @@
 }
 
 .homev2 .signature__caption {
-  font-family: "Playfair Display", serif;
+  font-family: "Jost", sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: clamp(16px, 2vw, 20px);
   line-height: 1.4;
   letter-spacing: 0.325px;
   color: #000;
@@ -351,21 +472,24 @@
   }
 }
 
-/* New chapters */
+/* Chapters section */
 .homev2 .chapters {
   position: relative;
   width: 100%;
-  padding: 80px 40px;
+  padding: 0px 40px;
   background: #fff;
+  padding-top: 4.9vw;
 }
 
 .homev2 .chapters__title {
-  font-family: Jost, Inter, system-ui, sans-serif;
-  font-size: 60px;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 3.1vw;
   line-height: 1.2;
+  letter-spacing: 0.325px;
   color: #000;
+  margin-bottom: 2.4vw;
   text-align: center;
-  margin-bottom: 60px;
 }
 
 .homev2 .chapters__media {
@@ -375,12 +499,23 @@
   width: 100%;
 }
 
+.homev2 .chapters__link {
+  display: block;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
 .homev2 .chapters__img {
   width: 100%;
   height: auto;
   aspect-ratio: 922 / 1104;
   object-fit: cover;
   display: block;
+  transition: transform 0.5s ease;
+}
+
+.homev2 .chapters__link:hover .chapters__img {
+  transform: scale(1.05);
 }
 
 @media (max-width: 768px) {
