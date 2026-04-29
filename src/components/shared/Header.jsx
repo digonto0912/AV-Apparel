@@ -115,14 +115,14 @@ export default function Header() {
       {/* Main Header */}
       <header className="sticky top-0 z-40 bg-white border-b border-gray-200">
         <div className="max-w-[1440px] mx-auto flex items-center h-[60px] nav:h-[72px] px-3 nav:px-6">
-          {/* Mobile menu toggle */}
-          <button className="nav:hidden mr-2 flex-shrink-0" onClick={() => setMobileOpen(!mobileOpen)} aria-label="Menu">
-            {mobileOpen ? <FiX size={22} /> : <FiMenu size={22} />}
-          </button>
-
           {/* Logo */}
-          <Link href="/" className="flex-shrink-0 mr-4 nav:mr-8 min-w-0">
-            <span className="text-base sm:text-lg nav:text-xl font-medium tracking-[0.08em] nav:tracking-[0.12em] text-black whitespace-nowrap">AV APPAREL</span>
+          <Link href="/" className="flex-shrink-0 mr-4 min-w-0">
+            <img
+              src="/home-v2/assets/images/logo-dark.png"
+              alt="AV APPAREL"
+              className="h-8 nav:h-10 w-auto object-contain brightness-0"
+              style={{width: "60px"}}
+            />
           </Link>
 
           {/* Desktop Nav */}
@@ -265,6 +265,11 @@ export default function Header() {
                 </div>
               )}
             </div>
+
+            {/* Mobile menu toggle */}
+            <button className="nav:hidden ml-2 flex-shrink-0" onClick={() => setMobileOpen(!mobileOpen)} aria-label="Menu">
+              {mobileOpen ? <FiX size={22} /> : <FiMenu size={22} />}
+            </button>
           </div>
         </div>
 
@@ -294,9 +299,8 @@ export default function Header() {
       {mobileOpen && (
         <div className="fixed inset-0 z-50 nav:hidden">
           <div className="absolute inset-0 bg-black/40" onClick={() => setMobileOpen(false)} />
-          <div className="absolute left-0 top-0 bottom-0 w-72 bg-white overflow-y-auto">
+          <div className="absolute right-0 top-0 bottom-0 w-72 bg-white overflow-y-auto shadow-xl animate-slide-in-right">
             <div className="flex items-center justify-between p-4 border-b">
-              <span className="font-bold tracking-[0.15em]">AV APPAREL</span>
               <button onClick={() => setMobileOpen(false)}><FiX size={22} /></button>
             </div>
             <nav className="py-2">
