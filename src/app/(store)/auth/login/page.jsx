@@ -89,7 +89,7 @@ export default function LoginPage() {
         </p>
       </div>
 
-      <div className="mt-6 p-4 bg-gray-50 text-xs text-gray-500 rounded">
+      <div className="mt-6 p-4 bg-gray-50 text-xs text-gray-500 rounded" style={{ display: "none" }}>
         <p className="font-medium text-black mb-1">Admin Access</p>
         <p>To access the admin panel, sign in with an admin account and navigate to /admin.</p>
       </div>
